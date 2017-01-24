@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F894464-1974-4A05-B959-25AC7BECB6A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Plantilla_MAD</RootNamespace>
+    <AssemblyName>MAD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ee.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentANULACION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentANULACION.Designer.cs">
+      <DependentUpon>VentANULACION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentTRAFICO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentTRAFICO.Designer.cs">
+      <DependentUpon>VentTRAFICO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCS.Designer.cs">
+      <DependentUpon>VentCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCSS106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCSS106.Designer.cs">
+      <DependentUpon>VentCSS106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQ.Designer.cs">
+      <DependentUpon>VentCEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHL.Designer.cs">
+      <DependentUpon>VentHL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHLS106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHLS106.Designer.cs">
+      <DependentUpon>VentHLS106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentMIGPPSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentMIGPPSS.Designer.cs">
+      <DependentUpon>VentMIGPPSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentMIGSSPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentMIGSSPP.Designer.cs">
+      <DependentUpon>VentMIGSSPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentPORTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentPORTA.Designer.cs">
+      <DependentUpon>VentPORTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHMMPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHMMPA.Designer.cs">
+      <DependentUpon>VentHMMPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentVE.Designer.cs">
+      <DependentUpon>VentVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQMM.Designer.cs">
+      <DependentUpon>VentCEQMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentHMM.Designer.cs">
+      <DependentUpon>VentHMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCREACIONDEGIRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCREACIONDEGIRO.Designer.cs">
+      <DependentUpon>VentCREACIONDEGIRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentINFOCLIENTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentINFOCLIENTE.Designer.cs">
+      <DependentUpon>VentINFOCLIENTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentENROL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentENROL.Designer.cs">
+      <DependentUpon>VentENROL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentCESIONES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentCESIONES.Designer.cs">
+      <DependentUpon>VentCESIONES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentANALISIS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentANALISIS.Designer.cs">
+      <DependentUpon>VentANALISIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentACOC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentACOC.Designer.cs">
+      <DependentUpon>VentACOC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentAMARRE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentAMARRE.Designer.cs">
+      <DependentUpon>VentAMARRE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentANULACIONVIRTUAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentANULACIONVIRTUAL.Designer.cs">
+      <DependentUpon>VentANULACIONVIRTUAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCONDCOMERCIALES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCONDCOMERCIALES.Designer.cs">
+      <DependentUpon>VentCONDCOMERCIALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCORREO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCORREO.Designer.cs">
+      <DependentUpon>VentCORREO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentCAMBIORS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentCAMBIORS.Designer.cs">
+      <DependentUpon>VentCAMBIORS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentFM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentFM.Designer.cs">
+      <DependentUpon>VentFM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\VentLogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\VentLogo.Designer.cs">
+      <DependentUpon>VentLogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQ.Designer.cs">
+      <DependentUpon>VentMCEQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQMMPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQMMPA.Designer.cs">
+      <DependentUpon>VentMCEQMMPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCS.Designer.cs">
+      <DependentUpon>VentMCS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHL.Designer.cs">
+      <DependentUpon>VentMHL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHMMPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHMMPA.Designer.cs">
+      <DependentUpon>VentMHMMPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMMIGPPSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMMIGPPSS.Designer.cs">
+      <DependentUpon>VentMMIGPPSS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMMIGSSPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMMIGSSPP.Designer.cs">
+      <DependentUpon>VentMMIGSSPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMPORTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMPORTA.Designer.cs">
+      <DependentUpon>VentMPORTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMVE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMVE.Designer.cs">
+      <DependentUpon>VentMVE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHLS106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHLS106.Designer.cs">
+      <DependentUpon>VentMHLS106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCSS106.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCSS106.Designer.cs">
+      <DependentUpon>VentMCSS106.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQMM.Designer.cs">
+      <DependentUpon>VentMCEQMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHMM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHMM.Designer.cs">
+      <DependentUpon>VentMHMM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentNCACLARATORIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentNCACLARATORIA.Designer.cs">
+      <DependentUpon>VentNCACLARATORIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentNUEVACUENTA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentNUEVACUENTA.Designer.cs">
+      <DependentUpon>VentNUEVACUENTA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentPORTAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentPORTAL.Designer.cs">
+      <DependentUpon>VentPORTAL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentMANTENCIONOCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentMANTENCIONOCC.Designer.cs">
+      <DependentUpon>VentMANTENCIONOCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentNC.Designer.cs">
+      <DependentUpon>VentNC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentOCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentOCC.Designer.cs">
+      <DependentUpon>VentOCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMAMARRE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMAMARRE.Designer.cs">
+      <DependentUpon>VentMAMARRE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCAMBIODEPLAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCAMBIODEPLAN.Designer.cs">
+      <DependentUpon>VentMCAMBIODEPLAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCONDCOMERCIALES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCONDCOMERCIALES.Designer.cs">
+      <DependentUpon>VentMCONDCOMERCIALES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCONTINGENCIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCONTINGENCIA.Designer.cs">
+      <DependentUpon>VentMCONTINGENCIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCORREO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCORREO.Designer.cs">
+      <DependentUpon>VentMCORREO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMRENUNCIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMRENUNCIA.Designer.cs">
+      <DependentUpon>VentMRENUNCIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMSERVICIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMSERVICIOS.Designer.cs">
+      <DependentUpon>VentMSERVICIOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\SOLICITUDES\VentMCESION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\SOLICITUDES\VentMCESION.Designer.cs">
+      <DependentUpon>VentMCESION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\SOLICITUDES\VentMTRASPASO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Masivos\SOLICITUDES\VentMTRASPASO.Designer.cs">
+      <DependentUpon>VentMTRASPASO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\VentPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\VentPrincipal.Designer.cs">
+      <DependentUpon>VentPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQMMPA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQMMPA.Designer.cs">
+      <DependentUpon>VentCEQMMPA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentFOTO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentFOTO.Designer.cs">
+      <DependentUpon>VentFOTO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCAMBIODEPLAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCAMBIODEPLAN.Designer.cs">
+      <DependentUpon>VentCAMBIODEPLAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCONTINGENCIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCONTINGENCIA.Designer.cs">
+      <DependentUpon>VentCONTINGENCIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCAMBIODEDATOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCAMBIODEDATOS.Designer.cs">
+      <DependentUpon>VentCAMBIODEDATOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentMMF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentMMF.Designer.cs">
+      <DependentUpon>VentMMF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentSERVICIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentSERVICIOS.Designer.cs">
+      <DependentUpon>VentSERVICIOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentRENUNCIA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentRENUNCIA.Designer.cs">
+      <DependentUpon>VentRENUNCIA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentRECUPERACION.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentRECUPERACION.Designer.cs">
+      <DependentUpon>VentRECUPERACION.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentTRASPASO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentTRASPASO.Designer.cs">
+      <DependentUpon>VentTRASPASO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentREFACTURA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentREFACTURA.Designer.cs">
+      <DependentUpon>VentREFACTURA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentVVM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentVVM.Designer.cs">
+      <DependentUpon>VentVVM.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMAMARRE.resx">
+      <DependentUpon>VentMAMARRE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCAMBIODEPLAN.resx">
+      <DependentUpon>VentMCAMBIODEPLAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCONDCOMERCIALES.resx">
+      <DependentUpon>VentMCONDCOMERCIALES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCONTINGENCIA.resx">
+      <DependentUpon>VentMCONTINGENCIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMCORREO.resx">
+      <DependentUpon>VentMCORREO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMRENUNCIA.resx">
+      <DependentUpon>VentMRENUNCIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\OTROS\VentMSERVICIOS.resx">
+      <DependentUpon>VentMSERVICIOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\SOLICITUDES\VentMCESION.resx">
+      <DependentUpon>VentMCESION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Masivos\SOLICITUDES\VentMTRASPASO.resx">
+      <DependentUpon>VentMTRASPASO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentAMARRE.resx">
+      <DependentUpon>VentAMARRE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCAMBIODEPLAN.resx">
+      <DependentUpon>VentCAMBIODEPLAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentANULACION.resx">
+      <DependentUpon>VentANULACION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCONDCOMERCIALES.resx">
+      <DependentUpon>VentCONDCOMERCIALES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCORREO.resx">
+      <DependentUpon>VentCORREO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentMMF.resx">
+      <DependentUpon>VentMMF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentRECUPERACION.resx">
+      <DependentUpon>VentRECUPERACION.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentRENUNCIA.resx">
+      <DependentUpon>VentRENUNCIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentSERVICIOS.resx">
+      <DependentUpon>VentSERVICIOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentTRAFICO.resx">
+      <DependentUpon>VentTRAFICO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentFOTO.resx">
+      <DependentUpon>VentFOTO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQMM.resx">
+      <DependentUpon>VentMCEQMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQMMPA.resx">
+      <DependentUpon>VentMCEQMMPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCS.resx">
+      <DependentUpon>VentMCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCSS106.resx">
+      <DependentUpon>VentMCSS106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHLS106.resx">
+      <DependentUpon>VentMHLS106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHMM.resx">
+      <DependentUpon>VentMHMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMMIGPPSS.resx">
+      <DependentUpon>VentMMIGPPSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMMIGSSPP.resx">
+      <DependentUpon>VentMMIGSSPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQMM.resx">
+      <DependentUpon>VentCEQMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentCS.resx">
+      <DependentUpon>VentCS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentCSS106.resx">
+      <DependentUpon>VentCSS106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQ.resx">
+      <DependentUpon>VentCEQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentHL.resx">
+      <DependentUpon>VentHL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentHLS106.resx">
+      <DependentUpon>VentHLS106.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentHMM.resx">
+      <DependentUpon>VentHMM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentMIGPPSS.resx">
+      <DependentUpon>VentMIGPPSS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentMIGSSPP.resx">
+      <DependentUpon>VentMIGSSPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentPORTA.resx">
+      <DependentUpon>VentPORTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentCEQMMPA.resx">
+      <DependentUpon>VentCEQMMPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentHMMPA.resx">
+      <DependentUpon>VentHMMPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Normales\VentVE.resx">
+      <DependentUpon>VentVE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCREACIONDEGIRO.resx">
+      <DependentUpon>VentCREACIONDEGIRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentINFOCLIENTE.resx">
+      <DependentUpon>VentINFOCLIENTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentNC.resx">
+      <DependentUpon>VentNC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentOCC.resx">
+      <DependentUpon>VentOCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentREFACTURA.resx">
+      <DependentUpon>VentREFACTURA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\RECLAMOS\VentVVM.resx">
+      <DependentUpon>VentVVM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentANULACIONVIRTUAL.resx">
+      <DependentUpon>VentANULACIONVIRTUAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentCAMBIORS.resx">
+      <DependentUpon>VentCAMBIORS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentENROL.resx">
+      <DependentUpon>VentENROL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentCESIONES.resx">
+      <DependentUpon>VentCESIONES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentANALISIS.resx">
+      <DependentUpon>VentANALISIS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentACOC.resx">
+      <DependentUpon>VentACOC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentFM.resx">
+      <DependentUpon>VentFM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\VentLogo.resx">
+      <DependentUpon>VentLogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMCEQ.resx">
+      <DependentUpon>VentMCEQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHL.resx">
+      <DependentUpon>VentMHL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMHMMPA.resx">
+      <DependentUpon>VentMHMMPA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMPORTA.resx">
+      <DependentUpon>VentMPORTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\AGILIDAD - Negocios Masivos\VentMVE.resx">
+      <DependentUpon>VentMVE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentNCACLARATORIA.resx">
+      <DependentUpon>VentNCACLARATORIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentNUEVACUENTA.resx">
+      <DependentUpon>VentNUEVACUENTA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentPORTAL.resx">
+      <DependentUpon>VentPORTAL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentMANTENCIONOCC.resx">
+      <DependentUpon>VentMANTENCIONOCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\VentPrincipal.resx">
+      <DependentUpon>VentPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCONTINGENCIA.resx">
+      <DependentUpon>VentCONTINGENCIA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\OTROS\VentCAMBIODEDATOS.resx">
+      <DependentUpon>VentCAMBIODEDATOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventanas\COMPLEJIDAD - Negocios Normales\SOLICITUDES\VentTRASPASO.resx">
+      <DependentUpon>VentTRASPASO.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ee.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
