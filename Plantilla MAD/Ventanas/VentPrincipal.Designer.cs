@@ -36,7 +36,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblDesea = new System.Windows.Forms.Label();
             this.pictureEntel = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEntel)).BeginInit();
             this.SuspendLayout();
             // 
@@ -118,22 +117,12 @@
             this.pictureEntel.TabStop = false;
             this.pictureEntel.Click += new System.EventHandler(this.pictureEntel_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(246, 354);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // VentPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(366, 428);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureEntel);
             this.Controls.Add(this.lblDesea);
             this.Controls.Add(this.label1);
@@ -161,6 +150,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblDesea;
         private System.Windows.Forms.PictureBox pictureEntel;
-        private System.Windows.Forms.Button button1;
     }
 }
