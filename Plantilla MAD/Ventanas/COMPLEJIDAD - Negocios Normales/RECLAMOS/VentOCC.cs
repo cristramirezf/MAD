@@ -328,7 +328,7 @@ namespace Plantilla_MAD.Ventanas
                 }
                 if (comboEjecutivo.Text.Equals("Lorena Jiménez M."))
                 {
-                    datosEjec = "\nAnexo: 0" + "\nMóvil: 0" + "\nEmail: APL_LJIMENEZ@ENTEL.CL";
+                    datosEjec = "\nAnexo: 0" + "\nMóvil: 981470397" + "\nEmail: LMJIMENEZ@ENTEL.CL";
                 }
                 if (comboEjecutivo.Text.Equals("Loreto Barriga R."))
                 {
