@@ -31,10 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentCESIONES));
             this.btnCopiaPlan = new System.Windows.Forms.Button();
             this.dataDatos = new System.Windows.Forms.DataGridView();
-            this.Movil = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.Serie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label11 = new System.Windows.Forms.Label();
             this.campoRUTcede = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -58,6 +54,10 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.limpiarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCopiaCuenta = new System.Windows.Forms.Button();
+            this.Movil = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Serie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataDatos)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
@@ -91,6 +91,242 @@
             this.dataDatos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDatos_CellClick);
             this.dataDatos.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDatos_RowLeave);
             this.dataDatos.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataDatos_RowsRemoved);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(29, 75);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(154, 13);
+            this.label11.TabIndex = 231;
+            this.label11.Text = "RUT Cedente (cede las líneas)";
+            // 
+            // campoRUTcede
+            // 
+            this.campoRUTcede.Location = new System.Drawing.Point(32, 91);
+            this.campoRUTcede.Name = "campoRUTcede";
+            this.campoRUTcede.Size = new System.Drawing.Size(113, 20);
+            this.campoRUTcede.TabIndex = 230;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(29, 160);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(31, 13);
+            this.label8.TabIndex = 229;
+            this.label8.Text = "MMF";
+            // 
+            // campoMMF
+            // 
+            this.campoMMF.Location = new System.Drawing.Point(32, 176);
+            this.campoMMF.MaxLength = 2147483647;
+            this.campoMMF.Name = "campoMMF";
+            this.campoMMF.Size = new System.Drawing.Size(83, 20);
+            this.campoMMF.TabIndex = 228;
+            // 
+            // campoObs
+            // 
+            this.campoObs.Location = new System.Drawing.Point(32, 220);
+            this.campoObs.Name = "campoObs";
+            this.campoObs.Size = new System.Drawing.Size(143, 153);
+            this.campoObs.TabIndex = 226;
+            this.campoObs.Text = "";
+            // 
+            // lblObs
+            // 
+            this.lblObs.AutoSize = true;
+            this.lblObs.Location = new System.Drawing.Point(29, 205);
+            this.lblObs.Name = "lblObs";
+            this.lblObs.Size = new System.Drawing.Size(78, 13);
+            this.lblObs.TabIndex = 227;
+            this.lblObs.Text = "Observaciones";
+            // 
+            // btnGrabar
+            // 
+            this.btnGrabar.Location = new System.Drawing.Point(866, 323);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
+            this.btnGrabar.TabIndex = 220;
+            this.btnGrabar.Text = "Copiar MAD";
+            this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
+            // 
+            // btnCopiaProy
+            // 
+            this.btnCopiaProy.Location = new System.Drawing.Point(846, 277);
+            this.btnCopiaProy.Name = "btnCopiaProy";
+            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
+            this.btnCopiaProy.TabIndex = 219;
+            this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
+            this.btnCopiaProy.UseVisualStyleBackColor = true;
+            this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(836, 149);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.TabIndex = 218;
+            this.label7.Text = "Ejecutivo SAC";
+            // 
+            // comboEjecutivo
+            // 
+            this.comboEjecutivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboEjecutivo.FormattingEnabled = true;
+            this.comboEjecutivo.Items.AddRange(new object[] {
+            "Andrea Hinojosa G.",
+            "Angelica Silva S.",
+            "Carol Rios G.",
+            "Carolina Arellano D.",
+            "Carolina Ayal E.",
+            "Catherine Torres B.",
+            "Claudia Sola G.",
+            "Danitza Leyton M.",
+            "Danitza Rendich O.",
+            "Elizabeth Pavez S.",
+            "Felipe Figueroa L.",
+            "Francisca Garcia B.",
+            "Francisco Castillo S.",
+            "Javier Beroiza A.",
+            "Javiera Molina G.",
+            "Julia Dominguez L.",
+            "Kimberly Moraga G.",
+            "Lorena Garcia N.",
+            "Lorena Jiménez M.",
+            "Loreto Barriga R.",
+            "Luz Gaete Ch.",
+            "Maria Jose Marchant V.",
+            "María Loreto Caceres A.",
+            "Maria Renata Ramirez A.",
+            "Mario Santibañez M.",
+            "Matias Brito A.",
+            "Mirtha Castro C.",
+            "Paloma Parra G.",
+            "Paula Sola G.",
+            "Sandra Lazcano A.",
+            "Simon Segura B.",
+            "Vladimir Cubillos R."});
+            this.comboEjecutivo.Location = new System.Drawing.Point(839, 165);
+            this.comboEjecutivo.Name = "comboEjecutivo";
+            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
+            this.comboEjecutivo.TabIndex = 217;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(29, 117);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(168, 13);
+            this.label6.TabIndex = 223;
+            this.label6.Text = "RUT Cesionario (recibe las líneas)";
+            // 
+            // lblProy
+            // 
+            this.lblProy.AutoSize = true;
+            this.lblProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProy.Location = new System.Drawing.Point(818, 41);
+            this.lblProy.Name = "lblProy";
+            this.lblProy.Size = new System.Drawing.Size(53, 13);
+            this.lblProy.TabIndex = 216;
+            this.lblProy.Text = "CESION";
+            // 
+            // campoRUTcesi
+            // 
+            this.campoRUTcesi.Location = new System.Drawing.Point(32, 133);
+            this.campoRUTcesi.Name = "campoRUTcesi";
+            this.campoRUTcesi.Size = new System.Drawing.Size(113, 20);
+            this.campoRUTcesi.TabIndex = 222;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(818, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(166, 13);
+            this.label4.TabIndex = 215;
+            this.label4.Text = "Y el nombre de proyecto debe ser";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(279, 41);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(348, 30);
+            this.label3.TabIndex = 214;
+            this.label3.Text = "Solicitudes Servicios Móviles - Traspaso de Linea/cuenta";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(279, 28);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(221, 13);
+            this.label2.TabIndex = 213;
+            this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(26, 29);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(53, 13);
+            this.label1.TabIndex = 212;
+            this.label1.Text = "CESION";
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.limpiarDatosToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Size = new System.Drawing.Size(1018, 24);
+            this.menuStrip2.TabIndex = 234;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
+            this.toolStripMenuItem1.Text = "Ayuda";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
+            this.toolStripMenuItem2.Text = "Acerca de";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(126, 22);
+            this.toolStripMenuItem3.Text = "Salir";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // limpiarDatosToolStripMenuItem
+            // 
+            this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
+            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
+            this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
+            // 
+            // btnCopiaCuenta
+            // 
+            this.btnCopiaCuenta.Location = new System.Drawing.Point(364, 102);
+            this.btnCopiaCuenta.Name = "btnCopiaCuenta";
+            this.btnCopiaCuenta.Size = new System.Drawing.Size(80, 23);
+            this.btnCopiaCuenta.TabIndex = 235;
+            this.btnCopiaCuenta.Text = "Copia Cuenta";
+            this.btnCopiaCuenta.UseVisualStyleBackColor = true;
+            this.btnCopiaCuenta.Click += new System.EventHandler(this.btnCopiaCuenta_Click);
             // 
             // Movil
             // 
@@ -276,26 +512,30 @@
             "1569 Plan Alto Trafico 5.000",
             "1570 Plan Alto Trafico 2.000",
             "1571 Plan Alto Trafico 500",
-            "1573 AUTOGESTION PLUS 600MB 36",
-            "1574 AUTOGESTION PLUS 600MB 34",
-            "1575 AUTOGESTION PLUS 600MB 32",
-            "1576 AUTOGESTION PLUS 600MB 30",
-            "1577 AUTOGESTION PLUS 600MB 28",
-            "1578 AUTOGESTION PLUS 600MB 26",
-            "1579 AUTOGESTION PLUS 600MB 24",
-            "1580 AUTOGESTION PLUS 600MB 22",
-            "1581 AUTOGESTION PLUS 600MB 20",
-            "1582 AUTOGESTION PLUS 600MB 18",
-            "1583 AUTOGESTION PLUS 2GB 36",
-            "1584 AUTOGESTION PLUS 2GB 34",
-            "1585 AUTOGESTION PLUS 2GB 32",
-            "1586 AUTOGESTION PLUS 2GB 30",
-            "1587 AUTOGESTION PLUS 2GB 28",
-            "1588 AUTOGESTION PLUS 2GB 26",
-            "1589 AUTOGESTION PLUS 2GB 24",
-            "1590 AUTOGESTION PLUS 2GB 22",
-            "1591 AUTOGESTION PLUS 2GB 20",
-            "1592 AUTOGESTION PLUS 2GB 18",
+            "1573 AUTOGESTION CORP 600MB 36",
+            "1574 AUTOGESTION CORP 600MB 34",
+            "1575 AUTOGESTION CORP 600MB 32",
+            "1576 AUTOGESTION CORP 600MB 30",
+            "1576 AUTOGESTION CORP 600MB 30 ",
+            "1577 AUTOGESTION CORP 600MB 28",
+            "1578 AUTOGESTION CORP 600MB 26",
+            "1579 AUTOGESTION CORP 600MB 24",
+            "1580 AUTOGESTION CORP 600MB 22",
+            "1580 AUTOGESTION CORP 600MB 22 ",
+            "1581 AUTOGESTION CORP 600MB 20",
+            "1581 AUTOGESTION CORP 600MB 20 ",
+            "1582 AUTOGESTION CORP 600MB 18",
+            "1582 AUTOGESTION CORP 600MB 18  ",
+            "1583 AUTOGESTION CORP 2GB 36",
+            "1584 AUTOGESTION CORP 2GB 34",
+            "1585 AUTOGESTION CORP 2GB 32",
+            "1586 AUTOGESTION CORP 2GB 30",
+            "1587 AUTOGESTION CORP 2GB 28",
+            "1588 AUTOGESTION CORP 2GB 26",
+            "1589 AUTOGESTION CORP 2GB 24",
+            "1590 AUTOGESTION CORP 2GB 22",
+            "1591 AUTOGESTION CORP 2GB 20",
+            "1592 AUTOGESTION CORP 2GB 18",
             "1594 BAM Empresas 8 GB",
             "1595 BAM Empresas 12 GB",
             "1596 BAM Empresas 16 GB",
@@ -327,48 +567,60 @@
             "1657 Multi Smart 10 GB $69.990 ",
             "166 TARIFA UNICA 60",
             "1663 AUTOGESTION CORP 36",
-            "1663 AUTOGESTION PLUS 36",
             "1664 AUTOGESTION CORP 34",
-            "1664 AUTOGESTION PLUS 34",
-            "1665 AUTOGESTION PLUS 32",
-            "1666 AUTOGESTION PLUS 30",
-            "1667 AUTOGESTION PLUS 28",
-            "1668 AUTOGESTION PLUS 26",
-            "1669 AUTOGESTION PLUS 24",
-            "1670 AUTOGESTION PLUS 22",
-            "1671 AUTOGESTION PLUS 20",
-            "1672 AUTOGESTION PLUS 18",
-            "1673 AUTOGESTION PLUS 1GB 36",
-            "1674 AUTOGESTION PLUS 1GB 34",
-            "1675 AUTOGESTION PLUS 1GB 32",
-            "1676 AUTOGESTION PLUS 1GB 30",
-            "1677 AUTOGESTION PLUS 1GB 28",
-            "1678 AUTOGESTION PLUS 1GB 26",
-            "1679 AUTOGESTION PLUS 1GB 24",
-            "1680 AUTOGESTION PLUS 1GB 22",
-            "1681 AUTOGESTION PLUS 1GB 20",
-            "1682 AUTOGESTION PLUS 1GB 18",
-            "1683 AUTOGESTION PLUS 1,5GB 36",
-            "1684 AUTOGESTION PLUS 1,5GB 34",
-            "1685 AUTOGESTION PLUS 1,5GB 32",
-            "1686 AUTOGESTION PLUS 1,5GB 30",
-            "1687 AUTOGESTION PLUS 1,5GB 28",
-            "1688 AUTOGESTION PLUS 1,5GB 26",
-            "1689 AUTOGESTION PLUS 1,5GB 24",
-            "1690 AUTOGESTION PLUS 1,5GB 22",
-            "1691 AUTOGESTION PLUS 1,5GB 20",
-            "1692 AUTOGESTION PLUS 1,5GB 18",
-            "1693 AUTOGESTION PLUS 3GB FULL",
-            "1694 AUTOGESTION PLUS 4GB FULL",
-            "1695 AUTOGESTION PLUS 6GB FULL",
-            "1696 AUTOGESTION PLUS 8GB FULL",
-            "1697 AUTOGESTION PLUS 10GB FUL",
-            "1698 AUTOGESTION PLUS 12GB FUL",
+            "1665 Autogestion Corp 18",
+            "1665 Autogestion Corp 20",
+            "1665 Autogestion Corp 22",
+            "1665 Autogestion Corp 24",
+            "1665 Autogestion Corp 26",
+            "1665 Autogestion Corp 28",
+            "1665 Autogestion Corp 30",
+            "1665 AUTOGESTION CORP 32",
+            "1666 AUTOGESTION CORP 30",
+            "1667 AUTOGESTION CORP 28",
+            "1668 AUTOGESTION CORP 26",
+            "1669 AUTOGESTION CORP 24",
+            "1670 AUTOGESTION CORP 22",
+            "1671 AUTOGESTION CORP 20",
+            "1672 AUTOGESTION CORP 18",
+            "1673 AUTOGESTION CORP 1GB 36",
+            "1674 AUTOGESTION CORP 1GB 34",
+            "1675 AUTOGESTION CORP 1GB 32",
+            "1676 AUTOGESTION CORP 1GB 30",
+            "1677 AUTOGESTION CORP 1GB 28",
+            "1678 AUTOGESTION CORP 1GB 26",
+            "1678 AUTOGESTION CORP 1GB 26 ",
+            "1679 AUTOGESTION CORP 1GB 24",
+            "1679 AUTOGESTION CORP 1GB 24 ",
+            "168 TARIFA UNICA 120",
+            "1680 AUTOGESTION CORP 1GB 22",
+            "1680 AUTOGESTION CORP 1GB 22 ",
+            "1681 AUTOGESTION CORP 1GB 20",
+            "1681 AUTOGESTION CORP 1GB 20 ",
+            "1682 AUTOGESTION CORP 1GB 18",
+            "1682 AUTOGESTION CORP 1GB 18 ",
+            "1683 AUTOGESTION CORP 1.5GB 36",
+            "1684 AUTOGESTION CORP 1.5GB 34",
+            "1685 AUTOGESTION CORP 1.5GB 32",
+            "1686 AUTOGESTION CORP 1.5GB 30",
+            "1687 AUTOGESTION CORP 1.5GB 28",
+            "1688 AUTOGESTION CORP 1.5GB 26",
+            "1689 AUTOGESTION CORP 1.5GB 24",
+            "1690 AUTOGESTION CORP 1.5GB 22",
+            "1691 AUTOGESTION CORP 1.5GB 20",
+            "1692 AUTOGESTION CORP 1.5GB 18",
+            "1693 AUTOGESTION CORP 3GBFULL",
+            "1694 AUTOGESTION CORP 4GBFULL",
+            "1695 AUTOGESTION CORP 6GBFULL",
+            "1696 AUTOGESTION CORP 8GBFULL",
+            "1697 AUTOGESTION CORP 10GBFULL",
+            "1698 AUTOGESTION CORP 12GBFULL",
             "170 Plan Tarifa Unica 400",
             "171 Plan Tarifa unica 600",
             "1734 M2M Contingencia Minsal",
-            "1735 Multimedia CC $15.990",
             "1735 Multimedia CC 15.990",
+            "1738 BAM Pro 1GB Corp 18",
+            "1740 BAM Pro 3GB Corp 18",
             "1743 AUTOGESTION CORP 38",
             "1744 AUTOGESTION CORP 40",
             "1745 AUTOGESTION CORP 42",
@@ -395,19 +647,7 @@
             "182 CUENTA CONTROLADA RED",
             "183 CUENTA CONTROLADA RED",
             "184 CUENTA CONTROLADA RED",
-            "1850 AUTOGESTION PLUS 600MB",
-            "1851 AUTOGESTION PLUS 1GB",
-            "1852 AUTOGESTION PLUS 1,5GB",
-            "1853 AUTOGESTION PLUS 2GB",
-            "1854 AUTOGESTION PLUS 3GB ",
-            "1855 AUTOGESTION PLUS 4GB ",
-            "1856 AUTOGESTION PLUS 6GB ",
-            "1857 AUTOGESTION PLUS 8GB ",
-            "1858 AUTOGESTION PLUS 10GB ",
-            "1859 AUTOGESTION PLUS 12GB ",
             "186 CTA CONTROLADA PLANO 13690",
-            "1860 AUTOGESTION PLUS 16GB ",
-            "1861 AUTOGESTION PLUS 20GB ",
             "191 TARIFA UNICA 150",
             "192 TARIFA UNICA 250",
             "194 TARIFA UNICA 150",
@@ -787,242 +1027,6 @@
             this.Serie.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Serie.Width = 110;
             // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(29, 75);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(154, 13);
-            this.label11.TabIndex = 231;
-            this.label11.Text = "RUT Cedente (cede las líneas)";
-            // 
-            // campoRUTcede
-            // 
-            this.campoRUTcede.Location = new System.Drawing.Point(32, 91);
-            this.campoRUTcede.Name = "campoRUTcede";
-            this.campoRUTcede.Size = new System.Drawing.Size(113, 20);
-            this.campoRUTcede.TabIndex = 230;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(29, 160);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
-            this.label8.TabIndex = 229;
-            this.label8.Text = "MMF";
-            // 
-            // campoMMF
-            // 
-            this.campoMMF.Location = new System.Drawing.Point(32, 176);
-            this.campoMMF.MaxLength = 2147483647;
-            this.campoMMF.Name = "campoMMF";
-            this.campoMMF.Size = new System.Drawing.Size(83, 20);
-            this.campoMMF.TabIndex = 228;
-            // 
-            // campoObs
-            // 
-            this.campoObs.Location = new System.Drawing.Point(32, 220);
-            this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(143, 153);
-            this.campoObs.TabIndex = 226;
-            this.campoObs.Text = "";
-            // 
-            // lblObs
-            // 
-            this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(29, 205);
-            this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(78, 13);
-            this.lblObs.TabIndex = 227;
-            this.lblObs.Text = "Observaciones";
-            // 
-            // btnGrabar
-            // 
-            this.btnGrabar.Location = new System.Drawing.Point(866, 323);
-            this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
-            this.btnGrabar.TabIndex = 220;
-            this.btnGrabar.Text = "Copiar MAD";
-            this.btnGrabar.UseVisualStyleBackColor = true;
-            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
-            // 
-            // btnCopiaProy
-            // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(846, 277);
-            this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
-            this.btnCopiaProy.TabIndex = 219;
-            this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
-            this.btnCopiaProy.UseVisualStyleBackColor = true;
-            this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(836, 149);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
-            this.label7.TabIndex = 218;
-            this.label7.Text = "Ejecutivo SAC";
-            // 
-            // comboEjecutivo
-            // 
-            this.comboEjecutivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboEjecutivo.FormattingEnabled = true;
-            this.comboEjecutivo.Items.AddRange(new object[] {
-            "Andrea Hinojosa G.",
-            "Angelica Silva S.",
-            "Carol Rios G.",
-            "Carolina Arellano D.",
-            "Carolina Ayal E.",
-            "Catherine Torres B.",
-            "Claudia Sola G.",
-            "Danitza Leyton M.",
-            "Danitza Rendich O.",
-            "Elizabeth Pavez S.",
-            "Felipe Figueroa L.",
-            "Francisca Garcia B.",
-            "Francisco Castillo S.",
-            "Javier Beroiza A.",
-            "Javiera Molina G.",
-            "Julia Dominguez L.",
-            "Kimberly Moraga G.",
-            "Lorena Garcia N.",
-            "Lorena Jiménez M.",
-            "Loreto Barriga R.",
-            "Luz Gaete Ch.",
-            "Maria Jose Marchant V.",
-            "María Loreto Caceres A.",
-            "Maria Renata Ramirez A.",
-            "Mario Santibañez M.",
-            "Matias Brito A.",
-            "Mirtha Castro C.",
-            "Paloma Parra G.",
-            "Paula Sola G.",
-            "Sandra Lazcano A.",
-            "Simon Segura B.",
-            "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(839, 165);
-            this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
-            this.comboEjecutivo.TabIndex = 217;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(29, 117);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(168, 13);
-            this.label6.TabIndex = 223;
-            this.label6.Text = "RUT Cesionario (recibe las líneas)";
-            // 
-            // lblProy
-            // 
-            this.lblProy.AutoSize = true;
-            this.lblProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProy.Location = new System.Drawing.Point(818, 41);
-            this.lblProy.Name = "lblProy";
-            this.lblProy.Size = new System.Drawing.Size(53, 13);
-            this.lblProy.TabIndex = 216;
-            this.lblProy.Text = "CESION";
-            // 
-            // campoRUTcesi
-            // 
-            this.campoRUTcesi.Location = new System.Drawing.Point(32, 133);
-            this.campoRUTcesi.Name = "campoRUTcesi";
-            this.campoRUTcesi.Size = new System.Drawing.Size(113, 20);
-            this.campoRUTcesi.TabIndex = 222;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(818, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 13);
-            this.label4.TabIndex = 215;
-            this.label4.Text = "Y el nombre de proyecto debe ser";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(279, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(348, 30);
-            this.label3.TabIndex = 214;
-            this.label3.Text = "Solicitudes Servicios Móviles - Traspaso de Linea/cuenta";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(279, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 13);
-            this.label2.TabIndex = 213;
-            this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
-            this.label1.TabIndex = 212;
-            this.label1.Text = "CESION";
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.limpiarDatosToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1018, 24);
-            this.menuStrip2.TabIndex = 234;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
-            this.toolStripMenuItem1.Text = "Ayuda";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
-            this.toolStripMenuItem2.Text = "Acerca de";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(126, 22);
-            this.toolStripMenuItem3.Text = "Salir";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // limpiarDatosToolStripMenuItem
-            // 
-            this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
-            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
-            this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
-            this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
-            // 
-            // btnCopiaCuenta
-            // 
-            this.btnCopiaCuenta.Location = new System.Drawing.Point(364, 102);
-            this.btnCopiaCuenta.Name = "btnCopiaCuenta";
-            this.btnCopiaCuenta.Size = new System.Drawing.Size(80, 23);
-            this.btnCopiaCuenta.TabIndex = 235;
-            this.btnCopiaCuenta.Text = "Copia Cuenta";
-            this.btnCopiaCuenta.UseVisualStyleBackColor = true;
-            this.btnCopiaCuenta.Click += new System.EventHandler(this.btnCopiaCuenta_Click);
-            // 
             // VentCESIONES
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1088,10 +1092,10 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem limpiarDatosToolStripMenuItem;
+        private System.Windows.Forms.Button btnCopiaCuenta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Movil;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cuenta;
         private System.Windows.Forms.DataGridViewComboBoxColumn Plan;
         private System.Windows.Forms.DataGridViewTextBoxColumn Serie;
-        private System.Windows.Forms.Button btnCopiaCuenta;
     }
 }

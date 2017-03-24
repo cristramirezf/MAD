@@ -47,10 +47,10 @@
             this.menúToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.limpiarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataDatos = new System.Windows.Forms.DataGridView();
-            this.Movil = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.lblObs = new System.Windows.Forms.Label();
             this.campoObs = new System.Windows.Forms.RichTextBox();
+            this.Movil = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataDatos)).BeginInit();
             this.SuspendLayout();
@@ -260,6 +260,23 @@
             this.dataDatos.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDatos_RowLeave);
             this.dataDatos.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataDatos_RowsRemoved);
             // 
+            // lblObs
+            // 
+            this.lblObs.AutoSize = true;
+            this.lblObs.Location = new System.Drawing.Point(503, 83);
+            this.lblObs.Name = "lblObs";
+            this.lblObs.Size = new System.Drawing.Size(78, 13);
+            this.lblObs.TabIndex = 101;
+            this.lblObs.Text = "Observaciones";
+            // 
+            // campoObs
+            // 
+            this.campoObs.Location = new System.Drawing.Point(503, 99);
+            this.campoObs.Name = "campoObs";
+            this.campoObs.Size = new System.Drawing.Size(189, 114);
+            this.campoObs.TabIndex = 100;
+            this.campoObs.Text = "";
+            // 
             // Movil
             // 
             this.Movil.HeaderText = "Móvil";
@@ -437,26 +454,30 @@
             "1569 Plan Alto Trafico 5.000",
             "1570 Plan Alto Trafico 2.000",
             "1571 Plan Alto Trafico 500",
-            "1573 AUTOGESTION PLUS 600MB 36",
-            "1574 AUTOGESTION PLUS 600MB 34",
-            "1575 AUTOGESTION PLUS 600MB 32",
-            "1576 AUTOGESTION PLUS 600MB 30",
-            "1577 AUTOGESTION PLUS 600MB 28",
-            "1578 AUTOGESTION PLUS 600MB 26",
-            "1579 AUTOGESTION PLUS 600MB 24",
-            "1580 AUTOGESTION PLUS 600MB 22",
-            "1581 AUTOGESTION PLUS 600MB 20",
-            "1582 AUTOGESTION PLUS 600MB 18",
-            "1583 AUTOGESTION PLUS 2GB 36",
-            "1584 AUTOGESTION PLUS 2GB 34",
-            "1585 AUTOGESTION PLUS 2GB 32",
-            "1586 AUTOGESTION PLUS 2GB 30",
-            "1587 AUTOGESTION PLUS 2GB 28",
-            "1588 AUTOGESTION PLUS 2GB 26",
-            "1589 AUTOGESTION PLUS 2GB 24",
-            "1590 AUTOGESTION PLUS 2GB 22",
-            "1591 AUTOGESTION PLUS 2GB 20",
-            "1592 AUTOGESTION PLUS 2GB 18",
+            "1573 AUTOGESTION CORP 600MB 36",
+            "1574 AUTOGESTION CORP 600MB 34",
+            "1575 AUTOGESTION CORP 600MB 32",
+            "1576 AUTOGESTION CORP 600MB 30",
+            "1576 AUTOGESTION CORP 600MB 30 ",
+            "1577 AUTOGESTION CORP 600MB 28",
+            "1578 AUTOGESTION CORP 600MB 26",
+            "1579 AUTOGESTION CORP 600MB 24",
+            "1580 AUTOGESTION CORP 600MB 22",
+            "1580 AUTOGESTION CORP 600MB 22 ",
+            "1581 AUTOGESTION CORP 600MB 20",
+            "1581 AUTOGESTION CORP 600MB 20 ",
+            "1582 AUTOGESTION CORP 600MB 18",
+            "1582 AUTOGESTION CORP 600MB 18  ",
+            "1583 AUTOGESTION CORP 2GB 36",
+            "1584 AUTOGESTION CORP 2GB 34",
+            "1585 AUTOGESTION CORP 2GB 32",
+            "1586 AUTOGESTION CORP 2GB 30",
+            "1587 AUTOGESTION CORP 2GB 28",
+            "1588 AUTOGESTION CORP 2GB 26",
+            "1589 AUTOGESTION CORP 2GB 24",
+            "1590 AUTOGESTION CORP 2GB 22",
+            "1591 AUTOGESTION CORP 2GB 20",
+            "1592 AUTOGESTION CORP 2GB 18",
             "1594 BAM Empresas 8 GB",
             "1595 BAM Empresas 12 GB",
             "1596 BAM Empresas 16 GB",
@@ -488,48 +509,60 @@
             "1657 Multi Smart 10 GB $69.990 ",
             "166 TARIFA UNICA 60",
             "1663 AUTOGESTION CORP 36",
-            "1663 AUTOGESTION PLUS 36",
             "1664 AUTOGESTION CORP 34",
-            "1664 AUTOGESTION PLUS 34",
-            "1665 AUTOGESTION PLUS 32",
-            "1666 AUTOGESTION PLUS 30",
-            "1667 AUTOGESTION PLUS 28",
-            "1668 AUTOGESTION PLUS 26",
-            "1669 AUTOGESTION PLUS 24",
-            "1670 AUTOGESTION PLUS 22",
-            "1671 AUTOGESTION PLUS 20",
-            "1672 AUTOGESTION PLUS 18",
-            "1673 AUTOGESTION PLUS 1GB 36",
-            "1674 AUTOGESTION PLUS 1GB 34",
-            "1675 AUTOGESTION PLUS 1GB 32",
-            "1676 AUTOGESTION PLUS 1GB 30",
-            "1677 AUTOGESTION PLUS 1GB 28",
-            "1678 AUTOGESTION PLUS 1GB 26",
-            "1679 AUTOGESTION PLUS 1GB 24",
-            "1680 AUTOGESTION PLUS 1GB 22",
-            "1681 AUTOGESTION PLUS 1GB 20",
-            "1682 AUTOGESTION PLUS 1GB 18",
-            "1683 AUTOGESTION PLUS 1,5GB 36",
-            "1684 AUTOGESTION PLUS 1,5GB 34",
-            "1685 AUTOGESTION PLUS 1,5GB 32",
-            "1686 AUTOGESTION PLUS 1,5GB 30",
-            "1687 AUTOGESTION PLUS 1,5GB 28",
-            "1688 AUTOGESTION PLUS 1,5GB 26",
-            "1689 AUTOGESTION PLUS 1,5GB 24",
-            "1690 AUTOGESTION PLUS 1,5GB 22",
-            "1691 AUTOGESTION PLUS 1,5GB 20",
-            "1692 AUTOGESTION PLUS 1,5GB 18",
-            "1693 AUTOGESTION PLUS 3GB FULL",
-            "1694 AUTOGESTION PLUS 4GB FULL",
-            "1695 AUTOGESTION PLUS 6GB FULL",
-            "1696 AUTOGESTION PLUS 8GB FULL",
-            "1697 AUTOGESTION PLUS 10GB FUL",
-            "1698 AUTOGESTION PLUS 12GB FUL",
+            "1665 Autogestion Corp 18",
+            "1665 Autogestion Corp 20",
+            "1665 Autogestion Corp 22",
+            "1665 Autogestion Corp 24",
+            "1665 Autogestion Corp 26",
+            "1665 Autogestion Corp 28",
+            "1665 Autogestion Corp 30",
+            "1665 AUTOGESTION CORP 32",
+            "1666 AUTOGESTION CORP 30",
+            "1667 AUTOGESTION CORP 28",
+            "1668 AUTOGESTION CORP 26",
+            "1669 AUTOGESTION CORP 24",
+            "1670 AUTOGESTION CORP 22",
+            "1671 AUTOGESTION CORP 20",
+            "1672 AUTOGESTION CORP 18",
+            "1673 AUTOGESTION CORP 1GB 36",
+            "1674 AUTOGESTION CORP 1GB 34",
+            "1675 AUTOGESTION CORP 1GB 32",
+            "1676 AUTOGESTION CORP 1GB 30",
+            "1677 AUTOGESTION CORP 1GB 28",
+            "1678 AUTOGESTION CORP 1GB 26",
+            "1678 AUTOGESTION CORP 1GB 26 ",
+            "1679 AUTOGESTION CORP 1GB 24",
+            "1679 AUTOGESTION CORP 1GB 24 ",
+            "168 TARIFA UNICA 120",
+            "1680 AUTOGESTION CORP 1GB 22",
+            "1680 AUTOGESTION CORP 1GB 22 ",
+            "1681 AUTOGESTION CORP 1GB 20",
+            "1681 AUTOGESTION CORP 1GB 20 ",
+            "1682 AUTOGESTION CORP 1GB 18",
+            "1682 AUTOGESTION CORP 1GB 18 ",
+            "1683 AUTOGESTION CORP 1.5GB 36",
+            "1684 AUTOGESTION CORP 1.5GB 34",
+            "1685 AUTOGESTION CORP 1.5GB 32",
+            "1686 AUTOGESTION CORP 1.5GB 30",
+            "1687 AUTOGESTION CORP 1.5GB 28",
+            "1688 AUTOGESTION CORP 1.5GB 26",
+            "1689 AUTOGESTION CORP 1.5GB 24",
+            "1690 AUTOGESTION CORP 1.5GB 22",
+            "1691 AUTOGESTION CORP 1.5GB 20",
+            "1692 AUTOGESTION CORP 1.5GB 18",
+            "1693 AUTOGESTION CORP 3GBFULL",
+            "1694 AUTOGESTION CORP 4GBFULL",
+            "1695 AUTOGESTION CORP 6GBFULL",
+            "1696 AUTOGESTION CORP 8GBFULL",
+            "1697 AUTOGESTION CORP 10GBFULL",
+            "1698 AUTOGESTION CORP 12GBFULL",
             "170 Plan Tarifa Unica 400",
             "171 Plan Tarifa unica 600",
             "1734 M2M Contingencia Minsal",
-            "1735 Multimedia CC $15.990",
             "1735 Multimedia CC 15.990",
+            "1738 BAM Pro 1GB Corp 18",
+            "1740 BAM Pro 3GB Corp 18",
             "1743 AUTOGESTION CORP 38",
             "1744 AUTOGESTION CORP 40",
             "1745 AUTOGESTION CORP 42",
@@ -556,19 +589,7 @@
             "182 CUENTA CONTROLADA RED",
             "183 CUENTA CONTROLADA RED",
             "184 CUENTA CONTROLADA RED",
-            "1850 AUTOGESTION PLUS 600MB",
-            "1851 AUTOGESTION PLUS 1GB",
-            "1852 AUTOGESTION PLUS 1,5GB",
-            "1853 AUTOGESTION PLUS 2GB",
-            "1854 AUTOGESTION PLUS 3GB ",
-            "1855 AUTOGESTION PLUS 4GB ",
-            "1856 AUTOGESTION PLUS 6GB ",
-            "1857 AUTOGESTION PLUS 8GB ",
-            "1858 AUTOGESTION PLUS 10GB ",
-            "1859 AUTOGESTION PLUS 12GB ",
             "186 CTA CONTROLADA PLANO 13690",
-            "1860 AUTOGESTION PLUS 16GB ",
-            "1861 AUTOGESTION PLUS 20GB ",
             "191 TARIFA UNICA 150",
             "192 TARIFA UNICA 250",
             "194 TARIFA UNICA 150",
@@ -940,23 +961,6 @@
             this.Plan.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Plan.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.Plan.Width = 200;
-            // 
-            // lblObs
-            // 
-            this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(503, 83);
-            this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(78, 13);
-            this.lblObs.TabIndex = 101;
-            this.lblObs.Text = "Observaciones";
-            // 
-            // campoObs
-            // 
-            this.campoObs.Location = new System.Drawing.Point(503, 99);
-            this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(189, 114);
-            this.campoObs.TabIndex = 100;
-            this.campoObs.Text = "";
             // 
             // VentCAMBIODEPLAN
             // 

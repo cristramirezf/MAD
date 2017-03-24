@@ -115,7 +115,7 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(393, 369);
+            this.btnGrabar.Location = new System.Drawing.Point(393, 380);
             this.btnGrabar.Name = "btnGrabar";
             this.btnGrabar.Size = new System.Drawing.Size(100, 23);
             this.btnGrabar.TabIndex = 171;
@@ -125,7 +125,7 @@
             // 
             // btnCopiaProy
             // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(373, 323);
+            this.btnCopiaProy.Location = new System.Drawing.Point(373, 334);
             this.btnCopiaProy.Name = "btnCopiaProy";
             this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
             this.btnCopiaProy.TabIndex = 170;
@@ -136,7 +136,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(363, 256);
+            this.label7.Location = new System.Drawing.Point(363, 267);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(75, 13);
             this.label7.TabIndex = 169;
@@ -180,7 +180,7 @@
             "Sandra Lazcano A.",
             "Simon Segura B.",
             "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(366, 272);
+            this.comboEjecutivo.Location = new System.Drawing.Point(366, 283);
             this.comboEjecutivo.Name = "comboEjecutivo";
             this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
             this.comboEjecutivo.TabIndex = 168;
@@ -363,7 +363,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(603, 425);
+            this.ClientSize = new System.Drawing.Size(603, 439);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.campoEmailAdm);
             this.Controls.Add(this.label12);

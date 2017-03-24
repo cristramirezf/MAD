@@ -30,11 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentHLS106));
             this.dataHLS106 = new System.Windows.Forms.DataGridView();
-            this.Patente = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SIM = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.Valor = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.label6 = new System.Windows.Forms.Label();
             this.campoRUT = new System.Windows.Forms.TextBox();
             this.labelHLS106 = new System.Windows.Forms.Label();
@@ -60,6 +55,11 @@
             this.comboEjecutivo = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.campoDatos = new System.Windows.Forms.RichTextBox();
+            this.Patente = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SIM = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Valor = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataHLS106)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -84,6 +84,267 @@
             this.dataHLS106.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataHLS106_CellClick);
             this.dataHLS106.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataHLS106_RowLeave);
             this.dataHLS106.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataHLS106_RowsRemoved);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(27, 64);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 13);
+            this.label6.TabIndex = 44;
+            this.label6.Text = "RUT Cliente";
+            // 
+            // campoRUT
+            // 
+            this.campoRUT.Location = new System.Drawing.Point(98, 64);
+            this.campoRUT.Name = "campoRUT";
+            this.campoRUT.Size = new System.Drawing.Size(100, 20);
+            this.campoRUT.TabIndex = 43;
+            // 
+            // labelHLS106
+            // 
+            this.labelHLS106.AutoSize = true;
+            this.labelHLS106.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelHLS106.Location = new System.Drawing.Point(534, 38);
+            this.labelHLS106.Name = "labelHLS106";
+            this.labelHLS106.Size = new System.Drawing.Size(52, 13);
+            this.labelHLS106.TabIndex = 40;
+            this.labelHLS106.Text = "HLS106";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(534, 25);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(166, 13);
+            this.label4.TabIndex = 39;
+            this.label4.Text = "Y el nombre de proyecto debe ser";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(238, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(247, 13);
+            this.label3.TabIndex = 38;
+            this.label3.Text = "Venta/Post-Venta Servicios Móviles - PCE";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(238, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(221, 13);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(27, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(130, 13);
+            this.label1.TabIndex = 36;
+            this.label1.Text = "HAB. DE LÍNEA S106";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(26, 37);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(159, 13);
+            this.label8.TabIndex = 53;
+            this.label8.Text = "(Solo aplica para regiones)";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menúToolStripMenuItem,
+            this.limpiarDatosToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(761, 24);
+            this.menuStrip1.TabIndex = 54;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // menúToolStripMenuItem
+            // 
+            this.menúToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.acercaDeToolStripMenuItem,
+            this.salirToolStripMenuItem});
+            this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
+            this.menúToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.menúToolStripMenuItem.Text = "Ayuda";
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de";
+            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
+            // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // limpiarDatosToolStripMenuItem
+            // 
+            this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
+            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
+            this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
+            // 
+            // btnCopiaPlan
+            // 
+            this.btnCopiaPlan.Location = new System.Drawing.Point(575, 89);
+            this.btnCopiaPlan.Name = "btnCopiaPlan";
+            this.btnCopiaPlan.Size = new System.Drawing.Size(110, 23);
+            this.btnCopiaPlan.TabIndex = 58;
+            this.btnCopiaPlan.Text = "Copia Plan";
+            this.btnCopiaPlan.UseVisualStyleBackColor = true;
+            this.btnCopiaPlan.Click += new System.EventHandler(this.btnCopiaPlan_Click);
+            // 
+            // btnCopiaValor
+            // 
+            this.btnCopiaValor.Location = new System.Drawing.Point(450, 89);
+            this.btnCopiaValor.Name = "btnCopiaValor";
+            this.btnCopiaValor.Size = new System.Drawing.Size(72, 23);
+            this.btnCopiaValor.TabIndex = 57;
+            this.btnCopiaValor.Text = "Copia Valor";
+            this.btnCopiaValor.UseVisualStyleBackColor = true;
+            this.btnCopiaValor.Click += new System.EventHandler(this.btnCopiaValor_Click);
+            // 
+            // btnCopiaSIM
+            // 
+            this.btnCopiaSIM.Location = new System.Drawing.Point(318, 89);
+            this.btnCopiaSIM.Name = "btnCopiaSIM";
+            this.btnCopiaSIM.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaSIM.TabIndex = 56;
+            this.btnCopiaSIM.Text = "Copia SIM";
+            this.btnCopiaSIM.UseVisualStyleBackColor = true;
+            this.btnCopiaSIM.Click += new System.EventHandler(this.btnCopiaSIM_Click);
+            // 
+            // btnCopiaCuentas
+            // 
+            this.btnCopiaCuentas.Location = new System.Drawing.Point(176, 89);
+            this.btnCopiaCuentas.Name = "btnCopiaCuentas";
+            this.btnCopiaCuentas.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaCuentas.TabIndex = 55;
+            this.btnCopiaCuentas.Text = "Copia Cuenta";
+            this.btnCopiaCuentas.UseVisualStyleBackColor = true;
+            this.btnCopiaCuentas.Click += new System.EventHandler(this.btnCopiaCuentas_Click);
+            // 
+            // lblObs
+            // 
+            this.lblObs.AutoSize = true;
+            this.lblObs.Location = new System.Drawing.Point(290, 403);
+            this.lblObs.Name = "lblObs";
+            this.lblObs.Size = new System.Drawing.Size(78, 13);
+            this.lblObs.TabIndex = 66;
+            this.lblObs.Text = "Observaciones";
+            // 
+            // campoObs
+            // 
+            this.campoObs.Location = new System.Drawing.Point(293, 419);
+            this.campoObs.Name = "campoObs";
+            this.campoObs.Size = new System.Drawing.Size(189, 114);
+            this.campoObs.TabIndex = 65;
+            this.campoObs.Text = "";
+            // 
+            // btnGrabar
+            // 
+            this.btnGrabar.Location = new System.Drawing.Point(554, 510);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
+            this.btnGrabar.TabIndex = 64;
+            this.btnGrabar.Text = "Copiar MAD";
+            this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
+            // 
+            // btnCopiaProy
+            // 
+            this.btnCopiaProy.Location = new System.Drawing.Point(535, 462);
+            this.btnCopiaProy.Name = "btnCopiaProy";
+            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
+            this.btnCopiaProy.TabIndex = 63;
+            this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
+            this.btnCopiaProy.UseVisualStyleBackColor = true;
+            this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(528, 403);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.TabIndex = 62;
+            this.label7.Text = "Ejecutivo SAC";
+            // 
+            // comboEjecutivo
+            // 
+            this.comboEjecutivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboEjecutivo.FormattingEnabled = true;
+            this.comboEjecutivo.Items.AddRange(new object[] {
+            "Andrea Hinojosa G.",
+            "Angelica Silva S.",
+            "Carol Rios G.",
+            "Carolina Arellano D.",
+            "Carolina Ayal E.",
+            "Catherine Torres B.",
+            "Claudia Sola G.",
+            "Danitza Leyton M.",
+            "Danitza Rendich O.",
+            "Elizabeth Pavez S.",
+            "Felipe Figueroa L.",
+            "Francisca Garcia B.",
+            "Francisco Castillo S.",
+            "Javier Beroiza A.",
+            "Javiera Molina G.",
+            "Julia Dominguez L.",
+            "Kimberly Moraga G.",
+            "Lorena Garcia N.",
+            "Lorena Jiménez M.",
+            "Loreto Barriga R.",
+            "Luz Gaete Ch.",
+            "Maria Jose Marchant V.",
+            "María Loreto Caceres A.",
+            "Maria Renata Ramirez A.",
+            "Mario Santibañez M.",
+            "Matias Brito A.",
+            "Mirtha Castro C.",
+            "Paloma Parra G.",
+            "Paula Sola G.",
+            "Sandra Lazcano A.",
+            "Simon Segura B.",
+            "Vladimir Cubillos R."});
+            this.comboEjecutivo.Location = new System.Drawing.Point(531, 419);
+            this.comboEjecutivo.Name = "comboEjecutivo";
+            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
+            this.comboEjecutivo.TabIndex = 61;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(61, 403);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 13);
+            this.label5.TabIndex = 60;
+            this.label5.Text = "Datos de contacto";
+            // 
+            // campoDatos
+            // 
+            this.campoDatos.Location = new System.Drawing.Point(64, 419);
+            this.campoDatos.Name = "campoDatos";
+            this.campoDatos.Size = new System.Drawing.Size(189, 114);
+            this.campoDatos.TabIndex = 59;
+            this.campoDatos.Text = "";
             // 
             // Patente
             // 
@@ -298,26 +559,30 @@
             "1569 Plan Alto Trafico 5.000",
             "1570 Plan Alto Trafico 2.000",
             "1571 Plan Alto Trafico 500",
-            "1573 AUTOGESTION PLUS 600MB 36",
-            "1574 AUTOGESTION PLUS 600MB 34",
-            "1575 AUTOGESTION PLUS 600MB 32",
-            "1576 AUTOGESTION PLUS 600MB 30",
-            "1577 AUTOGESTION PLUS 600MB 28",
-            "1578 AUTOGESTION PLUS 600MB 26",
-            "1579 AUTOGESTION PLUS 600MB 24",
-            "1580 AUTOGESTION PLUS 600MB 22",
-            "1581 AUTOGESTION PLUS 600MB 20",
-            "1582 AUTOGESTION PLUS 600MB 18",
-            "1583 AUTOGESTION PLUS 2GB 36",
-            "1584 AUTOGESTION PLUS 2GB 34",
-            "1585 AUTOGESTION PLUS 2GB 32",
-            "1586 AUTOGESTION PLUS 2GB 30",
-            "1587 AUTOGESTION PLUS 2GB 28",
-            "1588 AUTOGESTION PLUS 2GB 26",
-            "1589 AUTOGESTION PLUS 2GB 24",
-            "1590 AUTOGESTION PLUS 2GB 22",
-            "1591 AUTOGESTION PLUS 2GB 20",
-            "1592 AUTOGESTION PLUS 2GB 18",
+            "1573 AUTOGESTION CORP 600MB 36",
+            "1574 AUTOGESTION CORP 600MB 34",
+            "1575 AUTOGESTION CORP 600MB 32",
+            "1576 AUTOGESTION CORP 600MB 30",
+            "1576 AUTOGESTION CORP 600MB 30 ",
+            "1577 AUTOGESTION CORP 600MB 28",
+            "1578 AUTOGESTION CORP 600MB 26",
+            "1579 AUTOGESTION CORP 600MB 24",
+            "1580 AUTOGESTION CORP 600MB 22",
+            "1580 AUTOGESTION CORP 600MB 22 ",
+            "1581 AUTOGESTION CORP 600MB 20",
+            "1581 AUTOGESTION CORP 600MB 20 ",
+            "1582 AUTOGESTION CORP 600MB 18",
+            "1582 AUTOGESTION CORP 600MB 18  ",
+            "1583 AUTOGESTION CORP 2GB 36",
+            "1584 AUTOGESTION CORP 2GB 34",
+            "1585 AUTOGESTION CORP 2GB 32",
+            "1586 AUTOGESTION CORP 2GB 30",
+            "1587 AUTOGESTION CORP 2GB 28",
+            "1588 AUTOGESTION CORP 2GB 26",
+            "1589 AUTOGESTION CORP 2GB 24",
+            "1590 AUTOGESTION CORP 2GB 22",
+            "1591 AUTOGESTION CORP 2GB 20",
+            "1592 AUTOGESTION CORP 2GB 18",
             "1594 BAM Empresas 8 GB",
             "1595 BAM Empresas 12 GB",
             "1596 BAM Empresas 16 GB",
@@ -349,48 +614,60 @@
             "1657 Multi Smart 10 GB $69.990 ",
             "166 TARIFA UNICA 60",
             "1663 AUTOGESTION CORP 36",
-            "1663 AUTOGESTION PLUS 36",
             "1664 AUTOGESTION CORP 34",
-            "1664 AUTOGESTION PLUS 34",
-            "1665 AUTOGESTION PLUS 32",
-            "1666 AUTOGESTION PLUS 30",
-            "1667 AUTOGESTION PLUS 28",
-            "1668 AUTOGESTION PLUS 26",
-            "1669 AUTOGESTION PLUS 24",
-            "1670 AUTOGESTION PLUS 22",
-            "1671 AUTOGESTION PLUS 20",
-            "1672 AUTOGESTION PLUS 18",
-            "1673 AUTOGESTION PLUS 1GB 36",
-            "1674 AUTOGESTION PLUS 1GB 34",
-            "1675 AUTOGESTION PLUS 1GB 32",
-            "1676 AUTOGESTION PLUS 1GB 30",
-            "1677 AUTOGESTION PLUS 1GB 28",
-            "1678 AUTOGESTION PLUS 1GB 26",
-            "1679 AUTOGESTION PLUS 1GB 24",
-            "1680 AUTOGESTION PLUS 1GB 22",
-            "1681 AUTOGESTION PLUS 1GB 20",
-            "1682 AUTOGESTION PLUS 1GB 18",
-            "1683 AUTOGESTION PLUS 1,5GB 36",
-            "1684 AUTOGESTION PLUS 1,5GB 34",
-            "1685 AUTOGESTION PLUS 1,5GB 32",
-            "1686 AUTOGESTION PLUS 1,5GB 30",
-            "1687 AUTOGESTION PLUS 1,5GB 28",
-            "1688 AUTOGESTION PLUS 1,5GB 26",
-            "1689 AUTOGESTION PLUS 1,5GB 24",
-            "1690 AUTOGESTION PLUS 1,5GB 22",
-            "1691 AUTOGESTION PLUS 1,5GB 20",
-            "1692 AUTOGESTION PLUS 1,5GB 18",
-            "1693 AUTOGESTION PLUS 3GB FULL",
-            "1694 AUTOGESTION PLUS 4GB FULL",
-            "1695 AUTOGESTION PLUS 6GB FULL",
-            "1696 AUTOGESTION PLUS 8GB FULL",
-            "1697 AUTOGESTION PLUS 10GB FUL",
-            "1698 AUTOGESTION PLUS 12GB FUL",
+            "1665 Autogestion Corp 18",
+            "1665 Autogestion Corp 20",
+            "1665 Autogestion Corp 22",
+            "1665 Autogestion Corp 24",
+            "1665 Autogestion Corp 26",
+            "1665 Autogestion Corp 28",
+            "1665 Autogestion Corp 30",
+            "1665 AUTOGESTION CORP 32",
+            "1666 AUTOGESTION CORP 30",
+            "1667 AUTOGESTION CORP 28",
+            "1668 AUTOGESTION CORP 26",
+            "1669 AUTOGESTION CORP 24",
+            "1670 AUTOGESTION CORP 22",
+            "1671 AUTOGESTION CORP 20",
+            "1672 AUTOGESTION CORP 18",
+            "1673 AUTOGESTION CORP 1GB 36",
+            "1674 AUTOGESTION CORP 1GB 34",
+            "1675 AUTOGESTION CORP 1GB 32",
+            "1676 AUTOGESTION CORP 1GB 30",
+            "1677 AUTOGESTION CORP 1GB 28",
+            "1678 AUTOGESTION CORP 1GB 26",
+            "1678 AUTOGESTION CORP 1GB 26 ",
+            "1679 AUTOGESTION CORP 1GB 24",
+            "1679 AUTOGESTION CORP 1GB 24 ",
+            "168 TARIFA UNICA 120",
+            "1680 AUTOGESTION CORP 1GB 22",
+            "1680 AUTOGESTION CORP 1GB 22 ",
+            "1681 AUTOGESTION CORP 1GB 20",
+            "1681 AUTOGESTION CORP 1GB 20 ",
+            "1682 AUTOGESTION CORP 1GB 18",
+            "1682 AUTOGESTION CORP 1GB 18 ",
+            "1683 AUTOGESTION CORP 1.5GB 36",
+            "1684 AUTOGESTION CORP 1.5GB 34",
+            "1685 AUTOGESTION CORP 1.5GB 32",
+            "1686 AUTOGESTION CORP 1.5GB 30",
+            "1687 AUTOGESTION CORP 1.5GB 28",
+            "1688 AUTOGESTION CORP 1.5GB 26",
+            "1689 AUTOGESTION CORP 1.5GB 24",
+            "1690 AUTOGESTION CORP 1.5GB 22",
+            "1691 AUTOGESTION CORP 1.5GB 20",
+            "1692 AUTOGESTION CORP 1.5GB 18",
+            "1693 AUTOGESTION CORP 3GBFULL",
+            "1694 AUTOGESTION CORP 4GBFULL",
+            "1695 AUTOGESTION CORP 6GBFULL",
+            "1696 AUTOGESTION CORP 8GBFULL",
+            "1697 AUTOGESTION CORP 10GBFULL",
+            "1698 AUTOGESTION CORP 12GBFULL",
             "170 Plan Tarifa Unica 400",
             "171 Plan Tarifa unica 600",
             "1734 M2M Contingencia Minsal",
-            "1735 Multimedia CC $15.990",
             "1735 Multimedia CC 15.990",
+            "1738 BAM Pro 1GB Corp 18",
+            "1740 BAM Pro 3GB Corp 18",
             "1743 AUTOGESTION CORP 38",
             "1744 AUTOGESTION CORP 40",
             "1745 AUTOGESTION CORP 42",
@@ -417,19 +694,7 @@
             "182 CUENTA CONTROLADA RED",
             "183 CUENTA CONTROLADA RED",
             "184 CUENTA CONTROLADA RED",
-            "1850 AUTOGESTION PLUS 600MB",
-            "1851 AUTOGESTION PLUS 1GB",
-            "1852 AUTOGESTION PLUS 1,5GB",
-            "1853 AUTOGESTION PLUS 2GB",
-            "1854 AUTOGESTION PLUS 3GB ",
-            "1855 AUTOGESTION PLUS 4GB ",
-            "1856 AUTOGESTION PLUS 6GB ",
-            "1857 AUTOGESTION PLUS 8GB ",
-            "1858 AUTOGESTION PLUS 10GB ",
-            "1859 AUTOGESTION PLUS 12GB ",
             "186 CTA CONTROLADA PLANO 13690",
-            "1860 AUTOGESTION PLUS 16GB ",
-            "1861 AUTOGESTION PLUS 20GB ",
             "191 TARIFA UNICA 150",
             "192 TARIFA UNICA 250",
             "194 TARIFA UNICA 150",
@@ -799,267 +1064,6 @@
             "Z_NoUso_PORT_Emp Ges Dat 4GB +"});
             this.Plan.Name = "Plan";
             this.Plan.Width = 200;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(27, 64);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 13);
-            this.label6.TabIndex = 44;
-            this.label6.Text = "RUT Cliente";
-            // 
-            // campoRUT
-            // 
-            this.campoRUT.Location = new System.Drawing.Point(98, 64);
-            this.campoRUT.Name = "campoRUT";
-            this.campoRUT.Size = new System.Drawing.Size(100, 20);
-            this.campoRUT.TabIndex = 43;
-            // 
-            // labelHLS106
-            // 
-            this.labelHLS106.AutoSize = true;
-            this.labelHLS106.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelHLS106.Location = new System.Drawing.Point(534, 38);
-            this.labelHLS106.Name = "labelHLS106";
-            this.labelHLS106.Size = new System.Drawing.Size(52, 13);
-            this.labelHLS106.TabIndex = 40;
-            this.labelHLS106.Text = "HLS106";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(534, 25);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 13);
-            this.label4.TabIndex = 39;
-            this.label4.Text = "Y el nombre de proyecto debe ser";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(238, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 13);
-            this.label3.TabIndex = 38;
-            this.label3.Text = "Venta/Post-Venta Servicios Móviles - PCE";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(238, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 13);
-            this.label2.TabIndex = 37;
-            this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 13);
-            this.label1.TabIndex = 36;
-            this.label1.Text = "HAB. DE LÍNEA S106";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(26, 37);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(159, 13);
-            this.label8.TabIndex = 53;
-            this.label8.Text = "(Solo aplica para regiones)";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menúToolStripMenuItem,
-            this.limpiarDatosToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(761, 24);
-            this.menuStrip1.TabIndex = 54;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // menúToolStripMenuItem
-            // 
-            this.menúToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.acercaDeToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
-            this.menúToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
-            this.menúToolStripMenuItem.Text = "Ayuda";
-            // 
-            // acercaDeToolStripMenuItem
-            // 
-            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
-            this.acercaDeToolStripMenuItem.Text = "Acerca de";
-            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // limpiarDatosToolStripMenuItem
-            // 
-            this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
-            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
-            this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
-            this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
-            // 
-            // btnCopiaPlan
-            // 
-            this.btnCopiaPlan.Location = new System.Drawing.Point(575, 89);
-            this.btnCopiaPlan.Name = "btnCopiaPlan";
-            this.btnCopiaPlan.Size = new System.Drawing.Size(110, 23);
-            this.btnCopiaPlan.TabIndex = 58;
-            this.btnCopiaPlan.Text = "Copia Plan";
-            this.btnCopiaPlan.UseVisualStyleBackColor = true;
-            this.btnCopiaPlan.Click += new System.EventHandler(this.btnCopiaPlan_Click);
-            // 
-            // btnCopiaValor
-            // 
-            this.btnCopiaValor.Location = new System.Drawing.Point(450, 89);
-            this.btnCopiaValor.Name = "btnCopiaValor";
-            this.btnCopiaValor.Size = new System.Drawing.Size(72, 23);
-            this.btnCopiaValor.TabIndex = 57;
-            this.btnCopiaValor.Text = "Copia Valor";
-            this.btnCopiaValor.UseVisualStyleBackColor = true;
-            this.btnCopiaValor.Click += new System.EventHandler(this.btnCopiaValor_Click);
-            // 
-            // btnCopiaSIM
-            // 
-            this.btnCopiaSIM.Location = new System.Drawing.Point(318, 89);
-            this.btnCopiaSIM.Name = "btnCopiaSIM";
-            this.btnCopiaSIM.Size = new System.Drawing.Size(91, 23);
-            this.btnCopiaSIM.TabIndex = 56;
-            this.btnCopiaSIM.Text = "Copia SIM";
-            this.btnCopiaSIM.UseVisualStyleBackColor = true;
-            this.btnCopiaSIM.Click += new System.EventHandler(this.btnCopiaSIM_Click);
-            // 
-            // btnCopiaCuentas
-            // 
-            this.btnCopiaCuentas.Location = new System.Drawing.Point(176, 89);
-            this.btnCopiaCuentas.Name = "btnCopiaCuentas";
-            this.btnCopiaCuentas.Size = new System.Drawing.Size(91, 23);
-            this.btnCopiaCuentas.TabIndex = 55;
-            this.btnCopiaCuentas.Text = "Copia Cuenta";
-            this.btnCopiaCuentas.UseVisualStyleBackColor = true;
-            this.btnCopiaCuentas.Click += new System.EventHandler(this.btnCopiaCuentas_Click);
-            // 
-            // lblObs
-            // 
-            this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(290, 403);
-            this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(78, 13);
-            this.lblObs.TabIndex = 66;
-            this.lblObs.Text = "Observaciones";
-            // 
-            // campoObs
-            // 
-            this.campoObs.Location = new System.Drawing.Point(293, 419);
-            this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(189, 114);
-            this.campoObs.TabIndex = 65;
-            this.campoObs.Text = "";
-            // 
-            // btnGrabar
-            // 
-            this.btnGrabar.Location = new System.Drawing.Point(554, 510);
-            this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
-            this.btnGrabar.TabIndex = 64;
-            this.btnGrabar.Text = "Copiar MAD";
-            this.btnGrabar.UseVisualStyleBackColor = true;
-            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
-            // 
-            // btnCopiaProy
-            // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(535, 462);
-            this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
-            this.btnCopiaProy.TabIndex = 63;
-            this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
-            this.btnCopiaProy.UseVisualStyleBackColor = true;
-            this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(528, 403);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
-            this.label7.TabIndex = 62;
-            this.label7.Text = "Ejecutivo SAC";
-            // 
-            // comboEjecutivo
-            // 
-            this.comboEjecutivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboEjecutivo.FormattingEnabled = true;
-            this.comboEjecutivo.Items.AddRange(new object[] {
-            "Andrea Hinojosa G.",
-            "Angelica Silva S.",
-            "Carol Rios G.",
-            "Carolina Arellano D.",
-            "Carolina Ayal E.",
-            "Catherine Torres B.",
-            "Claudia Sola G.",
-            "Danitza Leyton M.",
-            "Danitza Rendich O.",
-            "Elizabeth Pavez S.",
-            "Felipe Figueroa L.",
-            "Francisca Garcia B.",
-            "Francisco Castillo S.",
-            "Javier Beroiza A.",
-            "Javiera Molina G.",
-            "Julia Dominguez L.",
-            "Kimberly Moraga G.",
-            "Lorena Garcia N.",
-            "Lorena Jiménez M.",
-            "Loreto Barriga R.",
-            "Luz Gaete Ch.",
-            "Maria Jose Marchant V.",
-            "María Loreto Caceres A.",
-            "Maria Renata Ramirez A.",
-            "Mario Santibañez M.",
-            "Matias Brito A.",
-            "Mirtha Castro C.",
-            "Paloma Parra G.",
-            "Paula Sola G.",
-            "Sandra Lazcano A.",
-            "Simon Segura B.",
-            "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(531, 419);
-            this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
-            this.comboEjecutivo.TabIndex = 61;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(61, 403);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 13);
-            this.label5.TabIndex = 60;
-            this.label5.Text = "Datos de contacto";
-            // 
-            // campoDatos
-            // 
-            this.campoDatos.Location = new System.Drawing.Point(64, 419);
-            this.campoDatos.Name = "campoDatos";
-            this.campoDatos.Size = new System.Drawing.Size(189, 114);
-            this.campoDatos.TabIndex = 59;
-            this.campoDatos.Text = "";
             // 
             // VentHLS106
             // 
