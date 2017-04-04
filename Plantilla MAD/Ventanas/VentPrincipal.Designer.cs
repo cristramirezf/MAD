@@ -41,12 +41,13 @@
             // 
             // comboMundo
             // 
+            this.comboMundo.BackColor = System.Drawing.SystemColors.Menu;
             this.comboMundo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboMundo.FormattingEnabled = true;
             this.comboMundo.Items.AddRange(new object[] {
             "Agilidad",
             "Complejidad"});
-            this.comboMundo.Location = new System.Drawing.Point(128, 180);
+            this.comboMundo.Location = new System.Drawing.Point(125, 197);
             this.comboMundo.Name = "comboMundo";
             this.comboMundo.Size = new System.Drawing.Size(112, 21);
             this.comboMundo.TabIndex = 0;
@@ -54,11 +55,12 @@
             // 
             // comboProyecto
             // 
+            this.comboProyecto.BackColor = System.Drawing.SystemColors.Menu;
             this.comboProyecto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboProyecto.FormattingEnabled = true;
-            this.comboProyecto.Location = new System.Drawing.Point(69, 248);
+            this.comboProyecto.Location = new System.Drawing.Point(60, 265);
             this.comboProyecto.Name = "comboProyecto";
-            this.comboProyecto.Size = new System.Drawing.Size(233, 21);
+            this.comboProyecto.Size = new System.Drawing.Size(246, 21);
             this.comboProyecto.TabIndex = 1;
             this.comboProyecto.Visible = false;
             this.comboProyecto.SelectedIndexChanged += new System.EventHandler(this.comboProyecto_SelectedIndexChanged);
@@ -68,7 +70,7 @@
             this.checkMasivo.AutoSize = true;
             this.checkMasivo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("checkMasivo.BackgroundImage")));
             this.checkMasivo.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.checkMasivo.Location = new System.Drawing.Point(160, 301);
+            this.checkMasivo.Location = new System.Drawing.Point(157, 318);
             this.checkMasivo.Name = "checkMasivo";
             this.checkMasivo.Size = new System.Drawing.Size(66, 18);
             this.checkMasivo.TabIndex = 5;
@@ -78,7 +80,7 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(148, 354);
+            this.btnOk.Location = new System.Drawing.Point(145, 371);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(75, 23);
             this.btnOk.TabIndex = 6;
@@ -90,7 +92,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(112, 164);
+            this.label1.Location = new System.Drawing.Point(109, 181);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 13);
             this.label1.TabIndex = 7;
@@ -99,7 +101,7 @@
             // lblDesea
             // 
             this.lblDesea.AutoSize = true;
-            this.lblDesea.Location = new System.Drawing.Point(134, 232);
+            this.lblDesea.Location = new System.Drawing.Point(131, 249);
             this.lblDesea.Name = "lblDesea";
             this.lblDesea.Size = new System.Drawing.Size(101, 13);
             this.lblDesea.TabIndex = 8;
@@ -109,7 +111,7 @@
             // pictureEntel
             // 
             this.pictureEntel.Image = ((System.Drawing.Image)(resources.GetObject("pictureEntel.Image")));
-            this.pictureEntel.Location = new System.Drawing.Point(109, -5);
+            this.pictureEntel.Location = new System.Drawing.Point(106, 12);
             this.pictureEntel.Name = "pictureEntel";
             this.pictureEntel.Size = new System.Drawing.Size(152, 157);
             this.pictureEntel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

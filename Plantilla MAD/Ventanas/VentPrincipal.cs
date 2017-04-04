@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Plantilla_MAD.Ventanas
@@ -17,23 +18,29 @@ namespace Plantilla_MAD.Ventanas
             if (Convert.ToString(comboMundo.Text).Equals("Agilidad"))
             {
                 comboProyecto.Items.Clear();
+                comboProyecto.Items.Add("-- CAMBIO DE EQUIPO --");
                 comboProyecto.Items.Add("Cambio de equipo");
-                comboProyecto.Items.Add("Cambio de simcard");
-                comboProyecto.Items.Add("Habilitación de línea nueva");
-                comboProyecto.Items.Add("Migrar líneas a prepago");
-                comboProyecto.Items.Add("Migrar líneas a plan");
-                comboProyecto.Items.Add("Habilitación línea suc. S106");
-                comboProyecto.Items.Add("Cambio de simcard suc. S106");
-                comboProyecto.Items.Add("Habilitación de línea Plan Autogestión");
-                comboProyecto.Items.Add("Habilitación de línea Plan Multimedia");
                 comboProyecto.Items.Add("Cambio de equipo Plan Autogestión");
                 comboProyecto.Items.Add("Cambio de equipo Plan Multimedia");
+                comboProyecto.Items.Add("-- HABILITACIÓN DE LÍNEA --");
+                comboProyecto.Items.Add("Habilitación de línea nueva");
+                comboProyecto.Items.Add("Habilitación de línea Plan Autogestión");
+                comboProyecto.Items.Add("Habilitación de línea Plan Multimedia");
+                comboProyecto.Items.Add("Habilitación línea suc. S106");
+                comboProyecto.Items.Add("-- CAMBIO DE SIMCARD --");
+                comboProyecto.Items.Add("Cambio de simcard");
+                comboProyecto.Items.Add("Cambio de simcard suc. S106");
+                comboProyecto.Items.Add("-- MIGRACIÓN --");
+                comboProyecto.Items.Add("Migrar líneas a prepago");
+                comboProyecto.Items.Add("Migrar líneas a plan");
+                comboProyecto.Items.Add("-- OTRAS --");
                 comboProyecto.Items.Add("Venta de equipo sin suscripción");
                 comboProyecto.Items.Add("Portabilidad");
             }
             else
             {
                 comboProyecto.Items.Clear();
+                comboProyecto.Items.Add("-- PLANES/SERVICIOS --");
                 comboProyecto.Items.Add("Activación/desactivación de bolsas o servicios");
                 comboProyecto.Items.Add("Activación/desactivación de correo");
                 comboProyecto.Items.Add("Cambio de plan");
@@ -41,12 +48,20 @@ namespace Plantilla_MAD.Ventanas
                 comboProyecto.Items.Add("Cambio de razón social");
                 comboProyecto.Items.Add("Cambio de condiciones comerciales");
                 comboProyecto.Items.Add("Cambio a SIM nueva (contingencia)");
+                comboProyecto.Items.Add("Renuncia de líneas");
+                comboProyecto.Items.Add("Reversa de renuncia");
+                comboProyecto.Items.Add("-- CESIONES/TRASPASOS --");
+                comboProyecto.Items.Add("Cesión de líneas y/o equipos");
+                comboProyecto.Items.Add("Traspaso de líneas y/o equipos");
+                comboProyecto.Items.Add("-- ADMINISTRATIVAS --");
                 comboProyecto.Items.Add("Creación de giro");
                 comboProyecto.Items.Add("Detalle de tráfico");
                 comboProyecto.Items.Add("Información del cliente");
+                comboProyecto.Items.Add("Enrolamiento CAT Corp");
+                comboProyecto.Items.Add("Envio/creación clave portal Administrador");
+                comboProyecto.Items.Add("Creación de nueva cuenta");
                 comboProyecto.Items.Add("Foto servicios");
-                comboProyecto.Items.Add("Renuncia de líneas");
-                comboProyecto.Items.Add("Reversa de renuncia");
+                comboProyecto.Items.Add("-- EMISIÓN DOCUMENTOS --");
                 comboProyecto.Items.Add("Emisión nota de crédito");
                 comboProyecto.Items.Add("Emisión nota de crédito aclaratoria");
                 comboProyecto.Items.Add("Emisión refactura");
@@ -54,18 +69,16 @@ namespace Plantilla_MAD.Ventanas
                 comboProyecto.Items.Add("Ingreso nueva OCC");
                 comboProyecto.Items.Add("Modificación OCC");
                 comboProyecto.Items.Add("Emisión de factura manual");
-                comboProyecto.Items.Add("Enrolamiento CAT Corp");
-                comboProyecto.Items.Add("Envio/creación clave portal Administrador");
-                comboProyecto.Items.Add("Creación de nueva cuenta");
-                comboProyecto.Items.Add("Cesión de líneas o equipos");
-                comboProyecto.Items.Add("Traspaso de líneas o equipos");
+                comboProyecto.Items.Add("-- ANÁLISIS --");
                 comboProyecto.Items.Add("Análisis factura");
                 comboProyecto.Items.Add("Análisis con nota de crédito");
                 comboProyecto.Items.Add("Análisis fraude");
+                comboProyecto.Items.Add("-- EQUIPOS --");
                 comboProyecto.Items.Add("Anulación de equipo");
                 comboProyecto.Items.Add("Anulación virtual de negocio");
                 comboProyecto.Items.Add("Aceleración de equipos");
                 comboProyecto.Items.Add("Amarre/desamarre línea y equipo");
+
             }
         }
 
