@@ -77,6 +77,7 @@ namespace Plantilla_MAD.Ventanas
             checkMasivo.Visible = true;
             if (
                 opcPCE.Equals("Cambio de datos cliente") ||
+                opcPCE.Equals("Cambio de condiciones comerciales") ||
                 opcPCE.Equals("Creación de giro") ||
                 opcPCE.Equals("Detalle de tráfico") ||
                 opcPCE.Equals("Información del cliente") ||

@@ -10,9 +10,10 @@ using System.Windows.Forms;
 
 namespace Plantilla_MAD.Ventanas
 {
-    public partial class VentANALISIS : Form
+    
+    public partial class VentANALISIS  : Form 
     {
-        public VentANALISIS()
+        public VentANALISIS() 
         {
             InitializeComponent();
         }

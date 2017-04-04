@@ -398,9 +398,11 @@
             this.Modelo.HeaderText = "Modelo";
             this.Modelo.Items.AddRange(new object[] {
             "",
+            "ALC 1052 BLACK 126160",
             "ALC PIXI 3 4,0 BLACK 126156",
             "ALC PIXI 4 4,0 BLACK 126171",
             "ALC PIXI 4 5,0 4G BLACK 126177",
+            "APL IPHONE 6 32GB SPACE GREY 136205",
             "APL IPHONE 6S 128GB SPACE GRAY 136133",
             "APL IPHONE 6S 16GB GOLD 136129",
             "APL IPHONE 6S 16GB SPACE GRAY 136127",
@@ -429,6 +431,7 @@
             "APPLE IPHONE 6S 64GB SPACE GRAY 136131",
             "APPLE IPHONE 6S PLUS 16GB SILVER 136135",
             "ENFORA MT-Gu GSM2358 122009",
+            "HUA P10 BLACK 133171",
             "HUA VALLEY Y635 BLACK 133126",
             "HUAWEI B68L HSPA+ 133120",
             "HUAWEI E3131 HSPA+ WHT 133112",
@@ -455,6 +458,7 @@
             "LG PROMO G5 + BATTERY BLACK 124213",
             "LG X CAM BLACK 124211",
             "LG X STYLE BLACK 124225",
+            "MOT MOTO Z PLAY LUNAR GREY 104137",
             "MOTOROLA MOTO G 3RA GEN BLACK 104123",
             "MOTOROLA MOTO G 4TA GEN BLACK 104128",
             "MOTOROLA MOTO X PLAY BLACK 104125",

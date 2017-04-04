@@ -230,9 +230,9 @@
             this.lblProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProy.Location = new System.Drawing.Point(398, 42);
             this.lblProy.Name = "lblProy";
-            this.lblProy.Size = new System.Drawing.Size(118, 13);
+            this.lblProy.Size = new System.Drawing.Size(32, 13);
             this.lblProy.TabIndex = 190;
-            this.lblProy.Text = "MANTENCION OCC";
+            this.lblProy.Text = "OCC";
             // 
             // campoRUT
             // 
