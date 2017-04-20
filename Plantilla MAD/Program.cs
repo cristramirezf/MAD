@@ -29,7 +29,4 @@ COMPLEJIDAD NORMAL
 
 al actualizar equipos
 AGILIDAD NORMAL: CEQ, CEQMM, CEQMMPA, HL (x2), HMM. HMMPA, VE
-
-    
-
-    */
+*/
