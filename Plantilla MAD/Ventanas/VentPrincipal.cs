@@ -260,11 +260,11 @@ namespace Plantilla_MAD.Ventanas
                         VentNUEVACUENTA NCTA = new VentNUEVACUENTA();
                         NCTA.Show();
                         break;
-                    case "Cesión de líneas o equipos":
+                    case "Cesión de líneas y/o equipos":
                         VentCESIONES CES = new VentCESIONES();
                         CES.Show();
                         break;
-                    case "Traspaso de líneas o equipos":
+                    case "Traspaso de líneas y/o equipos":
                         VentTRASPASO TRAS = new VentTRASPASO();
                         TRAS.Show();
                         break;
