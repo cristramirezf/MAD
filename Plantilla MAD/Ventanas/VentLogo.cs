@@ -15,5 +15,6 @@ namespace Plantilla_MAD.Ventanas
             proc.StartInfo.FileName = "mailto:CFRamirez@entel.cl?subject=Sugerencia MAD";
             proc.Start();
         }
+
     }
 }

@@ -1403,7 +1403,6 @@
             this.Modelo.HeaderText = "Modelo";
             this.Modelo.Items.AddRange(new object[] {
             "-",
-            "ALC 1052 BLACK 126160",
             "ALC PIXI 3 4,0 BLACK 126156",
             "ALC PIXI 4 4,0 BLACK 126171",
             "ALC PIXI 4 5,0 4G BLACK 126177",
@@ -1457,6 +1456,7 @@
             "HUAWEI P9 BLACK 133150",
             "HUAWEI P9 GOLD 133151",
             "HUAWEI P9 LITE BLACK 133152",
+            "HUAWEI P9 LITE SMART GRAY\t133177",
             "HUAWEI P9 LITE WHITE 133153",
             "HUAWEI ROUTER B310LTE EMPRE WHT 133161",
             "HUAWEI ROUTER LTE B310 133130",
@@ -1567,7 +1567,6 @@
             this.ModeloCEQ.HeaderText = "Modelo";
             this.ModeloCEQ.Items.AddRange(new object[] {
             "-",
-            "ALC 1052 BLACK 126160",
             "ALC PIXI 3 4,0 BLACK 126156",
             "ALC PIXI 4 4,0 BLACK 126171",
             "ALC PIXI 4 5,0 4G BLACK 126177",
@@ -1621,6 +1620,7 @@
             "HUAWEI P9 BLACK 133150",
             "HUAWEI P9 GOLD 133151",
             "HUAWEI P9 LITE BLACK 133152",
+            "HUAWEI P9 LITE SMART GRAY\t133177",
             "HUAWEI P9 LITE WHITE 133153",
             "HUAWEI ROUTER B310LTE EMPRE WHT 133161",
             "HUAWEI ROUTER LTE B310 133130",
