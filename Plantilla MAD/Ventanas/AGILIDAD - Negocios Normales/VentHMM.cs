@@ -94,17 +94,20 @@ namespace Plantilla_MAD.Ventanas
                         }
                         if (dataHMM["Modelo", i].Value != null)
                         {
-                            String marcamodelo = dataHMM["Modelo", i].Value.ToString().Remove(dataHMM["Modelo", i].Value.ToString().Length - 7);
-                            String codigo = dataHMM["Modelo", i].Value.ToString().Substring(dataHMM["Modelo", i].Value.ToString().Length - 6);
-                            filamodelo = "Código: " + codigo + "\n" + "Modelo: " + marcamodelo + "\n";
+                            if (dataHMM["Modelo", i].Value.ToString().Length > 1)
+                            {
+                                String marcamodelo = dataHMM["Modelo", i].Value.ToString().Remove(dataHMM["Modelo", i].Value.ToString().Length - 7);
+                                String codigo = dataHMM["Modelo", i].Value.ToString().Substring(dataHMM["Modelo", i].Value.ToString().Length - 6);
+                                filamodelo = "Código: " + codigo + "\n" + "Modelo: " + marcamodelo + "\n";
 
-                            if (dataHMM["ValorEq", i].Value != null)
-                            {
-                                filavaloreq = "Valor Equipo: $" + dataHMM["ValorEq", i].Value.ToString() + "\n";
-                            }
-                            if (dataHMM["Condicion", i].Value != null)
-                            {
-                                filacondicion = "Condicion: " + dataHMM["Condicion", i].Value.ToString() + "\n";
+                                if (dataHMM["ValorEq", i].Value != null)
+                                {
+                                    filavaloreq = "Valor Equipo: $" + dataHMM["ValorEq", i].Value.ToString() + "\n";
+                                }
+                                if (dataHMM["Condicion", i].Value != null)
+                                {
+                                    filacondicion = "Condicion: " + dataHMM["Condicion", i].Value.ToString() + "\n";
+                                }
                             }
                         }
 

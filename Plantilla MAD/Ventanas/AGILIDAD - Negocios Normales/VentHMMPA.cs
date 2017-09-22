@@ -94,17 +94,20 @@ namespace Plantilla_MAD.Ventanas
                         }
                         if (dataHMMPA["Modelo", i].Value != null)
                         {
-                            String marcamodelo = dataHMMPA["Modelo", i].Value.ToString().Remove(dataHMMPA["Modelo", i].Value.ToString().Length - 7);
-                            String codigo = dataHMMPA["Modelo", i].Value.ToString().Substring(dataHMMPA["Modelo", i].Value.ToString().Length - 6);
-                            filamodelo = "Código: " + codigo + "\n" + "Modelo: " + marcamodelo + "\n";
+                            if (dataHMMPA["Modelo", i].Value.ToString().Length > 1)
+                            {
+                                String marcamodelo = dataHMMPA["Modelo", i].Value.ToString().Remove(dataHMMPA["Modelo", i].Value.ToString().Length - 7);
+                                String codigo = dataHMMPA["Modelo", i].Value.ToString().Substring(dataHMMPA["Modelo", i].Value.ToString().Length - 6);
+                                filamodelo = "Código: " + codigo + "\n" + "Modelo: " + marcamodelo + "\n";
 
-                            if (dataHMMPA["ValorEq", i].Value != null)
-                            {
-                                filavaloreq = "Valor Equipo: $" + dataHMMPA["ValorEq", i].Value.ToString() + "\n";
-                            }
-                            if (dataHMMPA["Condicion", i].Value != null)
-                            {
-                                filacondicion = "Condicion: " + dataHMMPA["Condicion", i].Value.ToString() + "\n";
+                                if (dataHMMPA["ValorEq", i].Value != null)
+                                {
+                                    filavaloreq = "Valor Equipo: $" + dataHMMPA["ValorEq", i].Value.ToString() + "\n";
+                                }
+                                if (dataHMMPA["Condicion", i].Value != null)
+                                {
+                                    filacondicion = "Condicion: " + dataHMMPA["Condicion", i].Value.ToString() + "\n";
+                                }
                             }
                         }
 
