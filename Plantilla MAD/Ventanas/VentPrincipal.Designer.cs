@@ -136,7 +136,7 @@
             this.MaximizeBox = false;
             this.Name = "VentPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MAD";
+            this.Text = "MAD App";
             ((System.ComponentModel.ISupportInitialize)(this.pictureEntel)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

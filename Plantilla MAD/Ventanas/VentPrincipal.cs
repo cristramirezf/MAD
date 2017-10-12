@@ -417,7 +417,7 @@ namespace Plantilla_MAD.Ventanas
         {
             //System.Diagnostics.Process.Start("http://www.google.cl");
             VentLogo Logo = new VentLogo();
-            Logo.Show();
+            Logo.ShowDialog();
         }
     }
 }

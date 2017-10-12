@@ -65,7 +65,7 @@
             this.MaximizeBox = false;
             this.Name = "VentLogo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "e)";
+            this.Text = "MAD App";
             this.ResumeLayout(false);
             this.PerformLayout();
 
