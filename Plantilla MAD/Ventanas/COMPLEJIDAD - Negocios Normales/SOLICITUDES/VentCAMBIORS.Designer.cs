@@ -95,7 +95,7 @@
             // 
             // campoObs
             // 
-            this.campoObs.Location = new System.Drawing.Point(51, 251);
+            this.campoObs.Location = new System.Drawing.Point(49, 246);
             this.campoObs.Name = "campoObs";
             this.campoObs.Size = new System.Drawing.Size(204, 87);
             this.campoObs.TabIndex = 250;
@@ -104,7 +104,7 @@
             // lblObs
             // 
             this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(48, 236);
+            this.lblObs.Location = new System.Drawing.Point(46, 231);
             this.lblObs.Name = "lblObs";
             this.lblObs.Size = new System.Drawing.Size(78, 13);
             this.lblObs.TabIndex = 251;
@@ -145,38 +145,34 @@
             this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
-"Andrea Hinojosa G.",
-"Andres Arias O.",
-"Angelica Silva S.",
-"Carol Rios G.",
-"Carolina Arellano D.",
-"Claudia Sola G.",
-"Danitza Leyton M.",
-"Danitza Rendich O.",
-"Elizabeth Pavez S.",
-"Felipe Figueroa L.",
-"Francisca Garcia B.",
-"Francisco Castillo S.",
-"Gabriela Guzman C.",
-"Javier Beroiza A.",
-"Julia Dominguez L.",
-"Karin Sothers B.",
-"Kimberly Moraga G.",
-"Lorena Garcia N.",
-"Lorena Jimenez M.",
-"Loreto Barriga R.",
-"Luz Gaete Ch.",
-"Maria Jose Marchant V.",
-"Maria Loreto Caceres A.",
-"Maria Pinto D.",
-"Maria Renata Ramirez A.",
-"Matias Brito A.",
-"Mirtha Castro C.",
-"Paula Sola G.",
-"Philipp Gallardo G.",
-"Sandra Lazcano A.",
-"Simon Segura B.",
-"Vladimir Cubillos R."});
+            "Andres Arias O.",
+            "Andrea Hinojosa G.",
+            "Angelica Silva S.",
+            "Carol Rios G.",
+            "Carolina Arellano D.",
+            "Claudia Sola G.",
+            "Danitza Leyton M.",
+            "Danitza Rendich O.",
+            "Elizabeth Pavez S.",
+            "Felipe Figueroa L.",
+            "Gabriela Guzman C.",
+            "Julia Dominguez L.",
+            "Karin Sothers B.",
+            "Kimberly Moraga G.",
+            "Lorena Garcia N.",
+            "Lorena Jimenez M.",
+            "Loreto Barriga R.",
+            "Luz Gaete Ch.",
+            "Maria Jose Marchant V.",
+            "Maria Loreto Caceres A.",
+            "Maria Renata Ramirez A.",
+            "Mirtha Castro C.",
+            "Paula Sola G.",
+            "Philipp Gallardo G.",
+            "Romina Saez G.",
+            "Sandra Lazcano A.",
+            "Simon Segura B.",
+            "Vladimir Cubillos R."});
             this.comboEjecutivo.Location = new System.Drawing.Point(350, 125);
             this.comboEjecutivo.Name = "comboEjecutivo";
             this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
@@ -185,7 +181,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(48, 153);
+            this.label5.Location = new System.Drawing.Point(46, 148);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(105, 13);
             this.label5.TabIndex = 249;
@@ -255,7 +251,7 @@
             // 
             // campoNuevaRS
             // 
-            this.campoNuevaRS.Location = new System.Drawing.Point(51, 169);
+            this.campoNuevaRS.Location = new System.Drawing.Point(49, 164);
             this.campoNuevaRS.Name = "campoNuevaRS";
             this.campoNuevaRS.Size = new System.Drawing.Size(204, 54);
             this.campoNuevaRS.TabIndex = 255;
@@ -266,7 +262,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(568, 377);
+            this.ClientSize = new System.Drawing.Size(568, 361);
             this.Controls.Add(this.campoNuevaRS);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.campoObs);

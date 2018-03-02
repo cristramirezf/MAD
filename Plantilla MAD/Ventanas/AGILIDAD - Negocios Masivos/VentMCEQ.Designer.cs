@@ -211,8 +211,8 @@
             this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
-            "Andrea Hinojosa G.",
             "Andres Arias O.",
+            "Andrea Hinojosa G.",
             "Angelica Silva S.",
             "Carol Rios G.",
             "Carolina Arellano D.",
@@ -221,10 +221,7 @@
             "Danitza Rendich O.",
             "Elizabeth Pavez S.",
             "Felipe Figueroa L.",
-            "Francisca Garcia B.",
-            "Francisco Castillo S.",
             "Gabriela Guzman C.",
-            "Javier Beroiza A.",
             "Julia Dominguez L.",
             "Karin Sothers B.",
             "Kimberly Moraga G.",
@@ -234,12 +231,12 @@
             "Luz Gaete Ch.",
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
-            "Maria Pinto D.",
             "Maria Renata Ramirez A.",
-            "Matias Brito A.",
+            
             "Mirtha Castro C.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
+            "Romina Saez G.",
             "Sandra Lazcano A.",
             "Simon Segura B.",
             "Vladimir Cubillos R."});

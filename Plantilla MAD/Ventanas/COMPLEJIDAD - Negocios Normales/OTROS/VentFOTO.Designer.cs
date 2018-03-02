@@ -52,9 +52,9 @@
             // 
             // campoObs
             // 
-            this.campoObs.Location = new System.Drawing.Point(61, 168);
+            this.campoObs.Location = new System.Drawing.Point(61, 147);
             this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(189, 114);
+            this.campoObs.Size = new System.Drawing.Size(237, 149);
             this.campoObs.TabIndex = 76;
             this.campoObs.Text = "";
             // 
@@ -71,38 +71,34 @@
             this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
-"Andrea Hinojosa G.",
-"Andres Arias O.",
-"Angelica Silva S.",
-"Carol Rios G.",
-"Carolina Arellano D.",
-"Claudia Sola G.",
-"Danitza Leyton M.",
-"Danitza Rendich O.",
-"Elizabeth Pavez S.",
-"Felipe Figueroa L.",
-"Francisca Garcia B.",
-"Francisco Castillo S.",
-"Gabriela Guzman C.",
-"Javier Beroiza A.",
-"Julia Dominguez L.",
-"Karin Sothers B.",
-"Kimberly Moraga G.",
-"Lorena Garcia N.",
-"Lorena Jimenez M.",
-"Loreto Barriga R.",
-"Luz Gaete Ch.",
-"Maria Jose Marchant V.",
-"Maria Loreto Caceres A.",
-"Maria Pinto D.",
-"Maria Renata Ramirez A.",
-"Matias Brito A.",
-"Mirtha Castro C.",
-"Paula Sola G.",
-"Philipp Gallardo G.",
-"Sandra Lazcano A.",
-"Simon Segura B.",
-"Vladimir Cubillos R."});
+            "Andres Arias O.",
+            "Andrea Hinojosa G.",
+            "Angelica Silva S.",
+            "Carol Rios G.",
+            "Carolina Arellano D.",
+            "Claudia Sola G.",
+            "Danitza Leyton M.",
+            "Danitza Rendich O.",
+            "Elizabeth Pavez S.",
+            "Felipe Figueroa L.",
+            "Gabriela Guzman C.",
+            "Julia Dominguez L.",
+            "Karin Sothers B.",
+            "Kimberly Moraga G.",
+            "Lorena Garcia N.",
+            "Lorena Jimenez M.",
+            "Loreto Barriga R.",
+            "Luz Gaete Ch.",
+            "Maria Jose Marchant V.",
+            "Maria Loreto Caceres A.",
+            "Maria Renata Ramirez A.",
+            "Mirtha Castro C.",
+            "Paula Sola G.",
+            "Philipp Gallardo G.",
+            "Romina Saez G.",
+            "Sandra Lazcano A.",
+            "Simon Segura B.",
+            "Vladimir Cubillos R."});
             this.comboEjecutivo.Location = new System.Drawing.Point(360, 96);
             this.comboEjecutivo.Name = "comboEjecutivo";
             this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
@@ -140,7 +136,7 @@
             // lblObs
             // 
             this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(58, 153);
+            this.lblObs.Location = new System.Drawing.Point(58, 132);
             this.lblObs.Name = "lblObs";
             this.lblObs.Size = new System.Drawing.Size(78, 13);
             this.lblObs.TabIndex = 77;
