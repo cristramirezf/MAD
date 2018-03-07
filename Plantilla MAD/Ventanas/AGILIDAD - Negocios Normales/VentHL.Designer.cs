@@ -65,6 +65,11 @@
             this.tabCEQ = new System.Windows.Forms.TabPage();
             this.btnCopiaCondicionCEQ = new System.Windows.Forms.Button();
             this.dataCEQ = new System.Windows.Forms.DataGridView();
+            this.MovilCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CuentaCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ModeloCEQ = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.ValorCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CondicionCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnCopiaValorCEQ = new System.Windows.Forms.Button();
             this.btnCopiaCuentasCEQ = new System.Windows.Forms.Button();
             this.btnCopiaEquiposCEQ = new System.Windows.Forms.Button();
@@ -87,11 +92,6 @@
             this.Modelo = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.ValorEq = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Condicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MovilCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CuentaCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ModeloCEQ = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.ValorCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CondicionCEQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabHL.SuspendLayout();
@@ -369,7 +369,6 @@
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
-            
             "Mirtha Castro C.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
@@ -498,6 +497,198 @@
             this.dataCEQ.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCEQ_CellClick);
             this.dataCEQ.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCEQ_RowLeave);
             this.dataCEQ.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataCEQ_RowsRemoved);
+            // 
+            // MovilCEQ
+            // 
+            this.MovilCEQ.HeaderText = "Móvil";
+            this.MovilCEQ.Name = "MovilCEQ";
+            this.MovilCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.MovilCEQ.Width = 70;
+            // 
+            // CuentaCEQ
+            // 
+            this.CuentaCEQ.HeaderText = "Cuenta";
+            this.CuentaCEQ.Name = "CuentaCEQ";
+            this.CuentaCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.CuentaCEQ.Width = 126;
+            // 
+            // ModeloCEQ
+            // 
+            this.ModeloCEQ.AutoComplete = false;
+            this.ModeloCEQ.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.ModeloCEQ.HeaderText = "Modelo";
+            this.ModeloCEQ.Items.AddRange(new object[] {
+            "--",
+            "ALC PIXI 3 4,0 BLACK \t126156",
+            "ALC PIXI 4 4,0 BLACK \t126171",
+            "ALC PIXI 4 5,0 4G BLACK \t126177",
+            "ALC U5 BLACK \t126186",
+            "APL IPHONE 6 32GB SPACE GREY \t136205",
+            "APL IPHONE 6S 128GB SPACE GRAY \t136133",
+            "APL IPHONE 6S 16GB GOLD \t136129",
+            "APL IPHONE 6S 16GB SILVER \t136128",
+            "APL IPHONE 6S 16GB SPACE GRAY \t136127",
+            "APL IPHONE 6S 32GB SPACE GREY \t136189",
+            "APL IPHONE 6S 64GB SILVER \t136132",
+            "APL IPHONE 6S PLUS 16GB SPACE GRAY \t136134",
+            "APL IPHONE 6S PLUS 64GB SPACE GRAY \t136138",
+            "APL IPHONE 7 128GB BLACK \t136167",
+            "APL IPHONE 7 128GB JET BLACK \t136164",
+            "APL IPHONE 7 256GB BLACK \t136172",
+            "APL IPHONE 7 256GB JET BLACK \t136169",
+            "APL IPHONE 7 32GB BLACK \t136162",
+            "APL IPHONE 7 32GB ROSE GOLD \t136160",
+            "APL IPHONE 7 PLUS 128GB BLACK \t136182",
+            "APL IPHONE 7 PLUS 128GB JET BLACK \t136179",
+            "APL IPHONE 7 PLUS 32GB BLACK \t136177",
+            "APL IPHONE SE SILVER 16GB \t136145",
+            "APL IPHONE SE SILVER 64GB \t136149",
+            "APL IPHONE SE SPACE GRAY 16GB \t136144",
+            "APL IPHONE SE SPACE GRAY 64GB \t136148",
+            "APPLE IPHONE 5S 16GB SPC GRAY \t136067",
+            "APPLE IPHONE 6 16 GB SPACE GRAY \t136085",
+            "APPLE IPHONE 6 16GB SILVER \t136086",
+            "APPLE IPHONE 6 64 GB SPACE GRAY \t136082",
+            "APPLE IPHONE 6 64GB SILVER \t136083",
+            "APPLE IPHONE 6 PLUS 16GB SPC GRAY \t136092",
+            "APPLE IPHONE 6S 64GB SPACE GRAY \t136131",
+            "APPLE IPHONE 6S PLUS 16GB SILVER \t136135",
+            "APPLE IPHONE 8 256GB SILVER\t136236",
+            "APPLE IPHONE 8 256GB SPACE GRAY\t136235",
+            "APPLE IPHONE 8 64GB SILVER\t136233",
+            "APPLE IPHONE 8 64GB SPACE GRAY\t136232",
+            "APPLE IPHONE 8 PLUS 256GB SPACE GRAY\t136241",
+            "APPLE IPHONE 8 PLUS 64GB SILVER\t136239",
+            "APPLE IPHONE 8 PLUS 64GB SPACE GRAY\t136238",
+            "APPLE IPHONE X 256GB SPACE GRAY\t136246",
+            "APPLE IPHONE X 64GB SILVER\t136245",
+            "APPLE IPHONE X 64GB SPACE GRAY\t136244",
+            "CALAMP LMU 3030 GPS\t165002",
+            "ENFORA MT-Gu GSM2358 \t122009",
+            "HUA P10 BLACK \t133171",
+            "HUA P9 LITE 2017 BLACK \t133173",
+            "HUA VALLEY Y635 BLACK \t133126",
+            "HUAWEI B68L HSPA+ \t133120",
+            "HUAWEI E3131 HSPA+ WHT \t133112",
+            "HUAWEI E3276s BLANCO LTE  \t133098",
+            "HUAWEI E3372 LTE \t133132",
+            "HUAWEI E5573 MIFI \t133133",
+            "HUAWEI E5776s NEGRO LTE    \t133099",
+            "HUAWEI E8231 HSPA+WIFI \t133131",
+            "HUAWEI E8372H LTE \t133167",
+            "HUAWEI F317 FIJO BLANCO \t133123",
+            "HUAWEI GR5 BLACK \t133143",
+            "HUAWEI MATE 9 BLACK \t133165",
+            "HUAWEI P8 LITE (ALICE) BLACK \t133134",
+            "HUAWEI P9 BLACK \t133150",
+            "HUAWEI P9 GOLD \t133151",
+            "HUAWEI P9 LITE BLACK \t133152",
+            "HUAWEI P9 LITE SMART GRAY\t133177",
+            "HUAWEI P9 LITE WHITE \t133153",
+            "HUAWEI ROUTER B310LTE EMPRE WHT \t133161",
+            "HUAWEI ROUTER LTE B310 \t133130",
+            "HUAWEI ROUTER LTE B310 BAFI V2 WHITE \t133168",
+            "HUAWEI Y6 II BLACK \t133163",
+            "HUAWEI Y7 BLACK\t133180",
+            "LG G4 STYLUS BLACK \t124203",
+            "LG G4 STYLUS WHITE \t124204",
+            "LG K10 2017 BLACK\t124233",
+            "LG K10 LTE BLACK \t124205",
+            "LG K4 BROWN \t124229",
+            "LG MAGNA LTE BLACK \t124195",
+            "LG PROMO G5 + BATTERY BLACK \t124213",
+            "LG X CAM BLACK \t124211",
+            "LG X STYLE BLACK \t124225",
+            "MOT MOTO Z PLAY LUNAR GREY \t104137",
+            "MOTOROLA MOTO E4 PLUS GRAY\t104142",
+            "MOTOROLA MOTO G 3RA GEN BLACK \t104123",
+            "MOTOROLA MOTO G 4TA GEN BLACK \t104128",
+            "MOTOROLA MOTO X PLAY BLACK \t104125",
+            "NOKIA 220 BLK \t105337",
+            "NOKIA LUMIA 520 BLK \t105317",
+            "NOKIA LUMIA 520 WHT \t105316",
+            "NOKIA LUMIA 630 WHT \t105343",
+            "NOKIA LUMIA 635 BLK \t105348",
+            "OWN F1035 3G BLACK \t162050",
+            "OWN F1035 3G WHITE \t162051",
+            "OWN FUN BLACK \t162038",
+            "OWN ONE BLACK \t162056",
+            "OWN S4035 4G BLACK \t162048",
+            "QUECLINK GV300 GPS \t166001",
+            "SAM ACE 4 NEO BLACK \t106504",
+            "SAM CORE PRIME (G360G) BLACK \t106495",
+            "SAM GALAXY J1 ACE LTE BLACK \t106538",
+            "SAM GALAXY J1 ACE LTE VE BLACK \t106551",
+            "SAM GALAXY J1 ACE LTE VE WHITE \t106552",
+            "SAM GALAXY J2 BLACK \t106561",
+            "SAM GALAXY J2 PRIME BLACK \t106597",
+            "SAM GALAXY J5 2016 BLACK \t106583",
+            "SAM GALAXY J5 BLACK \t106526",
+            "SAM GALAXY J5 WHITE \t106527",
+            "SAM GALAXY J7 2016 BLACK \t106586",
+            "SAM GALAXY J7 2016 GOLD \t106587",
+            "SAM GALAXY J7 BLACK \t106540",
+            "SAM GALAXY S6 BLACK \t106518",
+            "SAM GALAXY S6 EDGE BLACK \t106520",
+            "SAM GALAXY S6 EDGE GOLD \t106525",
+            "SAM GALAXY S6 EDGE PLUS BLACK \t106543",
+            "SAM GALAXY S6 EDGE PLUS GOLD \t106544",
+            "SAM GALAXY S7 + VR BLACK \t106563",
+            "SAM GALAXY S7 BLACK \t106553",
+            "SAM GALAXY S7 EDGE + VR BLACK \t106566",
+            "SAM GALAXY S7 EDGE + VR SILVER \t106567",
+            "SAM GALAXY S7 EDGE BLACK \t106556",
+            "SAM GALAXY S7 EDGE GOLD \t106558",
+            "SAM GALAXY S7 EDGE SILVER \t106557",
+            "SAM GALAXY S7 SILVER \t106554",
+            "SAM GALAXY S8 BLACK \t106616",
+            "SAM GALAXY S8 GOLD \t106617",
+            "SAM GALAXY S8 ORCHID GREY\t106618",
+            "SAM GALAXY S8 PLUS BLACK \t106620",
+            "SAM GALAXY S8 PLUS GOLD \t106621",
+            "SAM GLXY A5 (A500) BLACK \t106497",
+            "SAM GRAND PRIME LTE (D530)U BLACK \t106522",
+            "SAM SAM GALAXY J7 GOLD \t106541",
+            "SAMSUNG GALAXY J7 NEO BLACK\t106643",
+            "SAMSUNG GALAXY J7 NEO GOLD\t106644",
+            "SAMSUNG GALAXY J7 NEO SILVER\t106645",
+            "SAMSUNG GALAXY J7 PRO BLACK\t106633",
+            "SAMSUNG GALAXY J7 PRO GOLD\t106632",
+            "SAMSUNG GALAXY NOTE 8 + DEX BLACK\t106642",
+            "SAMSUNG GALAXY NOTE 8 BLACK\t106636",
+            "SAMSUNG GALAXY NOTE 8 BLACK\t106636",
+            "SAMSUNG GEAR VR ACC \t106572",
+            "SAMSUNG GLX NT 3 NEO N7505 BLK \t106441",
+            "SAMSUNG J5 BLACK + CARCASA \t106592",
+            "SAMSUNG J5 WHITE + CARCASA \t106593",
+            "SAMSUNG J7 GOLD + CARCASA \t106596",
+            "SONY XPERIA E4G BLCK \t102319",
+            "SONY XPERIA M4 AQUA BLACK \t102317",
+            "SONY XPERIA M4 AQUA WHITE \t102318",
+            "SONY XPERIA M5 BLACK \t102325",
+            "SONY XPERIA X BLACK \t102334",
+            "SONY XPERIA XA ULTRA BLACK \t102336"});
+            this.ModeloCEQ.Name = "ModeloCEQ";
+            this.ModeloCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ModeloCEQ.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.ModeloCEQ.Width = 230;
+            // 
+            // ValorCEQ
+            // 
+            dataGridViewCellStyle1.Format = "C0";
+            dataGridViewCellStyle1.NullValue = null;
+            this.ValorCEQ.DefaultCellStyle = dataGridViewCellStyle1;
+            this.ValorCEQ.HeaderText = "Valor Neto";
+            this.ValorCEQ.Name = "ValorCEQ";
+            this.ValorCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.ValorCEQ.Width = 80;
+            // 
+            // CondicionCEQ
+            // 
+            this.CondicionCEQ.HeaderText = "Condición Comercial";
+            this.CondicionCEQ.Name = "CondicionCEQ";
+            this.CondicionCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.CondicionCEQ.Width = 150;
             // 
             // btnCopiaValorCEQ
             // 
@@ -1048,6 +1239,7 @@
             "2001 AUTOGESTION ULTRA 4GB",
             "2003 AUTOGESTION ULTRA 12GB",
             "2004 AUTOGESTION ULTRA 16GB",
+            "2005 AUTOGESTION ULTRA 30GB",
             "213 BAM CONTROLADO 1,5GB",
             "214 BAM CONTROLADO 3GB",
             "218 BAM MASCONECTADO 1GB",
@@ -1587,198 +1779,6 @@
             this.Condicion.Name = "Condicion";
             this.Condicion.Width = 125;
             // 
-            // MovilCEQ
-            // 
-            this.MovilCEQ.HeaderText = "Móvil";
-            this.MovilCEQ.Name = "MovilCEQ";
-            this.MovilCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.MovilCEQ.Width = 70;
-            // 
-            // CuentaCEQ
-            // 
-            this.CuentaCEQ.HeaderText = "Cuenta";
-            this.CuentaCEQ.Name = "CuentaCEQ";
-            this.CuentaCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.CuentaCEQ.Width = 126;
-            // 
-            // ModeloCEQ
-            // 
-            this.ModeloCEQ.AutoComplete = false;
-            this.ModeloCEQ.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.ModeloCEQ.HeaderText = "Modelo";
-            this.ModeloCEQ.Items.AddRange(new object[] {
-            "--",
-            "ALC PIXI 3 4,0 BLACK \t126156",
-            "ALC PIXI 4 4,0 BLACK \t126171",
-            "ALC PIXI 4 5,0 4G BLACK \t126177",
-            "ALC U5 BLACK \t126186",
-            "APL IPHONE 6 32GB SPACE GREY \t136205",
-            "APL IPHONE 6S 128GB SPACE GRAY \t136133",
-            "APL IPHONE 6S 16GB GOLD \t136129",
-            "APL IPHONE 6S 16GB SILVER \t136128",
-            "APL IPHONE 6S 16GB SPACE GRAY \t136127",
-            "APL IPHONE 6S 32GB SPACE GREY \t136189",
-            "APL IPHONE 6S 64GB SILVER \t136132",
-            "APL IPHONE 6S PLUS 16GB SPACE GRAY \t136134",
-            "APL IPHONE 6S PLUS 64GB SPACE GRAY \t136138",
-            "APL IPHONE 7 128GB BLACK \t136167",
-            "APL IPHONE 7 128GB JET BLACK \t136164",
-            "APL IPHONE 7 256GB BLACK \t136172",
-            "APL IPHONE 7 256GB JET BLACK \t136169",
-            "APL IPHONE 7 32GB BLACK \t136162",
-            "APL IPHONE 7 32GB ROSE GOLD \t136160",
-            "APL IPHONE 7 PLUS 128GB BLACK \t136182",
-            "APL IPHONE 7 PLUS 128GB JET BLACK \t136179",
-            "APL IPHONE 7 PLUS 32GB BLACK \t136177",
-            "APL IPHONE SE SILVER 16GB \t136145",
-            "APL IPHONE SE SILVER 64GB \t136149",
-            "APL IPHONE SE SPACE GRAY 16GB \t136144",
-            "APL IPHONE SE SPACE GRAY 64GB \t136148",
-            "APPLE IPHONE 5S 16GB SPC GRAY \t136067",
-            "APPLE IPHONE 6 16 GB SPACE GRAY \t136085",
-            "APPLE IPHONE 6 16GB SILVER \t136086",
-            "APPLE IPHONE 6 64 GB SPACE GRAY \t136082",
-            "APPLE IPHONE 6 64GB SILVER \t136083",
-            "APPLE IPHONE 6 PLUS 16GB SPC GRAY \t136092",
-            "APPLE IPHONE 6S 64GB SPACE GRAY \t136131",
-            "APPLE IPHONE 6S PLUS 16GB SILVER \t136135",
-            "APPLE IPHONE 8 256GB SILVER\t136236",
-            "APPLE IPHONE 8 256GB SPACE GRAY\t136235",
-            "APPLE IPHONE 8 64GB SILVER\t136233",
-            "APPLE IPHONE 8 64GB SPACE GRAY\t136232",
-            "APPLE IPHONE 8 PLUS 256GB SPACE GRAY\t136241",
-            "APPLE IPHONE 8 PLUS 64GB SILVER\t136239",
-            "APPLE IPHONE 8 PLUS 64GB SPACE GRAY\t136238",
-            "APPLE IPHONE X 256GB SPACE GRAY\t136246",
-            "APPLE IPHONE X 64GB SILVER\t136245",
-            "APPLE IPHONE X 64GB SPACE GRAY\t136244",
-            "CALAMP LMU 3030 GPS\t165002",
-            "ENFORA MT-Gu GSM2358 \t122009",
-            "HUA P10 BLACK \t133171",
-            "HUA P9 LITE 2017 BLACK \t133173",
-            "HUA VALLEY Y635 BLACK \t133126",
-            "HUAWEI B68L HSPA+ \t133120",
-            "HUAWEI E3131 HSPA+ WHT \t133112",
-            "HUAWEI E3276s BLANCO LTE  \t133098",
-            "HUAWEI E3372 LTE \t133132",
-            "HUAWEI E5573 MIFI \t133133",
-            "HUAWEI E5776s NEGRO LTE    \t133099",
-            "HUAWEI E8231 HSPA+WIFI \t133131",
-            "HUAWEI E8372H LTE \t133167",
-            "HUAWEI F317 FIJO BLANCO \t133123",
-            "HUAWEI GR5 BLACK \t133143",
-            "HUAWEI MATE 9 BLACK \t133165",
-            "HUAWEI P8 LITE (ALICE) BLACK \t133134",
-            "HUAWEI P9 BLACK \t133150",
-            "HUAWEI P9 GOLD \t133151",
-            "HUAWEI P9 LITE BLACK \t133152",
-            "HUAWEI P9 LITE SMART GRAY\t133177",
-            "HUAWEI P9 LITE WHITE \t133153",
-            "HUAWEI ROUTER B310LTE EMPRE WHT \t133161",
-            "HUAWEI ROUTER LTE B310 \t133130",
-            "HUAWEI ROUTER LTE B310 BAFI V2 WHITE \t133168",
-            "HUAWEI Y6 II BLACK \t133163",
-            "HUAWEI Y7 BLACK\t133180",
-            "LG G4 STYLUS BLACK \t124203",
-            "LG G4 STYLUS WHITE \t124204",
-            "LG K10 2017 BLACK\t124233",
-            "LG K10 LTE BLACK \t124205",
-            "LG K4 BROWN \t124229",
-            "LG MAGNA LTE BLACK \t124195",
-            "LG PROMO G5 + BATTERY BLACK \t124213",
-            "LG X CAM BLACK \t124211",
-            "LG X STYLE BLACK \t124225",
-            "MOT MOTO Z PLAY LUNAR GREY \t104137",
-            "MOTOROLA MOTO E4 PLUS GRAY\t104142",
-            "MOTOROLA MOTO G 3RA GEN BLACK \t104123",
-            "MOTOROLA MOTO G 4TA GEN BLACK \t104128",
-            "MOTOROLA MOTO X PLAY BLACK \t104125",
-            "NOKIA 220 BLK \t105337",
-            "NOKIA LUMIA 520 BLK \t105317",
-            "NOKIA LUMIA 520 WHT \t105316",
-            "NOKIA LUMIA 630 WHT \t105343",
-            "NOKIA LUMIA 635 BLK \t105348",
-            "OWN F1035 3G BLACK \t162050",
-            "OWN F1035 3G WHITE \t162051",
-            "OWN FUN BLACK \t162038",
-            "OWN ONE BLACK \t162056",
-            "OWN S4035 4G BLACK \t162048",
-            "QUECLINK GV300 GPS \t166001",
-            "SAM ACE 4 NEO BLACK \t106504",
-            "SAM CORE PRIME (G360G) BLACK \t106495",
-            "SAM GALAXY J1 ACE LTE BLACK \t106538",
-            "SAM GALAXY J1 ACE LTE VE BLACK \t106551",
-            "SAM GALAXY J1 ACE LTE VE WHITE \t106552",
-            "SAM GALAXY J2 BLACK \t106561",
-            "SAM GALAXY J2 PRIME BLACK \t106597",
-            "SAM GALAXY J5 2016 BLACK \t106583",
-            "SAM GALAXY J5 BLACK \t106526",
-            "SAM GALAXY J5 WHITE \t106527",
-            "SAM GALAXY J7 2016 BLACK \t106586",
-            "SAM GALAXY J7 2016 GOLD \t106587",
-            "SAM GALAXY J7 BLACK \t106540",
-            "SAM GALAXY S6 BLACK \t106518",
-            "SAM GALAXY S6 EDGE BLACK \t106520",
-            "SAM GALAXY S6 EDGE GOLD \t106525",
-            "SAM GALAXY S6 EDGE PLUS BLACK \t106543",
-            "SAM GALAXY S6 EDGE PLUS GOLD \t106544",
-            "SAM GALAXY S7 + VR BLACK \t106563",
-            "SAM GALAXY S7 BLACK \t106553",
-            "SAM GALAXY S7 EDGE + VR BLACK \t106566",
-            "SAM GALAXY S7 EDGE + VR SILVER \t106567",
-            "SAM GALAXY S7 EDGE BLACK \t106556",
-            "SAM GALAXY S7 EDGE GOLD \t106558",
-            "SAM GALAXY S7 EDGE SILVER \t106557",
-            "SAM GALAXY S7 SILVER \t106554",
-            "SAM GALAXY S8 BLACK \t106616",
-            "SAM GALAXY S8 GOLD \t106617",
-            "SAM GALAXY S8 ORCHID GREY\t106618",
-            "SAM GALAXY S8 PLUS BLACK \t106620",
-            "SAM GALAXY S8 PLUS GOLD \t106621",
-            "SAM GLXY A5 (A500) BLACK \t106497",
-            "SAM GRAND PRIME LTE (D530)U BLACK \t106522",
-            "SAM SAM GALAXY J7 GOLD \t106541",
-            "SAMSUNG GALAXY J7 NEO BLACK\t106643",
-            "SAMSUNG GALAXY J7 NEO GOLD\t106644",
-            "SAMSUNG GALAXY J7 NEO SILVER\t106645",
-            "SAMSUNG GALAXY J7 PRO BLACK\t106633",
-            "SAMSUNG GALAXY J7 PRO GOLD\t106632",
-            "SAMSUNG GALAXY NOTE 8 + DEX BLACK\t106642",
-            "SAMSUNG GALAXY NOTE 8 BLACK\t106636",
-            "SAMSUNG GALAXY NOTE 8 BLACK\t106636",
-            "SAMSUNG GEAR VR ACC \t106572",
-            "SAMSUNG GLX NT 3 NEO N7505 BLK \t106441",
-            "SAMSUNG J5 BLACK + CARCASA \t106592",
-            "SAMSUNG J5 WHITE + CARCASA \t106593",
-            "SAMSUNG J7 GOLD + CARCASA \t106596",
-            "SONY XPERIA E4G BLCK \t102319",
-            "SONY XPERIA M4 AQUA BLACK \t102317",
-            "SONY XPERIA M4 AQUA WHITE \t102318",
-            "SONY XPERIA M5 BLACK \t102325",
-            "SONY XPERIA X BLACK \t102334",
-            "SONY XPERIA XA ULTRA BLACK \t102336"});
-            this.ModeloCEQ.Name = "ModeloCEQ";
-            this.ModeloCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ModeloCEQ.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ModeloCEQ.Width = 230;
-            // 
-            // ValorCEQ
-            // 
-            dataGridViewCellStyle1.Format = "C0";
-            dataGridViewCellStyle1.NullValue = null;
-            this.ValorCEQ.DefaultCellStyle = dataGridViewCellStyle1;
-            this.ValorCEQ.HeaderText = "Valor Neto";
-            this.ValorCEQ.Name = "ValorCEQ";
-            this.ValorCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.ValorCEQ.Width = 80;
-            // 
-            // CondicionCEQ
-            // 
-            this.CondicionCEQ.HeaderText = "Condición Comercial";
-            this.CondicionCEQ.Name = "CondicionCEQ";
-            this.CondicionCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.CondicionCEQ.Width = 150;
-            // 
             // VentHL
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1874,6 +1874,11 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn ValorCS;
         private System.Windows.Forms.TextBox campoNano;
         private System.Windows.Forms.CheckBox checkNano;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MovilCEQ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CuentaCEQ;
+        private System.Windows.Forms.DataGridViewComboBoxColumn ModeloCEQ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ValorCEQ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CondicionCEQ;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cantidad;
         private System.Windows.Forms.DataGridViewTextBoxColumn Cuenta;
         private System.Windows.Forms.DataGridViewComboBoxColumn SIM;
@@ -1882,10 +1887,5 @@
         private System.Windows.Forms.DataGridViewComboBoxColumn Modelo;
         private System.Windows.Forms.DataGridViewTextBoxColumn ValorEq;
         private System.Windows.Forms.DataGridViewTextBoxColumn Condicion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MovilCEQ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CuentaCEQ;
-        private System.Windows.Forms.DataGridViewComboBoxColumn ModeloCEQ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ValorCEQ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CondicionCEQ;
     }
 }

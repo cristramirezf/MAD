@@ -395,7 +395,7 @@ namespace Plantilla_MAD.Ventanas
                         VentMRENUNCIA MRENUNCIA = new VentMRENUNCIA();
                         MRENUNCIA.Show();
                         break;
-                    case "Cesión de líneas o equipos":
+                    case "Cesión de líneas y/o equipos":
                         VentMCESION MCESION = new VentMCESION();
                         MCESION.Show();
                         break;

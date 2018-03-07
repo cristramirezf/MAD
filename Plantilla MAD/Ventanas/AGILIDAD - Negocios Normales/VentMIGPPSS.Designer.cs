@@ -133,7 +133,6 @@
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
-            
             "Mirtha Castro C.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
@@ -653,6 +652,7 @@
             "2001 AUTOGESTION ULTRA 4GB",
             "2003 AUTOGESTION ULTRA 12GB",
             "2004 AUTOGESTION ULTRA 16GB",
+            "2005 AUTOGESTION ULTRA 30GB",
             "213 BAM CONTROLADO 1,5GB",
             "214 BAM CONTROLADO 3GB",
             "218 BAM MASCONECTADO 1GB",
