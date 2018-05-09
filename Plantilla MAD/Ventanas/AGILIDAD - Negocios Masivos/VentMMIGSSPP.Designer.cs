@@ -176,7 +176,7 @@
             this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
-            "ndres Arias O.",
+            "Andres Arias O.",
             "Andrea Hinojosa G.",
             "Angelica Silva S.",
             "Carol Rios G.",
@@ -197,8 +197,8 @@
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
-            
             "Mirtha Castro C.",
+            "Oscar Illanes R.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
             "Romina Saez G.",

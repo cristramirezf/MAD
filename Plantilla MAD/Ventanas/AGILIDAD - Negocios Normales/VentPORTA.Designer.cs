@@ -427,6 +427,7 @@
             "1574 AUTOGESTION PLUS 600MB 34",
             "1575 AUTOGESTION PLUS 600MB 32",
             "1576 AUTOGESTION PLUS 600MB 30",
+            "1576 AUTOGESTION PLUS 600MB 30?",
             "1577 AUTOGESTION PLUS 600MB 28",
             "1578 AUTOGESTION PLUS 600MB 26",
             "1579 AUTOGESTION PLUS 600MB 24",
@@ -604,6 +605,19 @@
             "2003 AUTOGESTION ULTRA 12GB",
             "2004 AUTOGESTION ULTRA 16GB",
             "2005 AUTOGESTION ULTRA 30GB",
+            "2058 AUTOGESTIÓN ULTRA 10GB",
+            "2059 AUTOGESTIÓN ULTRA SE MMF 1GB",
+            "2060 AUTOGESTIÓN ULTRA SE 1GB",
+            "2061 AUTOGESTIÓN ULTRA SE MMF 2GB",
+            "2062 AUTOGESTIÓN ULTRA SE 2GB",
+            "2063 AUTOGESTIÓN ULTRA SE 3GB",
+            "2064 AUTOGESTIÓN ULTRA SE 4GB",
+            "2065 AUTOGESTIÓN ULTRA SE 6GB",
+            "2066 AUTOGESTIÓN ULTRA SE 8GB",
+            "2067 AUTOGESTIÓN ULTRA SE 10GB",
+            "2068 AUTOGESTIÓN ULTRA SE 12GB",
+            "2069 AUTOGESTIÓN ULTRA SE 16GB",
+            "2070 AUTOGESTIÓN ULTRA SE 30GB",
             "213 BAM CONTROLADO 1,5GB",
             "214 BAM CONTROLADO 3GB",
             "218 BAM MASCONECTADO 1GB",
@@ -964,7 +978,7 @@
             "PLAN REPETIDOR",
             "PLAN VIAJERO CC",
             "Z_NOUSO_1460 M2M CORP SENS",
-            "Z_NOUSO_PORT_EMP GES DAT 4GB +"});
+            "Z_NOUSO_PORT_EMP GES DAT 4GB +A"});
             this.comboPlan.Location = new System.Drawing.Point(46, 320);
             this.comboPlan.Name = "comboPlan";
             this.comboPlan.Size = new System.Drawing.Size(245, 21);
@@ -1138,6 +1152,7 @@
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
             "Mirtha Castro C.",
+            "Oscar Illanes R.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
             "Romina Saez G.",

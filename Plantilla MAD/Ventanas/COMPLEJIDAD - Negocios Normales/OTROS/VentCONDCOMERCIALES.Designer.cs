@@ -78,6 +78,7 @@
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
             "Mirtha Castro C.",
+            "Oscar Illanes R.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
             "Romina Saez G.",

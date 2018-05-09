@@ -20,12 +20,12 @@ namespace Plantilla_MAD.Ventanas
                 comboProyecto.Items.Clear();
                 comboProyecto.Items.Add("-- CAMBIO DE EQUIPO --");
                 comboProyecto.Items.Add("Cambio de equipo");
-                comboProyecto.Items.Add("Cambio de equipo Plan Autogestión");
-                comboProyecto.Items.Add("Cambio de equipo Plan Multimedia");
+                comboProyecto.Items.Add("Cambio de equipo plan Autogestión");
+                comboProyecto.Items.Add("Cambio de equipo plan Multimedia");
                 comboProyecto.Items.Add("-- HABILITACIÓN DE LÍNEA --");
                 comboProyecto.Items.Add("Habilitación de línea nueva");
-                comboProyecto.Items.Add("Habilitación de línea Plan Autogestión");
-                comboProyecto.Items.Add("Habilitación de línea Plan Multimedia");
+                comboProyecto.Items.Add("Habilitación de línea plan Autogestión");
+                comboProyecto.Items.Add("Habilitación de línea plan Multimedia");
                 comboProyecto.Items.Add("Habilitación línea suc. S106");
                 comboProyecto.Items.Add("-- CAMBIO DE SIMCARD --");
                 comboProyecto.Items.Add("Cambio de simcard");
@@ -44,8 +44,6 @@ namespace Plantilla_MAD.Ventanas
                 comboProyecto.Items.Add("Activación/desactivación de bolsas o servicios");
                 comboProyecto.Items.Add("Activación/desactivación de correo");
                 comboProyecto.Items.Add("Cambio de plan");
-                comboProyecto.Items.Add("Cambio de datos cliente");
-                comboProyecto.Items.Add("Cambio de razón social");
                 comboProyecto.Items.Add("Cambio de condiciones comerciales");
                 comboProyecto.Items.Add("Cambio a SIM nueva (contingencia)");
                 comboProyecto.Items.Add("Renuncia de líneas");
@@ -56,6 +54,8 @@ namespace Plantilla_MAD.Ventanas
                 comboProyecto.Items.Add("-- ADMINISTRATIVAS --");
                 comboProyecto.Items.Add("Creación de giro");
                 comboProyecto.Items.Add("Detalle de tráfico");
+                comboProyecto.Items.Add("Cambio de datos cliente");
+                comboProyecto.Items.Add("Cambio de razón social");
                 comboProyecto.Items.Add("Información del cliente");
                 comboProyecto.Items.Add("Enrolamiento CAT Corp");
                 comboProyecto.Items.Add("Envio/creación clave portal Administrador");
@@ -155,19 +155,19 @@ namespace Plantilla_MAD.Ventanas
                         VentCSS106 CSS106 = new VentCSS106();
                         CSS106.Show();
                         break;
-                    case "Habilitación de línea Plan Autogestión":
+                    case "Habilitación de línea plan Autogestión":
                         VentHMMPA HMMPA = new VentHMMPA();
                         HMMPA.Show();
                         break;
-                    case "Habilitación de línea Plan Multimedia":
+                    case "Habilitación de línea plan Multimedia":
                         VentHMM HMM = new VentHMM();
                         HMM.Show();
                         break;
-                    case "Cambio de equipo Plan Autogestión":
+                    case "Cambio de equipo plan Autogestión":
                         VentCEQMMPA CEQMMPA = new VentCEQMMPA();
                         CEQMMPA.Show();
                         break;
-                    case "Cambio de equipo Plan Multimedia":
+                    case "Cambio de equipo plan Multimedia":
                         VentCEQMM CEQMM = new VentCEQMM();
                         CEQMM.Show();
                         break;
@@ -346,19 +346,19 @@ namespace Plantilla_MAD.Ventanas
                         VentMCSS106 MCSS106 = new VentMCSS106();
                         MCSS106.Show();
                         break;
-                    case "Habilitación de línea Plan Autogestión":
+                    case "Habilitación de línea plan Autogestión":
                         VentMHMMPA MHMMPA = new VentMHMMPA();
                         MHMMPA.Show();
                         break;
-                    case "Habilitación de línea Plan Multimedia":
+                    case "Habilitación de línea plan Multimedia":
                         VentMHMM MHMM = new VentMHMM();
                         MHMM.Show();
                         break;
-                    case "Cambio de equipo Plan Autogestión":
+                    case "Cambio de equipo plan Autogestión":
                         VentMCEQMMPA MCEQMMPA = new VentMCEQMMPA();
                         MCEQMMPA.Show();
                         break;
-                    case "Cambio de equipo Plan Multimedia":
+                    case "Cambio de equipo plan Multimedia":
                         VentMCEQMM MCEQMM = new VentMCEQMM();
                         MCEQMM.Show();
                         break;
@@ -399,7 +399,7 @@ namespace Plantilla_MAD.Ventanas
                         VentMCESION MCESION = new VentMCESION();
                         MCESION.Show();
                         break;
-                    case "Traspaso de líneas o equipos":
+                    case "Traspaso de líneas y/o equipos":
                         VentMTRASPASO MTRASPASO = new VentMTRASPASO();
                         MTRASPASO.Show();
                         break;
