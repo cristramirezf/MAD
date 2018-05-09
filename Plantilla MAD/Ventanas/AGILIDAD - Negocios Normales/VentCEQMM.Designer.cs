@@ -405,166 +405,326 @@
             this.Modelo.HeaderText = "Modelo";
             this.Modelo.Items.AddRange(new object[] {
             "--",
-            "ALC PIXI 3 4,0 BLACK                    126156",
-            "ALC PIXI 4 4,0 BLACK                    126171",
-            "ALC PIXI 4 5,0 4G BLACK                    126177",
-            "ALC U5 BLACK                    126186",
-            "APL IPHONE 6 32GB SPACE GREY                    136205",
-            "APL IPHONE 6S 128GB SPACE GRAY                    136133",
-            "APL IPHONE 6S 16GB GOLD                    136129",
-            "APL IPHONE 6S 16GB SILVER                    136128",
-            "APL IPHONE 6S 16GB SPACE GRAY                    136127",
-            "APL IPHONE 6S 32GB SPACE GREY                    136189",
-            "APL IPHONE 6S 64GB SILVER                    136132",
-            "APL IPHONE 6S PLUS 16GB SPACE GRAY                    136134",
-            "APL IPHONE 6S PLUS 64GB SPACE GRAY                    136138",
-            "APL IPHONE 7 128GB BLACK                    136167",
-            "APL IPHONE 7 128GB JET BLACK                    136164",
-            "APL IPHONE 7 256GB BLACK                    136172",
-            "APL IPHONE 7 256GB JET BLACK                    136169",
-            "APL IPHONE 7 32GB BLACK                    136162",
-            "APL IPHONE 7 32GB ROSE GOLD                    136160",
-            "APL IPHONE 7 PLUS 128GB BLACK                    136182",
-            "APL IPHONE 7 PLUS 128GB JET BLACK                    136179",
-            "APL IPHONE 7 PLUS 32GB BLACK                    136177",
-            "APL IPHONE SE SILVER 16GB                    136145",
-            "APL IPHONE SE SILVER 64GB                    136149",
-            "APL IPHONE SE SPACE GRAY 16GB                    136144",
-            "APL IPHONE SE SPACE GRAY 64GB                    136148",
-            "APPLE IPHONE 5S 16GB SPC GRAY                    136067",
-            "APPLE IPHONE 6 16 GB SPACE GRAY                    136085",
-            "APPLE IPHONE 6 16GB SILVER                    136086",
-            "APPLE IPHONE 6 64 GB SPACE GRAY                    136082",
-            "APPLE IPHONE 6 64GB SILVER                    136083",
-            "APPLE IPHONE 6 PLUS 16GB SPC GRAY                    136092",
-            "APPLE IPHONE 6S 64GB SPACE GRAY                    136131",
-            "APPLE IPHONE 6S PLUS 16GB SILVER                    136135",
-            "APPLE IPHONE 8 256GB SILVER                    136236",
-            "APPLE IPHONE 8 256GB SPACE GRAY                    136235",
-            "APPLE IPHONE 8 64GB SILVER                    136233",
-            "APPLE IPHONE 8 64GB SPACE GRAY                    136232",
-            "APPLE IPHONE 8 PLUS 256GB SPACE GRAY                    136241",
-            "APPLE IPHONE 8 PLUS 64GB SILVER                    136239",
-            "APPLE IPHONE 8 PLUS 64GB SPACE GRAY                    136238",
-            "APPLE IPHONE X 256GB SPACE GRAY                    136246",
-            "APPLE IPHONE X 64GB SILVER                    136245",
-            "APPLE IPHONE X 64GB SPACE GRAY                    136244",
-            "CALAMP LMU 3030 GPS                    165002",
-            "ENFORA MT-Gu GSM2358                    122009",
-            "HUA P10 BLACK                    133171",
-            "HUA P9 LITE 2017 BLACK                    133173",
-            "HUA VALLEY Y635 BLACK                    133126",
-            "HUAWEI B68L HSPA+                    133120",
-            "HUAWEI E3131 HSPA+ WHT                    133112",
-            "HUAWEI E3276s BLANCO LTE                    133098",
-            "HUAWEI E3372 LTE                    133132",
-            "HUAWEI E5573 MIFI                    133133",
-            "HUAWEI E5776s NEGRO LTE                    133099",
-            "HUAWEI E8231 HSPA+WIFI                    133131",
-            "HUAWEI E8372H LTE                    133167",
-            "HUAWEI F317 FIJO BLANCO                    133123",
-            "HUAWEI GR5 BLACK                    133143",
-            "HUAWEI MATE 10 LITE BLACK                    133185",
-            "HUAWEI MATE 10 PRO GREY                    133188",
-            "HUAWEI MATE 9 BLACK                    133165",
-            "HUAWEI P SMART                    133197",
-            "HUAWEI P20                    133201",
-            "HUAWEI P8 LITE (ALICE) BLACK                    133134",
-            "HUAWEI P9 BLACK                    133150",
-            "HUAWEI P9 GOLD                    133151",
-            "HUAWEI P9 LITE BLACK                    133152",
-            "HUAWEI P9 LITE SMART GRAY                    133177",
-            "HUAWEI P9 LITE WHITE                    133153",
-            "HUAWEI ROUTER B310LTE EMPRE WHT                    133161",
-            "HUAWEI ROUTER B612 BAFI BLANCO                    133176",
-            "HUAWEI ROUTER LTE B310                    133130",
-            "HUAWEI ROUTER LTE B310 BAFI V2 WHITE                    133168",
-            "HUAWEI Y6 II BLACK                    133163",
-            "HUAWEI Y7 BLACK                    133180",
-            "LG G4 STYLUS BLACK                    124203",
-            "LG G4 STYLUS WHITE                    124204",
-            "LG K10 2017 BLACK                    124233",
-            "LG K10 LTE BLACK                    124205",
-            "LG K4 BROWN                    124229",
-            "LG MAGNA LTE BLACK                    124195",
-            "LG PROMO G5 + BATTERY BLACK                    124213",
-            "LG X CAM BLACK                    124211",
-            "LG X STYLE BLACK                    124225",
-            "MOT MOTO Z PLAY LUNAR GREY                    104137",
-            "MOTOROLA MOTO E4 PLUS GRAY                    104142",
-            "MOTOROLA MOTO E4 PLUS GRAY                    104142",
-            "MOTOROLA MOTO G 3RA GEN BLACK                    104123",
-            "MOTOROLA MOTO G 4TA GEN BLACK                    104128",
-            "MOTOROLA MOTO G 5S LUNAR GRAY                    104145",
-            "MOTOROLA MOTO X PLAY BLACK                    104125",
-            "NOKIA 220 BLK                    105337",
-            "NOKIA LUMIA 520 BLK                    105317",
-            "NOKIA LUMIA 520 WHT                    105316",
-            "NOKIA LUMIA 630 WHT                    105343",
-            "NOKIA LUMIA 635 BLK                    105348",
-            "OWN F1035 3G BLACK                    162050",
-            "OWN F1035 3G WHITE                    162051",
-            "OWN FUN BLACK                    162038",
-            "OWN ONE BLACK                    162056",
-            "OWN S4035 4G BLACK                    162048",
-            "QUECLINK GV300 GPS                    166001",
-            "SAM ACE 4 NEO BLACK                    106504",
-            "SAM CORE PRIME (G360G) BLACK                    106495",
-            "SAM GALAXY J1 ACE LTE BLACK                    106538",
-            "SAM GALAXY J1 ACE LTE VE BLACK                    106551",
-            "SAM GALAXY J1 ACE LTE VE WHITE                    106552",
-            "SAM GALAXY J2 BLACK                    106561",
-            "SAM GALAXY J2 PRIME BLACK                    106597",
-            "SAM GALAXY J5 2016 BLACK                    106583",
-            "SAM GALAXY J5 BLACK                    106526",
-            "SAM GALAXY J5 WHITE                    106527",
-            "SAM GALAXY J7 2016 BLACK                    106586",
-            "SAM GALAXY J7 2016 GOLD                    106587",
-            "SAM GALAXY J7 BLACK                    106540",
-            "SAM GALAXY S6 BLACK                    106518",
-            "SAM GALAXY S6 EDGE BLACK                    106520",
-            "SAM GALAXY S6 EDGE GOLD                    106525",
-            "SAM GALAXY S6 EDGE PLUS BLACK                    106543",
-            "SAM GALAXY S6 EDGE PLUS GOLD                    106544",
-            "SAM GALAXY S7 + VR BLACK                    106563",
-            "SAM GALAXY S7 BLACK                    106553",
-            "SAM GALAXY S7 EDGE + VR BLACK                    106566",
-            "SAM GALAXY S7 EDGE + VR SILVER                    106567",
-            "SAM GALAXY S7 EDGE BLACK                    106556",
-            "SAM GALAXY S7 EDGE GOLD                    106558",
-            "SAM GALAXY S7 EDGE SILVER                    106557",
-            "SAM GALAXY S7 SILVER                    106554",
-            "SAM GALAXY S8 BLACK                    106616",
-            "SAM GALAXY S8 GOLD                    106617",
-            "SAM GALAXY S8 ORCHID GREY                    106618",
-            "SAM GALAXY S8 PLUS BLACK                    106620",
-            "SAM GALAXY S8 PLUS GOLD                    106621",
-            "SAM GLXY A5 (A500) BLACK                    106497",
-            "SAM GRAND PRIME LTE (D530)U BLACK                    106522",
-            "SAM SAM GALAXY J7 GOLD                    106541",
-            "SAMSUNG GALAXY J7 NEO BLACK                    106643",
-            "SAMSUNG GALAXY J7 NEO GOLD                    106644",
-            "SAMSUNG GALAXY J7 NEO SILVER                    106645",
-            "SAMSUNG GALAXY J7 PRO BLACK                    106633",
-            "SAMSUNG GALAXY J7 PRO GOLD                    106632",
-            "SAMSUNG GALAXY NOTE 8 + DEX BLACK                    106642",
-            "SAMSUNG GALAXY NOTE 8 BLACK                    106636",
-            "SAMSUNG GALAXY NOTE 8 BLACK                    106636",
-            "SAMSUNG GALAXY S9 BLACK                    106646",
-            "SAMSUNG GALAXY S9 LILA PURPLE                    106648",
-            "SAMSUNG GALAXY S9+ BLACK                    106649",
-            "SAMSUNG GALAXY S9+ LILA PURPLE                    106651",
-            "SAMSUNG GEAR VR ACC                    106572",
-            "SAMSUNG GLX NT 3 NEO N7505 BLK                    106441",
-            "SAMSUNG J5 BLACK + CARCASA                    106592",
-            "SAMSUNG J5 WHITE + CARCASA                    106593",
-            "SAMSUNG J7 GOLD + CARCASA                    106596",
-            "SONY XPERIA E4G BLCK                    102319",
-            "SONY XPERIA M4 AQUA BLACK                    102317",
-            "SONY XPERIA M4 AQUA WHITE                    102318",
-            "SONY XPERIA M5 BLACK                    102325",
-            "SONY XPERIA X BLACK                    102334",
-            "SONY XPERIA XA ULTRA BLACK                    102336"});
+            "ALC PIXI 3 4,0 BLACK                                                             " +
+                "                                       126156",
+            "ALC PIXI 4 4,0 BLACK                                                             " +
+                "                                       126171",
+            "ALC PIXI 4 5,0 4G BLACK                                                          " +
+                "                                          126177",
+            "ALC U5 BLACK                                                                     " +
+                "                               126186",
+            "APL IPHONE 6 32GB SPACE GREY                                                     " +
+                "                                               136205",
+            "APL IPHONE 6S 128GB SPACE GRAY                                                   " +
+                "                                                 136133",
+            "APL IPHONE 6S 16GB GOLD                                                          " +
+                "                                          136129",
+            "APL IPHONE 6S 16GB SILVER                                                        " +
+                "                                            136128",
+            "APL IPHONE 6S 16GB SPACE GRAY                                                    " +
+                "                                                136127",
+            "APL IPHONE 6S 32GB SPACE GREY                                                    " +
+                "                                                136189",
+            "APL IPHONE 6S 64GB SILVER                                                        " +
+                "                                            136132",
+            "APL IPHONE 6S PLUS 16GB SPACE GRAY                                               " +
+                "                                                     136134",
+            "APL IPHONE 6S PLUS 64GB SPACE GRAY                                               " +
+                "                                                     136138",
+            "APL IPHONE 7 128GB BLACK                                                         " +
+                "                                           136167",
+            "APL IPHONE 7 128GB JET BLACK                                                     " +
+                "                                               136164",
+            "APL IPHONE 7 256GB BLACK                                                         " +
+                "                                           136172",
+            "APL IPHONE 7 256GB JET BLACK                                                     " +
+                "                                               136169",
+            "APL IPHONE 7 32GB BLACK                                                          " +
+                "                                          136162",
+            "APL IPHONE 7 32GB ROSE GOLD                                                      " +
+                "                                              136160",
+            "APL IPHONE 7 PLUS 128GB BLACK                                                    " +
+                "                                                136182",
+            "APL IPHONE 7 PLUS 128GB JET BLACK                                                " +
+                "                                                    136179",
+            "APL IPHONE 7 PLUS 32GB BLACK                                                     " +
+                "                                               136177",
+            "APL IPHONE SE SILVER 16GB                                                        " +
+                "                                            136145",
+            "APL IPHONE SE SILVER 64GB                                                        " +
+                "                                            136149",
+            "APL IPHONE SE SPACE GRAY 16GB                                                    " +
+                "                                                136144",
+            "APL IPHONE SE SPACE GRAY 64GB                                                    " +
+                "                                                136148",
+            "APPLE IPHONE 5S 16GB SPC GRAY                                                    " +
+                "                                                136067",
+            "APPLE IPHONE 6 16 GB SPACE GRAY                                                  " +
+                "                                                  136085",
+            "APPLE IPHONE 6 16GB SILVER                                                       " +
+                "                                             136086",
+            "APPLE IPHONE 6 64 GB SPACE GRAY                                                  " +
+                "                                                  136082",
+            "APPLE IPHONE 6 64GB SILVER                                                       " +
+                "                                             136083",
+            "APPLE IPHONE 6 PLUS 16GB SPC GRAY                                                " +
+                "                                                    136092",
+            "APPLE IPHONE 6S 64GB SPACE GRAY                                                  " +
+                "                                                  136131",
+            "APPLE IPHONE 6S PLUS 16GB SILVER                                                 " +
+                "                                                   136135",
+            "APPLE IPHONE 8 256GB SILVER                                                      " +
+                "                                              136236",
+            "APPLE IPHONE 8 256GB SPACE GRAY                                                  " +
+                "                                                  136235",
+            "APPLE IPHONE 8 64GB SILVER                                                       " +
+                "                                             136233",
+            "APPLE IPHONE 8 64GB SPACE GRAY                                                   " +
+                "                                                 136232",
+            "APPLE IPHONE 8 PLUS 256GB SPACE GRAY                                             " +
+                "                                                       136241",
+            "APPLE IPHONE 8 PLUS 64GB SILVER                                                  " +
+                "                                                  136239",
+            "APPLE IPHONE 8 PLUS 64GB SPACE GRAY                                              " +
+                "                                                      136238",
+            "APPLE IPHONE X 256GB SPACE GRAY                                                  " +
+                "                                                  136246",
+            "APPLE IPHONE X 64GB SILVER                                                       " +
+                "                                             136245",
+            "APPLE IPHONE X 64GB SPACE GRAY                                                   " +
+                "                                                 136244",
+            "CALAMP LMU 3030 GPS                                                              " +
+                "                                      165002",
+            "ENFORA MT-Gu GSM2358                                                             " +
+                "                                       122009",
+            "HUA P10 BLACK                                                                    " +
+                "                                133171",
+            "HUA P9 LITE 2017 BLACK                                                           " +
+                "                                         133173",
+            "HUA VALLEY Y635 BLACK                                                            " +
+                "                                        133126",
+            "HUAWEI B68L HSPA+                                                                " +
+                "                                    133120",
+            "HUAWEI E3131 HSPA+ WHT                                                           " +
+                "                                         133112",
+            "HUAWEI E3276s BLANCO LTE                                                         " +
+                "                                           133098",
+            "HUAWEI E3372 LTE                                                                 " +
+                "                                   133132",
+            "HUAWEI E5573 MIFI                                                                " +
+                "                                    133133",
+            "HUAWEI E5776s NEGRO LTE                                                          " +
+                "                                          133099",
+            "HUAWEI E8231 HSPA+WIFI                                                           " +
+                "                                         133131",
+            "HUAWEI E8372H LTE                                                                " +
+                "                                    133167",
+            "HUAWEI F317 FIJO BLANCO                                                          " +
+                "                                          133123",
+            "HUAWEI GR5 BLACK                                                                 " +
+                "                                   133143",
+            "HUAWEI MATE 10 LITE BLACK                                                        " +
+                "                                            133185",
+            "HUAWEI MATE 10 PRO GREY                                                          " +
+                "                                          133188",
+            "HUAWEI MATE 9 BLACK                                                              " +
+                "                                      133165",
+            "HUAWEI P SMART                                                                   " +
+                "                                 133197",
+            "HUAWEI P20                                                                       " +
+                "                             133201",
+            "HUAWEI P8 LITE (ALICE) BLACK                                                     " +
+                "                                               133134",
+            "HUAWEI P9 BLACK                                                                  " +
+                "                                  133150",
+            "HUAWEI P9 GOLD                                                                   " +
+                "                                 133151",
+            "HUAWEI P9 LITE BLACK                                                             " +
+                "                                       133152",
+            "HUAWEI P9 LITE SMART GRAY                                                        " +
+                "                                            133177",
+            "HUAWEI P9 LITE WHITE                                                             " +
+                "                                       133153",
+            "HUAWEI ROUTER B310LTE EMPRE WHT                                                  " +
+                "                                                  133161",
+            "HUAWEI ROUTER B612 BAFI BLANCO                                                   " +
+                "                                                 133176",
+            "HUAWEI ROUTER LTE B310                                                           " +
+                "                                         133130",
+            "HUAWEI ROUTER LTE B310 BAFI V2 WHITE                                             " +
+                "                                                       133168",
+            "HUAWEI Y6 II BLACK                                                               " +
+                "                                     133163",
+            "HUAWEI Y7 BLACK                                                                  " +
+                "                                  133180",
+            "LG G4 STYLUS BLACK                                                               " +
+                "                                     124203",
+            "LG G4 STYLUS WHITE                                                               " +
+                "                                     124204",
+            "LG K10 2017 BLACK                                                                " +
+                "                                    124233",
+            "LG K10 LTE BLACK                                                                 " +
+                "                                   124205",
+            "LG K4 BROWN                                                                      " +
+                "                              124229",
+            "LG MAGNA LTE BLACK                                                               " +
+                "                                     124195",
+            "LG PROMO G5 + BATTERY BLACK                                                      " +
+                "                                              124213",
+            "LG X CAM BLACK                                                                   " +
+                "                                 124211",
+            "LG X STYLE BLACK                                                                 " +
+                "                                   124225",
+            "MOT MOTO Z PLAY LUNAR GREY                                                       " +
+                "                                             104137",
+            "MOTOROLA MOTO E4 PLUS GRAY                                                       " +
+                "                                             104142",
+            "MOTOROLA MOTO E4 PLUS GRAY                                                       " +
+                "                                             104142",
+            "MOTOROLA MOTO G 3RA GEN BLACK                                                    " +
+                "                                                104123",
+            "MOTOROLA MOTO G 4TA GEN BLACK                                                    " +
+                "                                                104128",
+            "MOTOROLA MOTO G 5S LUNAR GRAY                                                    " +
+                "                                                104145",
+            "MOTOROLA MOTO X PLAY BLACK                                                       " +
+                "                                             104125",
+            "NOKIA 220 BLK                                                                    " +
+                "                                105337",
+            "NOKIA LUMIA 520 BLK                                                              " +
+                "                                      105317",
+            "NOKIA LUMIA 520 WHT                                                              " +
+                "                                      105316",
+            "NOKIA LUMIA 630 WHT                                                              " +
+                "                                      105343",
+            "NOKIA LUMIA 635 BLK                                                              " +
+                "                                      105348",
+            "OWN F1035 3G BLACK                                                               " +
+                "                                     162050",
+            "OWN F1035 3G WHITE                                                               " +
+                "                                     162051",
+            "OWN FUN BLACK                                                                    " +
+                "                                162038",
+            "OWN ONE BLACK                                                                    " +
+                "                                162056",
+            "OWN S4035 4G BLACK                                                               " +
+                "                                     162048",
+            "QUECLINK GV300 GPS                                                               " +
+                "                                     166001",
+            "SAM ACE 4 NEO BLACK                                                              " +
+                "                                      106504",
+            "SAM CORE PRIME (G360G) BLACK                                                     " +
+                "                                               106495",
+            "SAM GALAXY J1 ACE LTE BLACK                                                      " +
+                "                                              106538",
+            "SAM GALAXY J1 ACE LTE VE BLACK                                                   " +
+                "                                                 106551",
+            "SAM GALAXY J1 ACE LTE VE WHITE                                                   " +
+                "                                                 106552",
+            "SAM GALAXY J2 BLACK                                                              " +
+                "                                      106561",
+            "SAM GALAXY J2 PRIME BLACK                                                        " +
+                "                                            106597",
+            "SAM GALAXY J5 2016 BLACK                                                         " +
+                "                                           106583",
+            "SAM GALAXY J5 BLACK                                                              " +
+                "                                      106526",
+            "SAM GALAXY J5 WHITE                                                              " +
+                "                                      106527",
+            "SAM GALAXY J7 2016 BLACK                                                         " +
+                "                                           106586",
+            "SAM GALAXY J7 2016 GOLD                                                          " +
+                "                                          106587",
+            "SAM GALAXY J7 BLACK                                                              " +
+                "                                      106540",
+            "SAM GALAXY S6 BLACK                                                              " +
+                "                                      106518",
+            "SAM GALAXY S6 EDGE BLACK                                                         " +
+                "                                           106520",
+            "SAM GALAXY S6 EDGE GOLD                                                          " +
+                "                                          106525",
+            "SAM GALAXY S6 EDGE PLUS BLACK                                                    " +
+                "                                                106543",
+            "SAM GALAXY S6 EDGE PLUS GOLD                                                     " +
+                "                                               106544",
+            "SAM GALAXY S7 + VR BLACK                                                         " +
+                "                                           106563",
+            "SAM GALAXY S7 BLACK                                                              " +
+                "                                      106553",
+            "SAM GALAXY S7 EDGE + VR BLACK                                                    " +
+                "                                                106566",
+            "SAM GALAXY S7 EDGE + VR SILVER                                                   " +
+                "                                                 106567",
+            "SAM GALAXY S7 EDGE BLACK                                                         " +
+                "                                           106556",
+            "SAM GALAXY S7 EDGE GOLD                                                          " +
+                "                                          106558",
+            "SAM GALAXY S7 EDGE SILVER                                                        " +
+                "                                            106557",
+            "SAM GALAXY S7 SILVER                                                             " +
+                "                                       106554",
+            "SAM GALAXY S8 BLACK                                                              " +
+                "                                      106616",
+            "SAM GALAXY S8 GOLD                                                               " +
+                "                                     106617",
+            "SAM GALAXY S8 ORCHID GREY                                                        " +
+                "                                            106618",
+            "SAM GALAXY S8 PLUS BLACK                                                         " +
+                "                                           106620",
+            "SAM GALAXY S8 PLUS GOLD                                                          " +
+                "                                          106621",
+            "SAM GLXY A5 (A500) BLACK                                                         " +
+                "                                           106497",
+            "SAM GRAND PRIME LTE (D530)U BLACK                                                " +
+                "                                                    106522",
+            "SAM SAM GALAXY J7 GOLD                                                           " +
+                "                                         106541",
+            "SAMSUNG GALAXY J7 NEO BLACK                                                      " +
+                "                                              106643",
+            "SAMSUNG GALAXY J7 NEO GOLD                                                       " +
+                "                                             106644",
+            "SAMSUNG GALAXY J7 NEO SILVER                                                     " +
+                "                                               106645",
+            "SAMSUNG GALAXY J7 PRO BLACK                                                      " +
+                "                                              106633",
+            "SAMSUNG GALAXY J7 PRO GOLD                                                       " +
+                "                                             106632",
+            "SAMSUNG GALAXY NOTE 8 + DEX BLACK                                                " +
+                "                                                    106642",
+            "SAMSUNG GALAXY NOTE 8 BLACK                                                      " +
+                "                                              106636",
+            "SAMSUNG GALAXY NOTE 8 BLACK                                                      " +
+                "                                              106636",
+            "SAMSUNG GALAXY S9 BLACK                                                          " +
+                "                                          106646",
+            "SAMSUNG GALAXY S9 LILA PURPLE                                                    " +
+                "                                                106648",
+            "SAMSUNG GALAXY S9+ BLACK                                                         " +
+                "                                           106649",
+            "SAMSUNG GALAXY S9+ LILA PURPLE                                                   " +
+                "                                                 106651",
+            "SAMSUNG GEAR VR ACC                                                              " +
+                "                                      106572",
+            "SAMSUNG GLX NT 3 NEO N7505 BLK                                                   " +
+                "                                                 106441",
+            "SAMSUNG J5 BLACK + CARCASA                                                       " +
+                "                                             106592",
+            "SAMSUNG J5 WHITE + CARCASA                                                       " +
+                "                                             106593",
+            "SAMSUNG J7 GOLD + CARCASA                                                        " +
+                "                                            106596",
+            "SONY XPERIA E4G BLCK                                                             " +
+                "                                       102319",
+            "SONY XPERIA M4 AQUA BLACK                                                        " +
+                "                                            102317",
+            "SONY XPERIA M4 AQUA WHITE                                                        " +
+                "                                            102318",
+            "SONY XPERIA M5 BLACK                                                             " +
+                "                                       102325",
+            "SONY XPERIA X BLACK                                                              " +
+                "                                      102334",
+            "SONY XPERIA XA ULTRA BLACK                                                       " +
+                "                                             102336"});
             this.Modelo.Name = "Modelo";
             this.Modelo.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Modelo.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
