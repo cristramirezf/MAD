@@ -703,6 +703,8 @@
                 "                                     133163",
             "HUAWEI Y7 BLACK                                                                  " +
                 "                                  133180",
+            "HUAWEI Y7 2018 BLACK                                                             " +
+                "                                       133194",
             "LG G4 STYLUS BLACK                                                               " +
                 "                                     124203",
             "LG G4 STYLUS WHITE                                                               " +
@@ -735,6 +737,10 @@
                 "                                                104145",
             "MOTOROLA MOTO X PLAY BLACK                                                       " +
                 "                                             104125",
+            "NOKIA 6 BLACK                                                                    " +
+                "                                105353",
+            "NOKIA 6 BLUE                                                                     " +
+                "                               105355",
             "NOKIA 220 BLK                                                                    " +
                 "                                105337",
             "NOKIA LUMIA 520 BLK                                                              " +
