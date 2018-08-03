@@ -59,11 +59,36 @@ namespace Plantilla_MAD.Ventanas
             }
             for (int i = 1; i <= dataDatos.RowCount - 1; i++)
             {
-                if (dataDatos["Movil", i].Value != null)
+                if (dataDatos["IMEI", i].Value != null)
                 {
                     if (dataDatos["Negocio", i].Value == null)
                     {
                         dataDatos["Negocio", i].Value = ult;
+                    }
+                }
+            }
+        }//fin copia valores
+
+        //evento boton copia motivos
+        private void btnCopiaMotivo_Click(object sender, EventArgs e)
+        {
+            String ult = "";
+            int totalfilas = dataDatos.Rows.Count;
+            for (int i = totalfilas - 1; i >= 0; i--)
+            {
+                if (dataDatos["Motivo", i].Value != null)
+                {
+                    ult = dataDatos["Motivo", i].Value.ToString();
+                    break;
+                }
+            }
+            for (int i = 1; i <= dataDatos.RowCount - 1; i++)
+            {
+                if (dataDatos["IMEI", i].Value != null)
+                {
+                    if (dataDatos["Motivo", i].Value == null)
+                    {
+                        dataDatos["Motivo", i].Value = ult;
                     }
                 }
             }
@@ -121,34 +146,36 @@ namespace Plantilla_MAD.Ventanas
                 //obtiene los valores del datagridview
                 String datos = "";
                 String[,] mat = new String[dataDatos.RowCount, 2];
-                List<String> negocio = new List<string>();
+                List<String> facturas = new List<string>();
 
 
                 for (int i = 0; i <= dataDatos.RowCount - 1; i++)
                 {
-                    if (dataDatos["IMEIA", i].Value != null)
+                    if (dataDatos["IMEI", i].Value != null)
                     {
-                        negocio.Add(dataDatos["Negocio", i].Value.ToString());
-                    }
-                }
-
-                IEnumerable<String> distinctnegocio = negocio.AsQueryable().Distinct();
-                foreach (String elemento in distinctnegocio)
-                {
-                    String acum = "";
-                    for (int i = 0; i <= dataDatos.RowCount - 1; i++)
-                    {
-                        if ((dataDatos["IMEIA", i].Value != null) && (dataDatos["IMEIN", i].Value != null) &&
-                            (dataDatos["Movil", i].Value != null) && (dataDatos["Negocio", i].Value.ToString().Equals(elemento)))
+                        if (dataDatos["MovilA", i].Value != null)
                         {
-                            acum = acum + "IMEI Antiguo: " + dataDatos["IMEIA", i].Value.ToString() + "\n" +
-                                          "Móvil: " + dataDatos["Movil", i].Value.ToString() + "\n" +
-                                          "IMEI Nuevo: " + dataDatos["IMEIN", i].Value.ToString() + "\n\n"; ;
-                        }
-                    }
-                    datos = datos + "Negocio: " + elemento + "\n" + acum;
-                }
+                            if (dataDatos["MovilN", i].Value != null)
+                            {
+                                if (dataDatos["Negocio", i].Value != null)
+                                {
+                                    if (dataDatos["Motivo", i].Value != null)
+                                    {
+                                        datos = datos +
+                                        "IMEI: " + dataDatos["IMEI", i].Value.ToString() +
+                                        "\nMóvil amarre actual: " + dataDatos["MovilA", i].Value.ToString() +
+                                        "\nMóvil amarre nuevo: " + dataDatos["MovilN", i].Value.ToString() +
+                                        "\nNegocio: " + dataDatos["Negocio", i].Value.ToString() +
+                                        "\nMotivo: " + dataDatos["Motivo", i].Value.ToString() + "\n\n";
+                                    }
+                                }
 
+                            }
+
+                        }
+
+                    }
+                }
                 //fin obtiene valores dgv
 
                 //a continuación declaro los datos de los ejecutivos

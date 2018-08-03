@@ -57,49 +57,55 @@
             // 
             // campoNano
             // 
-            this.campoNano.Location = new System.Drawing.Point(133, 180);
+            this.campoNano.Location = new System.Drawing.Point(177, 222);
+            this.campoNano.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoNano.Name = "campoNano";
-            this.campoNano.Size = new System.Drawing.Size(35, 20);
+            this.campoNano.Size = new System.Drawing.Size(45, 22);
             this.campoNano.TabIndex = 86;
             this.campoNano.Visible = false;
             // 
             // checkNano
             // 
             this.checkNano.AutoSize = true;
-            this.checkNano.Location = new System.Drawing.Point(30, 181);
+            this.checkNano.Location = new System.Drawing.Point(40, 223);
+            this.checkNano.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkNano.Name = "checkNano";
-            this.checkNano.Size = new System.Drawing.Size(101, 17);
+            this.checkNano.Size = new System.Drawing.Size(135, 21);
             this.checkNano.TabIndex = 85;
-            this.checkNano.Text = "SIM en blanco?";
+            this.checkNano.Text = "¿SIM en blanco?";
             this.checkNano.UseVisualStyleBackColor = true;
             this.checkNano.CheckedChanged += new System.EventHandler(this.checkNano_CheckedChanged);
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(514, 296);
+            this.btnGrabar.Location = new System.Drawing.Point(681, 339);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
+            this.btnGrabar.Size = new System.Drawing.Size(133, 28);
             this.btnGrabar.TabIndex = 84;
-            this.btnGrabar.Text = "Copiar MAD";
+            this.btnGrabar.Text = "Copiar AC";
             this.btnGrabar.UseVisualStyleBackColor = true;
             this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnCopiaProy
             // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(493, 237);
+            this.btnCopiaProy.Location = new System.Drawing.Point(657, 292);
+            this.btnCopiaProy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
+            this.btnCopiaProy.Size = new System.Drawing.Size(183, 28);
             this.btnCopiaProy.TabIndex = 83;
             this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
             this.btnCopiaProy.UseVisualStyleBackColor = true;
+            this.btnCopiaProy.Visible = false;
             this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(293, 223);
+            this.label7.Location = new System.Drawing.Point(391, 322);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.Size = new System.Drawing.Size(96, 17);
             this.label7.TabIndex = 82;
             this.label7.Text = "Ejecutivo SAC";
             // 
@@ -110,7 +116,7 @@
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
             "Andres Arias O.",
-            "Andrea Hinojosa G.",
+
             "Angelica Silva S.",
             "Carol Rios G.",
             "Carolina Arellano D.",
@@ -130,7 +136,7 @@
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
-            "Mirtha Castro C.",
+
             "Oscar Illanes R.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
@@ -138,48 +144,53 @@
             "Sandra Lazcano A.",
             "Simon Segura B.",
             "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(296, 239);
+            this.comboEjecutivo.Location = new System.Drawing.Point(395, 342);
+            this.comboEjecutivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
+            this.comboEjecutivo.Size = new System.Drawing.Size(193, 24);
             this.comboEjecutivo.TabIndex = 81;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(26, 223);
+            this.label5.Location = new System.Drawing.Point(35, 274);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 13);
+            this.label5.Size = new System.Drawing.Size(123, 17);
             this.label5.TabIndex = 80;
             this.label5.Text = "Datos de contacto";
             // 
             // campoDatos
             // 
-            this.campoDatos.Location = new System.Drawing.Point(29, 239);
+            this.campoDatos.Location = new System.Drawing.Point(39, 294);
+            this.campoDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoDatos.Name = "campoDatos";
-            this.campoDatos.Size = new System.Drawing.Size(222, 96);
+            this.campoDatos.Size = new System.Drawing.Size(295, 117);
             this.campoDatos.TabIndex = 79;
             this.campoDatos.Text = "";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(27, 110);
+            this.label6.Location = new System.Drawing.Point(36, 135);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 13);
+            this.label6.Size = new System.Drawing.Size(84, 17);
             this.label6.TabIndex = 78;
             this.label6.Text = "RUT Cliente";
             // 
             // campoRUT
             // 
-            this.campoRUT.Location = new System.Drawing.Point(98, 107);
+            this.campoRUT.Location = new System.Drawing.Point(131, 132);
+            this.campoRUT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoRUT.Name = "campoRUT";
-            this.campoRUT.Size = new System.Drawing.Size(100, 20);
+            this.campoRUT.Size = new System.Drawing.Size(132, 22);
             this.campoRUT.TabIndex = 77;
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
@@ -189,80 +200,91 @@
             this.acercaDeToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
-            this.menúToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.menúToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.menúToolStripMenuItem.Text = "Ayuda";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // campoOCO
             // 
-            this.campoOCO.Location = new System.Drawing.Point(123, 143);
+            this.campoOCO.Location = new System.Drawing.Point(190, 176);
+            this.campoOCO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoOCO.Name = "campoOCO";
-            this.campoOCO.Size = new System.Drawing.Size(100, 20);
+            this.campoOCO.Size = new System.Drawing.Size(132, 22);
             this.campoOCO.TabIndex = 76;
             this.campoOCO.Visible = false;
             // 
             // checkOCO
             // 
             this.checkOCO.AutoSize = true;
-            this.checkOCO.Location = new System.Drawing.Point(30, 145);
+            this.checkOCO.Location = new System.Drawing.Point(40, 178);
+            this.checkOCO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkOCO.Name = "checkOCO";
-            this.checkOCO.Size = new System.Drawing.Size(92, 17);
+            this.checkOCO.Size = new System.Drawing.Size(148, 21);
             this.checkOCO.TabIndex = 75;
-            this.checkOCO.Text = "Necesita OC?";
+            this.checkOCO.Text = "¿Necesita OC/NP?";
             this.checkOCO.UseVisualStyleBackColor = true;
             this.checkOCO.CheckedChanged += new System.EventHandler(this.checkOCO_CheckedChanged);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(473, 27);
+            this.label4.Location = new System.Drawing.Point(631, 33);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 13);
+            this.label4.Size = new System.Drawing.Size(223, 17);
             this.label4.TabIndex = 73;
             this.label4.Text = "Y el nombre de proyecto debe ser";
+            this.label4.Visible = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(192, 40);
+            this.label3.Location = new System.Drawing.Point(256, 49);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 13);
+            this.label3.Size = new System.Drawing.Size(311, 17);
             this.label3.TabIndex = 72;
             this.label3.Text = "Venta/Post-Venta Servicios Móviles - PCE";
+            this.label3.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(192, 27);
+            this.label2.Location = new System.Drawing.Point(256, 33);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 13);
+            this.label2.Size = new System.Drawing.Size(297, 17);
             this.label2.TabIndex = 71;
             this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
+            this.label2.Visible = false;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(23, 27);
+            this.label1.Location = new System.Drawing.Point(31, 33);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(150, 38);
+            this.label1.Size = new System.Drawing.Size(200, 47);
             this.label1.TabIndex = 70;
             this.label1.Text = "CAMBIO DE EQUIPO MM (MASIVO)";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menúToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(658, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(877, 28);
             this.menuStrip1.TabIndex = 87;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -270,17 +292,20 @@
             // 
             this.lblNomProy.AutoSize = true;
             this.lblNomProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomProy.Location = new System.Drawing.Point(473, 40);
+            this.lblNomProy.Location = new System.Drawing.Point(631, 49);
+            this.lblNomProy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNomProy.Name = "lblNomProy";
-            this.lblNomProy.Size = new System.Drawing.Size(119, 13);
+            this.lblNomProy.Size = new System.Drawing.Size(147, 17);
             this.lblNomProy.TabIndex = 74;
             this.lblNomProy.Text = "CEQMMPA MASIVO";
+            this.lblNomProy.Visible = false;
             // 
             // btnPlanilla
             // 
-            this.btnPlanilla.Location = new System.Drawing.Point(376, 116);
+            this.btnPlanilla.Location = new System.Drawing.Point(518, 143);
+            this.btnPlanilla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnPlanilla.Name = "btnPlanilla";
-            this.btnPlanilla.Size = new System.Drawing.Size(179, 72);
+            this.btnPlanilla.Size = new System.Drawing.Size(239, 89);
             this.btnPlanilla.TabIndex = 69;
             this.btnPlanilla.Text = "CREAR PLANILLA";
             this.btnPlanilla.UseVisualStyleBackColor = true;
@@ -291,18 +316,19 @@
             this.lblFraude.AutoSize = true;
             this.lblFraude.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFraude.ForeColor = System.Drawing.Color.Red;
-            this.lblFraude.Location = new System.Drawing.Point(23, 68);
+            this.lblFraude.Location = new System.Drawing.Point(31, 84);
+            this.lblFraude.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFraude.Name = "lblFraude";
-            this.lblFraude.Size = new System.Drawing.Size(416, 13);
+            this.lblFraude.Size = new System.Drawing.Size(530, 17);
             this.lblFraude.TabIndex = 168;
             this.lblFraude.Text = "Recordar: equipos MM salen a valor PCE, de acuerdo a plan contratado";
             // 
             // VentMCEQMM
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(658, 357);
+            this.ClientSize = new System.Drawing.Size(877, 439);
             this.Controls.Add(this.lblFraude);
             this.Controls.Add(this.campoNano);
             this.Controls.Add(this.checkNano);
@@ -324,6 +350,7 @@
             this.Controls.Add(this.lblNomProy);
             this.Controls.Add(this.btnPlanilla);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "VentMCEQMM";
             this.Text = "CAMBIO DE EQUIPO MM MASIVO";

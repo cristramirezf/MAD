@@ -31,6 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VentCESIONES));
             this.btnCopiaPlan = new System.Windows.Forms.Button();
             this.dataDatos = new System.Windows.Forms.DataGridView();
+            this.Movil = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.Serie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label11 = new System.Windows.Forms.Label();
             this.campoRUTcede = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -54,19 +58,16 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.limpiarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCopiaCuenta = new System.Windows.Forms.Button();
-            this.Movil = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Plan = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.Serie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataDatos)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCopiaPlan
             // 
-            this.btnCopiaPlan.Location = new System.Drawing.Point(548, 102);
+            this.btnCopiaPlan.Location = new System.Drawing.Point(731, 126);
+            this.btnCopiaPlan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCopiaPlan.Name = "btnCopiaPlan";
-            this.btnCopiaPlan.Size = new System.Drawing.Size(71, 23);
+            this.btnCopiaPlan.Size = new System.Drawing.Size(95, 28);
             this.btnCopiaPlan.TabIndex = 233;
             this.btnCopiaPlan.Text = "Copia Plan";
             this.btnCopiaPlan.UseVisualStyleBackColor = true;
@@ -82,248 +83,16 @@
             this.Cuenta,
             this.Plan,
             this.Serie});
-            this.dataDatos.Location = new System.Drawing.Point(217, 130);
+            this.dataDatos.Location = new System.Drawing.Point(289, 160);
+            this.dataDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataDatos.Name = "dataDatos";
             this.dataDatos.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataDatos.Size = new System.Drawing.Size(572, 243);
+            this.dataDatos.Size = new System.Drawing.Size(763, 299);
             this.dataDatos.TabIndex = 232;
             this.dataDatos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDatos_CellClick);
             this.dataDatos.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDatos_CellClick);
             this.dataDatos.RowLeave += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataDatos_RowLeave);
             this.dataDatos.RowsRemoved += new System.Windows.Forms.DataGridViewRowsRemovedEventHandler(this.dataDatos_RowsRemoved);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(29, 75);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(154, 13);
-            this.label11.TabIndex = 231;
-            this.label11.Text = "RUT Cedente (cede las líneas)";
-            // 
-            // campoRUTcede
-            // 
-            this.campoRUTcede.Location = new System.Drawing.Point(32, 91);
-            this.campoRUTcede.Name = "campoRUTcede";
-            this.campoRUTcede.Size = new System.Drawing.Size(113, 20);
-            this.campoRUTcede.TabIndex = 230;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(29, 160);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(31, 13);
-            this.label8.TabIndex = 229;
-            this.label8.Text = "MMF";
-            // 
-            // campoMMF
-            // 
-            this.campoMMF.Location = new System.Drawing.Point(32, 176);
-            this.campoMMF.MaxLength = 2147483647;
-            this.campoMMF.Name = "campoMMF";
-            this.campoMMF.Size = new System.Drawing.Size(83, 20);
-            this.campoMMF.TabIndex = 228;
-            // 
-            // campoObs
-            // 
-            this.campoObs.Location = new System.Drawing.Point(32, 220);
-            this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(143, 153);
-            this.campoObs.TabIndex = 226;
-            this.campoObs.Text = "";
-            // 
-            // lblObs
-            // 
-            this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(29, 205);
-            this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(78, 13);
-            this.lblObs.TabIndex = 227;
-            this.lblObs.Text = "Observaciones";
-            // 
-            // btnGrabar
-            // 
-            this.btnGrabar.Location = new System.Drawing.Point(866, 323);
-            this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
-            this.btnGrabar.TabIndex = 220;
-            this.btnGrabar.Text = "Copiar MAD";
-            this.btnGrabar.UseVisualStyleBackColor = true;
-            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
-            // 
-            // btnCopiaProy
-            // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(846, 277);
-            this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
-            this.btnCopiaProy.TabIndex = 219;
-            this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
-            this.btnCopiaProy.UseVisualStyleBackColor = true;
-            this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(836, 149);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
-            this.label7.TabIndex = 218;
-            this.label7.Text = "Ejecutivo SAC";
-            // 
-            // comboEjecutivo
-            // 
-            this.comboEjecutivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboEjecutivo.FormattingEnabled = true;
-            this.comboEjecutivo.Items.AddRange(new object[] {
-            "Andres Arias O.",
-            "Andrea Hinojosa G.",
-            "Angelica Silva S.",
-            "Carol Rios G.",
-            "Carolina Arellano D.",
-            "Claudia Sola G.",
-            "Danitza Leyton M.",
-            "Danitza Rendich O.",
-            "Elizabeth Pavez S.",
-            "Felipe Figueroa L.",
-            "Gabriela Guzman C.",
-            "Julia Dominguez L.",
-            "Karin Sothers B.",
-            "Kimberly Moraga G.",
-            "Lorena Garcia N.",
-            "Lorena Jimenez M.",
-            "Loreto Barriga R.",
-            "Luz Gaete Ch.",
-            "Maria Jose Marchant V.",
-            "Maria Loreto Caceres A.",
-            "Maria Renata Ramirez A.",
-            "Mirtha Castro C.",
-            "Oscar Illanes R.",
-            "Paula Sola G.",
-            "Philipp Gallardo G.",
-            "Romina Saez G.",
-            "Sandra Lazcano A.",
-            "Simon Segura B.",
-            "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(839, 165);
-            this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
-            this.comboEjecutivo.TabIndex = 217;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(29, 117);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(168, 13);
-            this.label6.TabIndex = 223;
-            this.label6.Text = "RUT Cesionario (recibe las líneas)";
-            // 
-            // lblProy
-            // 
-            this.lblProy.AutoSize = true;
-            this.lblProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProy.Location = new System.Drawing.Point(818, 41);
-            this.lblProy.Name = "lblProy";
-            this.lblProy.Size = new System.Drawing.Size(53, 13);
-            this.lblProy.TabIndex = 216;
-            this.lblProy.Text = "CESION";
-            // 
-            // campoRUTcesi
-            // 
-            this.campoRUTcesi.Location = new System.Drawing.Point(32, 133);
-            this.campoRUTcesi.Name = "campoRUTcesi";
-            this.campoRUTcesi.Size = new System.Drawing.Size(113, 20);
-            this.campoRUTcesi.TabIndex = 222;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(818, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 13);
-            this.label4.TabIndex = 215;
-            this.label4.Text = "Y el nombre de proyecto debe ser";
-            // 
-            // label3
-            // 
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(279, 41);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(348, 30);
-            this.label3.TabIndex = 214;
-            this.label3.Text = "Solicitudes Servicios Móviles - Traspaso de Linea/cuenta";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(279, 28);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 13);
-            this.label2.TabIndex = 213;
-            this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 13);
-            this.label1.TabIndex = 212;
-            this.label1.Text = "CESION";
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.limpiarDatosToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1018, 24);
-            this.menuStrip2.TabIndex = 234;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // toolStripMenuItem1
-            // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
-            this.toolStripMenuItem1.Text = "Ayuda";
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(126, 22);
-            this.toolStripMenuItem2.Text = "Acerca de";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
-            // 
-            // toolStripMenuItem3
-            // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(126, 22);
-            this.toolStripMenuItem3.Text = "Salir";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // limpiarDatosToolStripMenuItem
-            // 
-            this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
-            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
-            this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
-            this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
-            // 
-            // btnCopiaCuenta
-            // 
-            this.btnCopiaCuenta.Location = new System.Drawing.Point(364, 102);
-            this.btnCopiaCuenta.Name = "btnCopiaCuenta";
-            this.btnCopiaCuenta.Size = new System.Drawing.Size(80, 23);
-            this.btnCopiaCuenta.TabIndex = 235;
-            this.btnCopiaCuenta.Text = "Copia Cuenta";
-            this.btnCopiaCuenta.UseVisualStyleBackColor = true;
-            this.btnCopiaCuenta.Click += new System.EventHandler(this.btnCopiaCuenta_Click);
             // 
             // Movil
             // 
@@ -1077,12 +846,270 @@
             this.Serie.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.Serie.Width = 110;
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(39, 92);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(202, 17);
+            this.label11.TabIndex = 231;
+            this.label11.Text = "RUT Cedente (cede las líneas)";
+            // 
+            // campoRUTcede
+            // 
+            this.campoRUTcede.Location = new System.Drawing.Point(43, 112);
+            this.campoRUTcede.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.campoRUTcede.Name = "campoRUTcede";
+            this.campoRUTcede.Size = new System.Drawing.Size(149, 22);
+            this.campoRUTcede.TabIndex = 230;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(39, 197);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(38, 17);
+            this.label8.TabIndex = 229;
+            this.label8.Text = "MMF";
+            // 
+            // campoMMF
+            // 
+            this.campoMMF.Location = new System.Drawing.Point(43, 217);
+            this.campoMMF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.campoMMF.MaxLength = 2147483647;
+            this.campoMMF.Name = "campoMMF";
+            this.campoMMF.Size = new System.Drawing.Size(109, 22);
+            this.campoMMF.TabIndex = 228;
+            // 
+            // campoObs
+            // 
+            this.campoObs.Location = new System.Drawing.Point(43, 271);
+            this.campoObs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.campoObs.Name = "campoObs";
+            this.campoObs.Size = new System.Drawing.Size(189, 187);
+            this.campoObs.TabIndex = 226;
+            this.campoObs.Text = "";
+            // 
+            // lblObs
+            // 
+            this.lblObs.AutoSize = true;
+            this.lblObs.Location = new System.Drawing.Point(39, 252);
+            this.lblObs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblObs.Name = "lblObs";
+            this.lblObs.Size = new System.Drawing.Size(103, 17);
+            this.lblObs.TabIndex = 227;
+            this.lblObs.Text = "Observaciones";
+            // 
+            // btnGrabar
+            // 
+            this.btnGrabar.Location = new System.Drawing.Point(1155, 376);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGrabar.Name = "btnGrabar";
+            this.btnGrabar.Size = new System.Drawing.Size(133, 28);
+            this.btnGrabar.TabIndex = 220;
+            this.btnGrabar.Text = "Copiar AC";
+            this.btnGrabar.UseVisualStyleBackColor = true;
+            this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
+            // 
+            // btnCopiaProy
+            // 
+            this.btnCopiaProy.Location = new System.Drawing.Point(1128, 341);
+            this.btnCopiaProy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCopiaProy.Name = "btnCopiaProy";
+            this.btnCopiaProy.Size = new System.Drawing.Size(183, 28);
+            this.btnCopiaProy.TabIndex = 219;
+            this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
+            this.btnCopiaProy.UseVisualStyleBackColor = true;
+            this.btnCopiaProy.Visible = false;
+            this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(1115, 183);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 17);
+            this.label7.TabIndex = 218;
+            this.label7.Text = "Ejecutivo SAC";
+            // 
+            // comboEjecutivo
+            // 
+            this.comboEjecutivo.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboEjecutivo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboEjecutivo.FormattingEnabled = true;
+            this.comboEjecutivo.Items.AddRange(new object[] {
+            "Andres Arias O.",
+
+            "Angelica Silva S.",
+            "Carol Rios G.",
+            "Carolina Arellano D.",
+            "Claudia Sola G.",
+            "Danitza Leyton M.",
+            "Danitza Rendich O.",
+            "Elizabeth Pavez S.",
+            "Felipe Figueroa L.",
+            "Gabriela Guzman C.",
+            "Julia Dominguez L.",
+            "Karin Sothers B.",
+            "Kimberly Moraga G.",
+            "Lorena Garcia N.",
+            "Lorena Jimenez M.",
+            "Loreto Barriga R.",
+            "Luz Gaete Ch.",
+            "Maria Jose Marchant V.",
+            "Maria Loreto Caceres A.",
+            "Maria Renata Ramirez A.",
+
+            "Oscar Illanes R.",
+            "Paula Sola G.",
+            "Philipp Gallardo G.",
+            "Romina Saez G.",
+            "Sandra Lazcano A.",
+            "Simon Segura B.",
+            "Vladimir Cubillos R."});
+            this.comboEjecutivo.Location = new System.Drawing.Point(1119, 203);
+            this.comboEjecutivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboEjecutivo.Name = "comboEjecutivo";
+            this.comboEjecutivo.Size = new System.Drawing.Size(193, 24);
+            this.comboEjecutivo.TabIndex = 217;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(39, 144);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(224, 17);
+            this.label6.TabIndex = 223;
+            this.label6.Text = "RUT Cesionario (recibe las líneas)";
+            // 
+            // lblProy
+            // 
+            this.lblProy.AutoSize = true;
+            this.lblProy.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProy.Location = new System.Drawing.Point(1091, 50);
+            this.lblProy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblProy.Name = "lblProy";
+            this.lblProy.Size = new System.Drawing.Size(65, 17);
+            this.lblProy.TabIndex = 216;
+            this.lblProy.Text = "CESION";
+            this.lblProy.Visible = false;
+            // 
+            // campoRUTcesi
+            // 
+            this.campoRUTcesi.Location = new System.Drawing.Point(43, 164);
+            this.campoRUTcesi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.campoRUTcesi.Name = "campoRUTcesi";
+            this.campoRUTcesi.Size = new System.Drawing.Size(149, 22);
+            this.campoRUTcesi.TabIndex = 222;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1091, 34);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(223, 17);
+            this.label4.TabIndex = 215;
+            this.label4.Text = "Y el nombre de proyecto debe ser";
+            this.label4.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(372, 50);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(464, 37);
+            this.label3.TabIndex = 214;
+            this.label3.Text = "Solicitudes Servicios Móviles - Traspaso de Linea/cuenta";
+            this.label3.Visible = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(372, 34);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(297, 17);
+            this.label2.TabIndex = 213;
+            this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
+            this.label2.Visible = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(35, 36);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 17);
+            this.label1.TabIndex = 212;
+            this.label1.Text = "CESION";
+            // 
+            // menuStrip2
+            // 
+            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1,
+            this.limpiarDatosToolStripMenuItem});
+            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip2.Name = "menuStrip2";
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip2.Size = new System.Drawing.Size(1357, 28);
+            this.menuStrip2.TabIndex = 234;
+            this.menuStrip2.Text = "menuStrip2";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.toolStripMenuItem3});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(63, 24);
+            this.toolStripMenuItem1.Text = "Ayuda";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(150, 26);
+            this.toolStripMenuItem2.Text = "Acerca de";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(150, 26);
+            this.toolStripMenuItem3.Text = "Salir";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // limpiarDatosToolStripMenuItem
+            // 
+            this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
+            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
+            this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
+            this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
+            // 
+            // btnCopiaCuenta
+            // 
+            this.btnCopiaCuenta.Location = new System.Drawing.Point(485, 126);
+            this.btnCopiaCuenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCopiaCuenta.Name = "btnCopiaCuenta";
+            this.btnCopiaCuenta.Size = new System.Drawing.Size(107, 28);
+            this.btnCopiaCuenta.TabIndex = 235;
+            this.btnCopiaCuenta.Text = "Copia Cuenta";
+            this.btnCopiaCuenta.UseVisualStyleBackColor = true;
+            this.btnCopiaCuenta.Click += new System.EventHandler(this.btnCopiaCuenta_Click);
+            // 
             // VentCESIONES
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1018, 413);
+            this.ClientSize = new System.Drawing.Size(1357, 508);
             this.Controls.Add(this.btnCopiaCuenta);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.btnCopiaPlan);
@@ -1105,6 +1132,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataDatos);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "VentCESIONES";
             this.Text = "CESION";

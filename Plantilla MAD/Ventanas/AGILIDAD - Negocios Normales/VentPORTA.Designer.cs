@@ -75,26 +75,29 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(25, 417);
+            this.label5.Location = new System.Drawing.Point(33, 513);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(95, 13);
+            this.label5.Size = new System.Drawing.Size(123, 17);
             this.label5.TabIndex = 29;
             this.label5.Text = "Datos de contacto";
             // 
             // campoDatos
             // 
-            this.campoDatos.Location = new System.Drawing.Point(28, 433);
+            this.campoDatos.Location = new System.Drawing.Point(37, 533);
+            this.campoDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoDatos.Name = "campoDatos";
-            this.campoDatos.Size = new System.Drawing.Size(155, 106);
+            this.campoDatos.Size = new System.Drawing.Size(205, 130);
             this.campoDatos.TabIndex = 28;
             this.campoDatos.Text = "";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 63);
+            this.label6.Location = new System.Drawing.Point(33, 78);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 13);
+            this.label6.Size = new System.Drawing.Size(84, 17);
             this.label6.TabIndex = 27;
             this.label6.Text = "RUT Cliente";
             // 
@@ -102,47 +105,56 @@
             // 
             this.labelPorta.AutoSize = true;
             this.labelPorta.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPorta.Location = new System.Drawing.Point(566, 36);
+            this.labelPorta.Location = new System.Drawing.Point(755, 44);
+            this.labelPorta.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelPorta.Name = "labelPorta";
-            this.labelPorta.Size = new System.Drawing.Size(49, 13);
+            this.labelPorta.Size = new System.Drawing.Size(61, 17);
             this.labelPorta.TabIndex = 22;
             this.labelPorta.Text = "PORTA";
+            this.labelPorta.Visible = false;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(566, 23);
+            this.label4.Location = new System.Drawing.Point(755, 28);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(166, 13);
+            this.label4.Size = new System.Drawing.Size(223, 17);
             this.label4.TabIndex = 21;
             this.label4.Text = "Y el nombre de proyecto debe ser";
+            this.label4.Visible = false;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(215, 36);
+            this.label3.Location = new System.Drawing.Point(287, 44);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 13);
+            this.label3.Size = new System.Drawing.Size(311, 17);
             this.label3.TabIndex = 20;
             this.label3.Text = "Venta/Post-Venta Servicios Móviles - PCE";
+            this.label3.Visible = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(215, 23);
+            this.label2.Location = new System.Drawing.Point(287, 28);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(221, 13);
+            this.label2.Size = new System.Drawing.Size(297, 17);
             this.label2.TabIndex = 19;
             this.label2.Text = "Esta solicitud debe ser ingresada a través de ";
+            this.label2.Visible = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 24);
+            this.label1.Location = new System.Drawing.Point(33, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
+            this.label1.Size = new System.Drawing.Size(120, 17);
             this.label1.TabIndex = 18;
             this.label1.Text = "PORTABILIDAD";
             // 
@@ -155,10 +167,11 @@
             this.Movil,
             this.Modelo,
             this.Valor});
-            this.dataPorta.Location = new System.Drawing.Point(339, 117);
+            this.dataPorta.Location = new System.Drawing.Point(452, 144);
+            this.dataPorta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataPorta.Name = "dataPorta";
             this.dataPorta.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataPorta.Size = new System.Drawing.Size(392, 272);
+            this.dataPorta.Size = new System.Drawing.Size(523, 335);
             this.dataPorta.TabIndex = 23;
             this.dataPorta.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataPorta_CellClick);
             this.dataPorta.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataPorta_CellClick);
@@ -189,67 +202,75 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(43, 108);
+            this.label8.Location = new System.Drawing.Point(57, 133);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(41, 13);
+            this.label8.Size = new System.Drawing.Size(53, 17);
             this.label8.TabIndex = 35;
             this.label8.Text = "Cuenta";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(43, 157);
+            this.label9.Location = new System.Drawing.Point(57, 193);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 13);
+            this.label9.Size = new System.Drawing.Size(120, 17);
             this.label9.TabIndex = 36;
             this.label9.Text = "Empresa donante";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(43, 206);
+            this.label10.Location = new System.Drawing.Point(57, 254);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(31, 13);
+            this.label10.Size = new System.Drawing.Size(38, 17);
             this.label10.TabIndex = 37;
             this.label10.Text = "MMF";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(43, 255);
+            this.label11.Location = new System.Drawing.Point(57, 314);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(76, 13);
+            this.label11.Size = new System.Drawing.Size(101, 17);
             this.label11.TabIndex = 38;
             this.label11.Text = "Fecha a portar";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(46, 304);
+            this.label12.Location = new System.Drawing.Point(61, 374);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(28, 13);
+            this.label12.Size = new System.Drawing.Size(36, 17);
             this.label12.TabIndex = 39;
             this.label12.Text = "Plan";
             // 
             // campoCuenta
             // 
-            this.campoCuenta.Location = new System.Drawing.Point(46, 124);
+            this.campoCuenta.Location = new System.Drawing.Point(61, 153);
+            this.campoCuenta.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoCuenta.Name = "campoCuenta";
-            this.campoCuenta.Size = new System.Drawing.Size(137, 20);
+            this.campoCuenta.Size = new System.Drawing.Size(181, 22);
             this.campoCuenta.TabIndex = 40;
             // 
             // campoDonante
             // 
-            this.campoDonante.Location = new System.Drawing.Point(46, 174);
+            this.campoDonante.Location = new System.Drawing.Point(61, 214);
+            this.campoDonante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoDonante.Name = "campoDonante";
-            this.campoDonante.Size = new System.Drawing.Size(117, 20);
+            this.campoDonante.Size = new System.Drawing.Size(155, 22);
             this.campoDonante.TabIndex = 41;
             // 
             // campoMMF
             // 
-            this.campoMMF.Location = new System.Drawing.Point(46, 223);
+            this.campoMMF.Location = new System.Drawing.Point(61, 274);
+            this.campoMMF.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoMMF.Name = "campoMMF";
-            this.campoMMF.Size = new System.Drawing.Size(117, 20);
+            this.campoMMF.Size = new System.Drawing.Size(155, 22);
             this.campoMMF.TabIndex = 42;
             // 
             // comboPlan
@@ -979,32 +1000,36 @@
             "PLAN VIAJERO CC",
             "Z_NOUSO_1460 M2M CORP SENS",
             "Z_NOUSO_PORT_EMP GES DAT 4GB +A"});
-            this.comboPlan.Location = new System.Drawing.Point(46, 320);
+            this.comboPlan.Location = new System.Drawing.Point(61, 394);
+            this.comboPlan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboPlan.Name = "comboPlan";
-            this.comboPlan.Size = new System.Drawing.Size(245, 21);
+            this.comboPlan.Size = new System.Drawing.Size(325, 24);
             this.comboPlan.TabIndex = 44;
             // 
             // campoRUT
             // 
-            this.campoRUT.Location = new System.Drawing.Point(96, 63);
+            this.campoRUT.Location = new System.Drawing.Point(128, 78);
+            this.campoRUT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoRUT.Name = "campoRUT";
-            this.campoRUT.Size = new System.Drawing.Size(100, 20);
+            this.campoRUT.Size = new System.Drawing.Size(132, 22);
             this.campoRUT.TabIndex = 26;
             // 
             // campoServicios
             // 
-            this.campoServicios.Location = new System.Drawing.Point(208, 433);
+            this.campoServicios.Location = new System.Drawing.Point(277, 533);
+            this.campoServicios.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoServicios.Name = "campoServicios";
-            this.campoServicios.Size = new System.Drawing.Size(155, 106);
+            this.campoServicios.Size = new System.Drawing.Size(205, 130);
             this.campoServicios.TabIndex = 45;
             this.campoServicios.Text = "";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(205, 417);
+            this.label13.Location = new System.Drawing.Point(273, 513);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(140, 13);
+            this.label13.Size = new System.Drawing.Size(183, 17);
             this.label13.TabIndex = 46;
             this.label13.Text = "Servicios a activar/bloquear";
             // 
@@ -1012,19 +1037,22 @@
             // 
             this.campoFecha.CustomFormat = "";
             this.campoFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.campoFecha.Location = new System.Drawing.Point(46, 272);
+            this.campoFecha.Location = new System.Drawing.Point(61, 335);
+            this.campoFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoFecha.Name = "campoFecha";
-            this.campoFecha.Size = new System.Drawing.Size(87, 20);
+            this.campoFecha.Size = new System.Drawing.Size(115, 22);
             this.campoFecha.TabIndex = 47;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menúToolStripMenuItem,
             this.limpiarDatosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(781, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1041, 28);
             this.menuStrip1.TabIndex = 48;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1034,35 +1062,36 @@
             this.acercaDeToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
-            this.menúToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.menúToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.menúToolStripMenuItem.Text = "Ayuda";
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // limpiarDatosToolStripMenuItem
             // 
             this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
-            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
             this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
             this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
             // 
             // btnCopiaModelo
             // 
-            this.btnCopiaModelo.Location = new System.Drawing.Point(510, 90);
+            this.btnCopiaModelo.Location = new System.Drawing.Point(680, 111);
+            this.btnCopiaModelo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCopiaModelo.Name = "btnCopiaModelo";
-            this.btnCopiaModelo.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaModelo.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaModelo.TabIndex = 75;
             this.btnCopiaModelo.Text = "Copia Modelo";
             this.btnCopiaModelo.UseVisualStyleBackColor = true;
@@ -1070,9 +1099,10 @@
             // 
             // btnCopiaValor
             // 
-            this.btnCopiaValor.Location = new System.Drawing.Point(656, 90);
+            this.btnCopiaValor.Location = new System.Drawing.Point(875, 111);
+            this.btnCopiaValor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCopiaValor.Name = "btnCopiaValor";
-            this.btnCopiaValor.Size = new System.Drawing.Size(71, 23);
+            this.btnCopiaValor.Size = new System.Drawing.Size(95, 28);
             this.btnCopiaValor.TabIndex = 76;
             this.btnCopiaValor.Text = "Copia Valor";
             this.btnCopiaValor.UseVisualStyleBackColor = true;
@@ -1081,46 +1111,52 @@
             // lblObs
             // 
             this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(384, 417);
+            this.lblObs.Location = new System.Drawing.Point(512, 513);
+            this.lblObs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(78, 13);
+            this.lblObs.Size = new System.Drawing.Size(103, 17);
             this.lblObs.TabIndex = 82;
             this.lblObs.Text = "Observaciones";
             // 
             // campoObs
             // 
-            this.campoObs.Location = new System.Drawing.Point(387, 433);
+            this.campoObs.Location = new System.Drawing.Point(516, 533);
+            this.campoObs.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(177, 106);
+            this.campoObs.Size = new System.Drawing.Size(235, 130);
             this.campoObs.TabIndex = 81;
             this.campoObs.Text = "";
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(622, 516);
+            this.btnGrabar.Location = new System.Drawing.Point(829, 609);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
+            this.btnGrabar.Size = new System.Drawing.Size(133, 28);
             this.btnGrabar.TabIndex = 80;
-            this.btnGrabar.Text = "Copiar MAD";
+            this.btnGrabar.Text = "Copiar AC";
             this.btnGrabar.UseVisualStyleBackColor = true;
             this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnCopiaProy
             // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(603, 468);
+            this.btnCopiaProy.Location = new System.Drawing.Point(804, 576);
+            this.btnCopiaProy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
+            this.btnCopiaProy.Size = new System.Drawing.Size(183, 28);
             this.btnCopiaProy.TabIndex = 79;
             this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
             this.btnCopiaProy.UseVisualStyleBackColor = true;
+            this.btnCopiaProy.Visible = false;
             this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(596, 409);
+            this.label7.Location = new System.Drawing.Point(790, 513);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 13);
+            this.label7.Size = new System.Drawing.Size(96, 17);
             this.label7.TabIndex = 78;
             this.label7.Text = "Ejecutivo SAC";
             // 
@@ -1131,7 +1167,7 @@
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
             "Andres Arias O.",
-            "Andrea Hinojosa G.",
+
             "Angelica Silva S.",
             "Carol Rios G.",
             "Carolina Arellano D.",
@@ -1151,7 +1187,7 @@
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
-            "Mirtha Castro C.",
+
             "Oscar Illanes R.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
@@ -1159,9 +1195,10 @@
             "Sandra Lazcano A.",
             "Simon Segura B.",
             "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(599, 425);
+            this.comboEjecutivo.Location = new System.Drawing.Point(794, 533);
+            this.comboEjecutivo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
+            this.comboEjecutivo.Size = new System.Drawing.Size(193, 24);
             this.comboEjecutivo.TabIndex = 77;
             // 
             // lblFraude
@@ -1169,18 +1206,19 @@
             this.lblFraude.AutoSize = true;
             this.lblFraude.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFraude.ForeColor = System.Drawing.Color.Red;
-            this.lblFraude.Location = new System.Drawing.Point(326, 63);
+            this.lblFraude.Location = new System.Drawing.Point(435, 78);
+            this.lblFraude.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFraude.Name = "lblFraude";
-            this.lblFraude.Size = new System.Drawing.Size(406, 13);
+            this.lblFraude.Size = new System.Drawing.Size(525, 17);
             this.lblFraude.TabIndex = 168;
             this.lblFraude.Text = "Recordar: negocios se realizaran en separado por modelos de equipos";
             // 
             // VentPORTA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(781, 559);
+            this.ClientSize = new System.Drawing.Size(1041, 688);
             this.Controls.Add(this.lblFraude);
             this.Controls.Add(this.lblObs);
             this.Controls.Add(this.campoObs);
@@ -1214,6 +1252,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataPorta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "VentPORTA";
             this.Text = "PORTABILIDAD";

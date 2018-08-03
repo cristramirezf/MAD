@@ -704,6 +704,8 @@ namespace Plantilla_MAD.Ventanas
         {
             SendKeys.Send("{F2}");
         }
+
+
     }
 }
 

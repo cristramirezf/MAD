@@ -105,35 +105,39 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(19, 68);
+            this.label6.Location = new System.Drawing.Point(25, 84);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 13);
+            this.label6.Size = new System.Drawing.Size(84, 17);
             this.label6.TabIndex = 27;
             this.label6.Text = "RUT Cliente";
             // 
             // campoRUT
             // 
-            this.campoRUT.Location = new System.Drawing.Point(90, 68);
+            this.campoRUT.Location = new System.Drawing.Point(120, 84);
+            this.campoRUT.Margin = new System.Windows.Forms.Padding(4);
             this.campoRUT.Name = "campoRUT";
-            this.campoRUT.Size = new System.Drawing.Size(100, 20);
+            this.campoRUT.Size = new System.Drawing.Size(132, 22);
             this.campoRUT.TabIndex = 26;
             // 
             // campoOCO
             // 
-            this.campoOCO.Location = new System.Drawing.Point(339, 68);
+            this.campoOCO.Location = new System.Drawing.Point(462, 84);
+            this.campoOCO.Margin = new System.Windows.Forms.Padding(4);
             this.campoOCO.Name = "campoOCO";
-            this.campoOCO.Size = new System.Drawing.Size(100, 20);
+            this.campoOCO.Size = new System.Drawing.Size(132, 22);
             this.campoOCO.TabIndex = 25;
             this.campoOCO.Visible = false;
             // 
             // checkOCO
             // 
             this.checkOCO.AutoSize = true;
-            this.checkOCO.Location = new System.Drawing.Point(233, 68);
+            this.checkOCO.Location = new System.Drawing.Point(311, 84);
+            this.checkOCO.Margin = new System.Windows.Forms.Padding(4);
             this.checkOCO.Name = "checkOCO";
-            this.checkOCO.Size = new System.Drawing.Size(92, 17);
+            this.checkOCO.Size = new System.Drawing.Size(148, 21);
             this.checkOCO.TabIndex = 24;
-            this.checkOCO.Text = "Necesita OC?";
+            this.checkOCO.Text = "¿Necesita OC/NP?";
             this.checkOCO.UseVisualStyleBackColor = true;
             this.checkOCO.CheckedChanged += new System.EventHandler(this.checkOCO_CheckedChanged);
             // 
@@ -141,58 +145,69 @@
             // 
             this.lblProy2.AutoSize = true;
             this.lblProy2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProy2.Location = new System.Drawing.Point(838, 42);
+            this.lblProy2.Location = new System.Drawing.Point(1117, 52);
+            this.lblProy2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProy2.Name = "lblProy2";
-            this.lblProy2.Size = new System.Drawing.Size(23, 13);
+            this.lblProy2.Size = new System.Drawing.Size(28, 17);
             this.lblProy2.TabIndex = 22;
             this.lblProy2.Text = "HL";
+            this.lblProy2.Visible = false;
             // 
             // lblProy1
             // 
             this.lblProy1.AutoSize = true;
-            this.lblProy1.Location = new System.Drawing.Point(838, 29);
+            this.lblProy1.Location = new System.Drawing.Point(1117, 36);
+            this.lblProy1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProy1.Name = "lblProy1";
-            this.lblProy1.Size = new System.Drawing.Size(166, 13);
+            this.lblProy1.Size = new System.Drawing.Size(223, 17);
             this.lblProy1.TabIndex = 21;
             this.lblProy1.Text = "Y el nombre de proyecto debe ser";
+            this.lblProy1.Visible = false;
             // 
             // lblRuta2
             // 
             this.lblRuta2.AutoSize = true;
             this.lblRuta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRuta2.Location = new System.Drawing.Point(389, 42);
+            this.lblRuta2.Location = new System.Drawing.Point(519, 52);
+            this.lblRuta2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRuta2.Name = "lblRuta2";
-            this.lblRuta2.Size = new System.Drawing.Size(247, 13);
+            this.lblRuta2.Size = new System.Drawing.Size(311, 17);
             this.lblRuta2.TabIndex = 20;
             this.lblRuta2.Text = "Venta/Post-Venta Servicios Móviles - PCE";
+            this.lblRuta2.Visible = false;
             // 
             // lblRuta1
             // 
             this.lblRuta1.AutoSize = true;
-            this.lblRuta1.Location = new System.Drawing.Point(389, 29);
+            this.lblRuta1.Location = new System.Drawing.Point(519, 36);
+            this.lblRuta1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblRuta1.Name = "lblRuta1";
-            this.lblRuta1.Size = new System.Drawing.Size(221, 13);
+            this.lblRuta1.Size = new System.Drawing.Size(297, 17);
             this.lblRuta1.TabIndex = 19;
             this.lblRuta1.Text = "Esta solicitud debe ser ingresada a través de ";
+            this.lblRuta1.Visible = false;
             // 
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(36, 29);
+            this.lblTitulo.Location = new System.Drawing.Point(48, 36);
+            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(154, 13);
+            this.lblTitulo.Size = new System.Drawing.Size(188, 17);
             this.lblTitulo.TabIndex = 18;
             this.lblTitulo.Text = "HABILITACIÓN DE LÍNEA";
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menúToolStripMenuItem,
             this.limpiarDatosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1044, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(1392, 28);
             this.menuStrip1.TabIndex = 36;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -202,35 +217,36 @@
             this.acercaDeToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
-            this.menúToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.menúToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.menúToolStripMenuItem.Text = "Ayuda";
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // limpiarDatosToolStripMenuItem
             // 
             this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
-            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
+            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
             this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
             this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
             // 
             // btnCopiaPlan
             // 
-            this.btnCopiaPlan.Location = new System.Drawing.Point(399, 6);
+            this.btnCopiaPlan.Location = new System.Drawing.Point(532, 7);
+            this.btnCopiaPlan.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaPlan.Name = "btnCopiaPlan";
-            this.btnCopiaPlan.Size = new System.Drawing.Size(110, 23);
+            this.btnCopiaPlan.Size = new System.Drawing.Size(147, 28);
             this.btnCopiaPlan.TabIndex = 40;
             this.btnCopiaPlan.Text = "Copia Plan";
             this.btnCopiaPlan.UseVisualStyleBackColor = true;
@@ -238,9 +254,10 @@
             // 
             // btnCopiaValor
             // 
-            this.btnCopiaValor.Location = new System.Drawing.Point(279, 6);
+            this.btnCopiaValor.Location = new System.Drawing.Point(372, 7);
+            this.btnCopiaValor.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaValor.Name = "btnCopiaValor";
-            this.btnCopiaValor.Size = new System.Drawing.Size(69, 23);
+            this.btnCopiaValor.Size = new System.Drawing.Size(92, 28);
             this.btnCopiaValor.TabIndex = 39;
             this.btnCopiaValor.Text = "Copia Valor";
             this.btnCopiaValor.UseVisualStyleBackColor = true;
@@ -248,9 +265,10 @@
             // 
             // btnCopiaSIM
             // 
-            this.btnCopiaSIM.Location = new System.Drawing.Point(210, 6);
+            this.btnCopiaSIM.Location = new System.Drawing.Point(280, 7);
+            this.btnCopiaSIM.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaSIM.Name = "btnCopiaSIM";
-            this.btnCopiaSIM.Size = new System.Drawing.Size(70, 23);
+            this.btnCopiaSIM.Size = new System.Drawing.Size(93, 28);
             this.btnCopiaSIM.TabIndex = 38;
             this.btnCopiaSIM.Text = "Copia SIM";
             this.btnCopiaSIM.UseVisualStyleBackColor = true;
@@ -258,9 +276,10 @@
             // 
             // btnCopiaCuentas
             // 
-            this.btnCopiaCuentas.Location = new System.Drawing.Point(114, 6);
+            this.btnCopiaCuentas.Location = new System.Drawing.Point(152, 7);
+            this.btnCopiaCuentas.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaCuentas.Name = "btnCopiaCuentas";
-            this.btnCopiaCuentas.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaCuentas.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaCuentas.TabIndex = 37;
             this.btnCopiaCuentas.Text = "Copia Cuenta";
             this.btnCopiaCuentas.UseVisualStyleBackColor = true;
@@ -268,9 +287,10 @@
             // 
             // btnCopiaEquipos
             // 
-            this.btnCopiaEquipos.Location = new System.Drawing.Point(623, 5);
+            this.btnCopiaEquipos.Location = new System.Drawing.Point(831, 6);
+            this.btnCopiaEquipos.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaEquipos.Name = "btnCopiaEquipos";
-            this.btnCopiaEquipos.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaEquipos.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaEquipos.TabIndex = 41;
             this.btnCopiaEquipos.Text = "Copia Equipo";
             this.btnCopiaEquipos.UseVisualStyleBackColor = true;
@@ -278,9 +298,10 @@
             // 
             // btnCopiaCondicion
             // 
-            this.btnCopiaCondicion.Location = new System.Drawing.Point(878, 5);
+            this.btnCopiaCondicion.Location = new System.Drawing.Point(1171, 6);
+            this.btnCopiaCondicion.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaCondicion.Name = "btnCopiaCondicion";
-            this.btnCopiaCondicion.Size = new System.Drawing.Size(110, 23);
+            this.btnCopiaCondicion.Size = new System.Drawing.Size(147, 28);
             this.btnCopiaCondicion.TabIndex = 43;
             this.btnCopiaCondicion.Text = "Copia Condiciones";
             this.btnCopiaCondicion.UseVisualStyleBackColor = true;
@@ -288,9 +309,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(779, 5);
+            this.button1.Location = new System.Drawing.Point(1039, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(91, 23);
+            this.button1.Size = new System.Drawing.Size(121, 28);
             this.button1.TabIndex = 42;
             this.button1.Text = "Copia Valor";
             this.button1.UseVisualStyleBackColor = true;
@@ -299,46 +321,52 @@
             // lblObs
             // 
             this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(448, 441);
+            this.lblObs.Location = new System.Drawing.Point(597, 543);
+            this.lblObs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(78, 13);
+            this.lblObs.Size = new System.Drawing.Size(103, 17);
             this.lblObs.TabIndex = 51;
             this.lblObs.Text = "Observaciones";
             // 
             // campoObs
             // 
-            this.campoObs.Location = new System.Drawing.Point(448, 457);
+            this.campoObs.Location = new System.Drawing.Point(597, 562);
+            this.campoObs.Margin = new System.Windows.Forms.Padding(4);
             this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(189, 114);
+            this.campoObs.Size = new System.Drawing.Size(251, 139);
             this.campoObs.TabIndex = 50;
             this.campoObs.Text = "";
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(751, 548);
+            this.btnGrabar.Location = new System.Drawing.Point(1001, 648);
+            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
+            this.btnGrabar.Size = new System.Drawing.Size(133, 28);
             this.btnGrabar.TabIndex = 49;
-            this.btnGrabar.Text = "Copiar MAD";
+            this.btnGrabar.Text = "Copiar AC";
             this.btnGrabar.UseVisualStyleBackColor = true;
             this.btnGrabar.Click += new System.EventHandler(this.btnGrabar_Click);
             // 
             // btnCopiaProy
             // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(732, 500);
+            this.btnCopiaProy.Location = new System.Drawing.Point(976, 615);
+            this.btnCopiaProy.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
+            this.btnCopiaProy.Size = new System.Drawing.Size(183, 28);
             this.btnCopiaProy.TabIndex = 48;
             this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
             this.btnCopiaProy.UseVisualStyleBackColor = true;
+            this.btnCopiaProy.Visible = false;
             this.btnCopiaProy.Click += new System.EventHandler(this.btnCopiaProy_Click);
             // 
             // lblEjecutivo
             // 
             this.lblEjecutivo.AutoSize = true;
-            this.lblEjecutivo.Location = new System.Drawing.Point(725, 441);
+            this.lblEjecutivo.Location = new System.Drawing.Point(967, 543);
+            this.lblEjecutivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEjecutivo.Name = "lblEjecutivo";
-            this.lblEjecutivo.Size = new System.Drawing.Size(75, 13);
+            this.lblEjecutivo.Size = new System.Drawing.Size(96, 17);
             this.lblEjecutivo.TabIndex = 47;
             this.lblEjecutivo.Text = "Ejecutivo SAC";
             // 
@@ -349,7 +377,6 @@
             this.comboEjecutivo.FormattingEnabled = true;
             this.comboEjecutivo.Items.AddRange(new object[] {
             "Andres Arias O.",
-            "Andrea Hinojosa G.",
             "Angelica Silva S.",
             "Carol Rios G.",
             "Carolina Arellano D.",
@@ -369,7 +396,6 @@
             "Maria Jose Marchant V.",
             "Maria Loreto Caceres A.",
             "Maria Renata Ramirez A.",
-            "Mirtha Castro C.",
             "Oscar Illanes R.",
             "Paula Sola G.",
             "Philipp Gallardo G.",
@@ -377,25 +403,28 @@
             "Sandra Lazcano A.",
             "Simon Segura B.",
             "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(725, 457);
+            this.comboEjecutivo.Location = new System.Drawing.Point(967, 562);
+            this.comboEjecutivo.Margin = new System.Windows.Forms.Padding(4);
             this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
+            this.comboEjecutivo.Size = new System.Drawing.Size(193, 24);
             this.comboEjecutivo.TabIndex = 46;
             // 
             // lblDatos
             // 
             this.lblDatos.AutoSize = true;
-            this.lblDatos.Location = new System.Drawing.Point(163, 441);
+            this.lblDatos.Location = new System.Drawing.Point(217, 543);
+            this.lblDatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDatos.Name = "lblDatos";
-            this.lblDatos.Size = new System.Drawing.Size(95, 13);
+            this.lblDatos.Size = new System.Drawing.Size(123, 17);
             this.lblDatos.TabIndex = 45;
             this.lblDatos.Text = "Datos de contacto";
             // 
             // campoDatos
             // 
-            this.campoDatos.Location = new System.Drawing.Point(163, 457);
+            this.campoDatos.Location = new System.Drawing.Point(217, 562);
+            this.campoDatos.Margin = new System.Windows.Forms.Padding(4);
             this.campoDatos.Name = "campoDatos";
-            this.campoDatos.Size = new System.Drawing.Size(189, 114);
+            this.campoDatos.Size = new System.Drawing.Size(251, 139);
             this.campoDatos.TabIndex = 44;
             this.campoDatos.Text = "";
             // 
@@ -404,10 +433,11 @@
             this.tabControl1.Controls.Add(this.tabHL);
             this.tabControl1.Controls.Add(this.tabCEQ);
             this.tabControl1.Controls.Add(this.tabCS);
-            this.tabControl1.Location = new System.Drawing.Point(22, 100);
+            this.tabControl1.Location = new System.Drawing.Point(29, 123);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1007, 305);
+            this.tabControl1.Size = new System.Drawing.Size(1343, 375);
             this.tabControl1.TabIndex = 52;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.TabControl1_SelectedIndexChanged);
             // 
@@ -422,10 +452,11 @@
             this.tabHL.Controls.Add(this.btnCopiaEquipos);
             this.tabHL.Controls.Add(this.button1);
             this.tabHL.Controls.Add(this.btnCopiaCondicion);
-            this.tabHL.Location = new System.Drawing.Point(4, 22);
+            this.tabHL.Location = new System.Drawing.Point(4, 25);
+            this.tabHL.Margin = new System.Windows.Forms.Padding(4);
             this.tabHL.Name = "tabHL";
-            this.tabHL.Padding = new System.Windows.Forms.Padding(3);
-            this.tabHL.Size = new System.Drawing.Size(999, 279);
+            this.tabHL.Padding = new System.Windows.Forms.Padding(4);
+            this.tabHL.Size = new System.Drawing.Size(1335, 346);
             this.tabHL.TabIndex = 0;
             this.tabHL.Text = "Habilitación de Línea";
             // 
@@ -443,10 +474,11 @@
             this.Modelo,
             this.ValorEq,
             this.Condicion});
-            this.dataHL.Location = new System.Drawing.Point(0, 34);
+            this.dataHL.Location = new System.Drawing.Point(0, 42);
+            this.dataHL.Margin = new System.Windows.Forms.Padding(4);
             this.dataHL.Name = "dataHL";
             this.dataHL.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataHL.Size = new System.Drawing.Size(997, 272);
+            this.dataHL.Size = new System.Drawing.Size(1329, 335);
             this.dataHL.TabIndex = 36;
             this.dataHL.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataHL_CellClick);
             this.dataHL.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataHL_CellClick);
@@ -461,18 +493,20 @@
             this.tabCEQ.Controls.Add(this.btnCopiaValorCEQ);
             this.tabCEQ.Controls.Add(this.btnCopiaCuentasCEQ);
             this.tabCEQ.Controls.Add(this.btnCopiaEquiposCEQ);
-            this.tabCEQ.Location = new System.Drawing.Point(4, 22);
+            this.tabCEQ.Location = new System.Drawing.Point(4, 25);
+            this.tabCEQ.Margin = new System.Windows.Forms.Padding(4);
             this.tabCEQ.Name = "tabCEQ";
-            this.tabCEQ.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCEQ.Size = new System.Drawing.Size(999, 279);
+            this.tabCEQ.Padding = new System.Windows.Forms.Padding(4);
+            this.tabCEQ.Size = new System.Drawing.Size(1335, 346);
             this.tabCEQ.TabIndex = 1;
             this.tabCEQ.Text = "Cambio de Equipo";
             // 
             // btnCopiaCondicionCEQ
             // 
-            this.btnCopiaCondicionCEQ.Location = new System.Drawing.Point(569, 6);
+            this.btnCopiaCondicionCEQ.Location = new System.Drawing.Point(759, 7);
+            this.btnCopiaCondicionCEQ.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaCondicionCEQ.Name = "btnCopiaCondicionCEQ";
-            this.btnCopiaCondicionCEQ.Size = new System.Drawing.Size(110, 23);
+            this.btnCopiaCondicionCEQ.Size = new System.Drawing.Size(147, 28);
             this.btnCopiaCondicionCEQ.TabIndex = 57;
             this.btnCopiaCondicionCEQ.Text = "Copia Condiciones";
             this.btnCopiaCondicionCEQ.UseVisualStyleBackColor = true;
@@ -489,10 +523,11 @@
             this.ModeloCEQ,
             this.ValorCEQ,
             this.CondicionCEQ});
-            this.dataCEQ.Location = new System.Drawing.Point(0, 34);
+            this.dataCEQ.Location = new System.Drawing.Point(0, 42);
+            this.dataCEQ.Margin = new System.Windows.Forms.Padding(4);
             this.dataCEQ.Name = "dataCEQ";
             this.dataCEQ.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataCEQ.Size = new System.Drawing.Size(697, 272);
+            this.dataCEQ.Size = new System.Drawing.Size(929, 335);
             this.dataCEQ.TabIndex = 53;
             this.dataCEQ.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCEQ_CellClick);
             this.dataCEQ.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCEQ_CellClick);
@@ -501,9 +536,10 @@
             // 
             // btnCopiaValorCEQ
             // 
-            this.btnCopiaValorCEQ.Location = new System.Drawing.Point(464, 6);
+            this.btnCopiaValorCEQ.Location = new System.Drawing.Point(619, 7);
+            this.btnCopiaValorCEQ.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaValorCEQ.Name = "btnCopiaValorCEQ";
-            this.btnCopiaValorCEQ.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaValorCEQ.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaValorCEQ.TabIndex = 56;
             this.btnCopiaValorCEQ.Text = "Copia Valor";
             this.btnCopiaValorCEQ.UseVisualStyleBackColor = true;
@@ -511,9 +547,10 @@
             // 
             // btnCopiaCuentasCEQ
             // 
-            this.btnCopiaCuentasCEQ.Location = new System.Drawing.Point(132, 6);
+            this.btnCopiaCuentasCEQ.Location = new System.Drawing.Point(176, 7);
+            this.btnCopiaCuentasCEQ.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaCuentasCEQ.Name = "btnCopiaCuentasCEQ";
-            this.btnCopiaCuentasCEQ.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaCuentasCEQ.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaCuentasCEQ.TabIndex = 54;
             this.btnCopiaCuentasCEQ.Text = "Copia Cuenta";
             this.btnCopiaCuentasCEQ.UseVisualStyleBackColor = true;
@@ -521,9 +558,10 @@
             // 
             // btnCopiaEquiposCEQ
             // 
-            this.btnCopiaEquiposCEQ.Location = new System.Drawing.Point(306, 6);
+            this.btnCopiaEquiposCEQ.Location = new System.Drawing.Point(408, 7);
+            this.btnCopiaEquiposCEQ.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaEquiposCEQ.Name = "btnCopiaEquiposCEQ";
-            this.btnCopiaEquiposCEQ.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaEquiposCEQ.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaEquiposCEQ.TabIndex = 55;
             this.btnCopiaEquiposCEQ.Text = "Copia Equipo";
             this.btnCopiaEquiposCEQ.UseVisualStyleBackColor = true;
@@ -536,18 +574,20 @@
             this.tabCS.Controls.Add(this.btnCopiaValorCS);
             this.tabCS.Controls.Add(this.btnCopiaCuentasCS);
             this.tabCS.Controls.Add(this.dataCS);
-            this.tabCS.Location = new System.Drawing.Point(4, 22);
+            this.tabCS.Location = new System.Drawing.Point(4, 25);
+            this.tabCS.Margin = new System.Windows.Forms.Padding(4);
             this.tabCS.Name = "tabCS";
-            this.tabCS.Padding = new System.Windows.Forms.Padding(3);
-            this.tabCS.Size = new System.Drawing.Size(999, 279);
+            this.tabCS.Padding = new System.Windows.Forms.Padding(4);
+            this.tabCS.Size = new System.Drawing.Size(1335, 346);
             this.tabCS.TabIndex = 2;
             this.tabCS.Text = "Cambio de Simcard";
             // 
             // btnCopiaSIMCS
             // 
-            this.btnCopiaSIMCS.Location = new System.Drawing.Point(370, 6);
+            this.btnCopiaSIMCS.Location = new System.Drawing.Point(493, 7);
+            this.btnCopiaSIMCS.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaSIMCS.Name = "btnCopiaSIMCS";
-            this.btnCopiaSIMCS.Size = new System.Drawing.Size(110, 23);
+            this.btnCopiaSIMCS.Size = new System.Drawing.Size(147, 28);
             this.btnCopiaSIMCS.TabIndex = 43;
             this.btnCopiaSIMCS.Text = "Copia SIM";
             this.btnCopiaSIMCS.UseVisualStyleBackColor = true;
@@ -555,9 +595,10 @@
             // 
             // btnCopiaValorCS
             // 
-            this.btnCopiaValorCS.Location = new System.Drawing.Point(526, 6);
+            this.btnCopiaValorCS.Location = new System.Drawing.Point(701, 7);
+            this.btnCopiaValorCS.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaValorCS.Name = "btnCopiaValorCS";
-            this.btnCopiaValorCS.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaValorCS.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaValorCS.TabIndex = 42;
             this.btnCopiaValorCS.Text = "Copia Valor";
             this.btnCopiaValorCS.UseVisualStyleBackColor = true;
@@ -565,9 +606,10 @@
             // 
             // btnCopiaCuentasCS
             // 
-            this.btnCopiaCuentasCS.Location = new System.Drawing.Point(185, 6);
+            this.btnCopiaCuentasCS.Location = new System.Drawing.Point(247, 7);
+            this.btnCopiaCuentasCS.Margin = new System.Windows.Forms.Padding(4);
             this.btnCopiaCuentasCS.Name = "btnCopiaCuentasCS";
-            this.btnCopiaCuentasCS.Size = new System.Drawing.Size(91, 23);
+            this.btnCopiaCuentasCS.Size = new System.Drawing.Size(121, 28);
             this.btnCopiaCuentasCS.TabIndex = 41;
             this.btnCopiaCuentasCS.Text = "Copia Cuenta";
             this.btnCopiaCuentasCS.UseVisualStyleBackColor = true;
@@ -583,10 +625,11 @@
             this.CuentaCS,
             this.SIMCS,
             this.ValorCS});
-            this.dataCS.Location = new System.Drawing.Point(0, 34);
+            this.dataCS.Location = new System.Drawing.Point(0, 42);
+            this.dataCS.Margin = new System.Windows.Forms.Padding(4);
             this.dataCS.Name = "dataCS";
             this.dataCS.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataCS.Size = new System.Drawing.Size(622, 272);
+            this.dataCS.Size = new System.Drawing.Size(829, 335);
             this.dataCS.TabIndex = 40;
             this.dataCS.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCS_CellClick);
             this.dataCS.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCS_CellClick);
@@ -637,20 +680,22 @@
             // 
             // campoNano
             // 
-            this.campoNano.Location = new System.Drawing.Point(616, 69);
+            this.campoNano.Location = new System.Drawing.Point(821, 85);
+            this.campoNano.Margin = new System.Windows.Forms.Padding(4);
             this.campoNano.Name = "campoNano";
-            this.campoNano.Size = new System.Drawing.Size(35, 20);
+            this.campoNano.Size = new System.Drawing.Size(45, 22);
             this.campoNano.TabIndex = 56;
             this.campoNano.Visible = false;
             // 
             // checkNano
             // 
             this.checkNano.AutoSize = true;
-            this.checkNano.Location = new System.Drawing.Point(509, 70);
+            this.checkNano.Location = new System.Drawing.Point(679, 86);
+            this.checkNano.Margin = new System.Windows.Forms.Padding(4);
             this.checkNano.Name = "checkNano";
-            this.checkNano.Size = new System.Drawing.Size(101, 17);
+            this.checkNano.Size = new System.Drawing.Size(135, 21);
             this.checkNano.TabIndex = 55;
-            this.checkNano.Text = "SIM en blanco?";
+            this.checkNano.Text = "¿SIM en blanco?";
             this.checkNano.UseVisualStyleBackColor = true;
             this.checkNano.CheckedChanged += new System.EventHandler(this.checkNano_CheckedChanged);
             // 
@@ -1564,6 +1609,8 @@
                 "                                 133197",
             "HUAWEI P20                                                                       " +
                 "                             133201",
+            "HUAWEI P20 BLACK + SEGURO                                                        " +
+                "                                            133201",
             "HUAWEI P8 LITE (ALICE) BLACK                                                     " +
                 "                                               133134",
             "HUAWEI P9 BLACK                                                                  " +
@@ -1584,8 +1631,14 @@
                 "                                         133130",
             "HUAWEI ROUTER LTE B310 BAFI V2 WHITE                                             " +
                 "                                                       133168",
+            "HUAWEI Y5 2018 BLACK                                                             " +
+                "                                       133193",
+            "HUAWEI Y6 2018 BLACK                                                             " +
+                "                                       133192",
             "HUAWEI Y6 II BLACK                                                               " +
                 "                                     133163",
+            "HUAWEI Y7 2018 BLACK                                                             " +
+                "                                       133194",
             "HUAWEI Y7 BLACK                                                                  " +
                 "                                  133180",
             "HUAWEI Y7 2018 BLACK                                                             " +
@@ -1614,8 +1667,12 @@
                 "                                             104142",
             "MOTOROLA MOTO E4 PLUS GRAY                                                       " +
                 "                                             104142",
+            "MOTOROLA MOTO E5 FLASH GREY                                                      " +
+                "                                              104153",
             "MOTOROLA MOTO G 3RA GEN BLACK                                                    " +
                 "                                                104123",
+            "MOTOROLA MOTO G6 PLAY DEEP INDIGO                                                " +
+                "                                                    104155",
             "MOTOROLA MOTO G 4TA GEN BLACK                                                    " +
                 "                                                104128",
             "MOTOROLA MOTO G 5S LUNAR GRAY                                                    " +
@@ -1640,6 +1697,8 @@
                 "                                     162050",
             "OWN F1035 3G WHITE                                                               " +
                 "                                     162051",
+            "OWN FUN 6 BLACK                                                                  " +
+                "                                  162109",
             "OWN FUN BLACK                                                                    " +
                 "                                162038",
             "OWN ONE BLACK                                                                    " +
@@ -1716,6 +1775,10 @@
                 "                                                    106522",
             "SAM SAM GALAXY J7 GOLD                                                           " +
                 "                                         106541",
+            "SAMSUNG GALAXY J4 BLACK                                                          " +
+                "                                          106664",
+            "SAMSUNG GALAXY J6 BLACK                                                          " +
+                "                                          106666",
             "SAMSUNG GALAXY J7 NEO BLACK                                                      " +
                 "                                              106643",
             "SAMSUNG GALAXY J7 NEO GOLD                                                       " +
@@ -1928,6 +1991,8 @@
                 "                                 133197",
             "HUAWEI P20                                                                       " +
                 "                             133201",
+            "HUAWEI P20 BLACK + SEGURO                                                        " +
+                "                                            133201",
             "HUAWEI P8 LITE (ALICE) BLACK                                                     " +
                 "                                               133134",
             "HUAWEI P9 BLACK                                                                  " +
@@ -1948,8 +2013,14 @@
                 "                                         133130",
             "HUAWEI ROUTER LTE B310 BAFI V2 WHITE                                             " +
                 "                                                       133168",
+            "HUAWEI Y5 2018 BLACK                                                             " +
+                "                                       133193",
+            "HUAWEI Y6 2018 BLACK                                                             " +
+                "                                       133192",
             "HUAWEI Y6 II BLACK                                                               " +
                 "                                     133163",
+            "HUAWEI Y7 2018 BLACK                                                             " +
+                "                                       133194",
             "HUAWEI Y7 BLACK                                                                  " +
                 "                                  133180",
             "HUAWEI Y7 2018 BLACK                                                             " +
@@ -1978,8 +2049,12 @@
                 "                                             104142",
             "MOTOROLA MOTO E4 PLUS GRAY                                                       " +
                 "                                             104142",
+            "MOTOROLA MOTO E5 FLASH GREY                                                      " +
+                "                                              104153",
             "MOTOROLA MOTO G 3RA GEN BLACK                                                    " +
                 "                                                104123",
+            "MOTOROLA MOTO G6 PLAY DEEP INDIGO                                                " +
+                "                                                    104155",
             "MOTOROLA MOTO G 4TA GEN BLACK                                                    " +
                 "                                                104128",
             "MOTOROLA MOTO G 5S LUNAR GRAY                                                    " +
@@ -2004,6 +2079,8 @@
                 "                                     162050",
             "OWN F1035 3G WHITE                                                               " +
                 "                                     162051",
+            "OWN FUN 6 BLACK                                                                  " +
+                "                                  162109",
             "OWN FUN BLACK                                                                    " +
                 "                                162038",
             "OWN ONE BLACK                                                                    " +
@@ -2080,6 +2157,10 @@
                 "                                                    106522",
             "SAM SAM GALAXY J7 GOLD                                                           " +
                 "                                         106541",
+            "SAMSUNG GALAXY J4 BLACK                                                          " +
+                "                                          106664",
+            "SAMSUNG GALAXY J6 BLACK                                                          " +
+                "                                          106666",
             "SAMSUNG GALAXY J7 NEO BLACK                                                      " +
                 "                                              106643",
             "SAMSUNG GALAXY J7 NEO GOLD                                                       " +
@@ -2150,10 +2231,10 @@
             // 
             // VentHL
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1044, 592);
+            this.ClientSize = new System.Drawing.Size(1392, 729);
             this.Controls.Add(this.campoNano);
             this.Controls.Add(this.checkNano);
             this.Controls.Add(this.tabControl1);
@@ -2176,6 +2257,7 @@
             this.Controls.Add(this.lblRuta1);
             this.Controls.Add(this.lblTitulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "VentHL";
             this.Text = "HABILITACIÓN DE LÍNEA";

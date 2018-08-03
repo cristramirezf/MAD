@@ -14,6 +14,7 @@ namespace Plantilla_MAD
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Ventanas.VentPrincipal());
+            //Application.Run(new Ventanas.VentAMARRE());
         }
     }
 }

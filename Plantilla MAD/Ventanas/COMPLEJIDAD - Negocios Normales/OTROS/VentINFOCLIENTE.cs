@@ -119,6 +119,5 @@ namespace Plantilla_MAD.Ventanas
                 MessageBox.Show("Se ha copiado exitosamente el texto del MAD", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
-
     }
 }

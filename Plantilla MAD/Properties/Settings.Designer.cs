@@ -42,5 +42,16 @@ namespace Plantilla_MAD.Properties {
                 return ((string)(this["MAD_Conn"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=den1.mssql4.gear.host;Initial Catalog=mad;Persist Security Info=True;" +
+            "User ID=mad;Password=Th1bQYnh!?E5")]
+        public string madConnectionString {
+            get {
+                return ((string)(this["madConnectionString"]));
+            }
+        }
     }
 }

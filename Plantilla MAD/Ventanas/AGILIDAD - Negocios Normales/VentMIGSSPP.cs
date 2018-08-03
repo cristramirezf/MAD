@@ -47,16 +47,29 @@ namespace Plantilla_MAD.Ventanas
                     {
                         if (dataMIGSSPP["Cuenta", i].Value != null)
                         {
-                            filacuenta = "Cuenta: " + dataMIGSSPP["Cuenta", i].Value.ToString() + "\n" + "Móvil - Serie: \n";
+                            filacuenta = "Cuenta: " + dataMIGSSPP["Cuenta", i].Value.ToString() + "\n" + "Móvil - Rut Usuario - Serie: \n";
                         }
                         if (dataMIGSSPP["Serie", i].Value != null)
                         {
-                            mat[i, 0] = dataMIGSSPP["Movil", i].Value.ToString() + " - " + dataMIGSSPP["Serie", i].Value.ToString();
+                            if (dataMIGSSPP["RUT", i].Value != null)
+                            { 
+                                mat[i, 0] = dataMIGSSPP["Movil", i].Value.ToString() + " - " + dataMIGSSPP["RUT", i].Value.ToString() + " - " + dataMIGSSPP["Serie", i].Value.ToString();
+                            }
+                            else
+                            {
+                                mat[i, 0] = dataMIGSSPP["Movil", i].Value.ToString() + " - SIN RUT - " + dataMIGSSPP["Serie", i].Value.ToString();
+                            }
                         }
                         else
                         {
-                            mat[i, 0] = dataMIGSSPP["Movil", i].Value.ToString() + " - 0";
-
+                            if (dataMIGSSPP["RUT", i].Value != null)
+                            {
+                                mat[i, 0] = dataMIGSSPP["Movil", i].Value.ToString() + " - " + dataMIGSSPP["RUT", i].Value.ToString() + " - 0";
+                            }
+                            else
+                            {
+                                mat[i, 0] = dataMIGSSPP["Movil", i].Value.ToString() + " - SIN RUT - 0";
+                            }
                         }
                         mat[i, 1] = filacuenta;
 
@@ -198,6 +211,31 @@ namespace Plantilla_MAD.Ventanas
                     if (dataMIGSSPP["Cuenta", i].Value == null)
                     {
                         dataMIGSSPP["Cuenta", i].Value = ult;
+                    }
+                }
+            }
+        }//fin evento copia cuentas
+
+        //evento boton copia ruts hacia abajo
+        private void btnCopiaRut_Click(object sender, EventArgs e)
+        {
+            String ult = "";
+            int totalfilas = dataMIGSSPP.Rows.Count;
+            for (int i = totalfilas - 1; i >= 0; i--)
+            {
+                if (dataMIGSSPP["RUT", i].Value != null)
+                {
+                    ult = dataMIGSSPP["RUT", i].Value.ToString();
+                    break;
+                }
+            }
+            for (int i = 1; i <= dataMIGSSPP.RowCount - 1; i++)
+            {
+                if (dataMIGSSPP["Movil", i].Value != null)
+                {
+                    if (dataMIGSSPP["RUT", i].Value == null)
+                    {
+                        dataMIGSSPP["RUT", i].Value = ult;
                     }
                 }
             }
