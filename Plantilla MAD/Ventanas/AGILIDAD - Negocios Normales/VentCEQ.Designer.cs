@@ -87,37 +87,33 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(25, 84);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(19, 68);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 17);
+            this.label6.Size = new System.Drawing.Size(65, 13);
             this.label6.TabIndex = 27;
             this.label6.Text = "RUT Cliente";
             // 
             // campoRUT
             // 
-            this.campoRUT.Location = new System.Drawing.Point(120, 84);
-            this.campoRUT.Margin = new System.Windows.Forms.Padding(4);
+            this.campoRUT.Location = new System.Drawing.Point(90, 68);
             this.campoRUT.Name = "campoRUT";
-            this.campoRUT.Size = new System.Drawing.Size(132, 22);
+            this.campoRUT.Size = new System.Drawing.Size(100, 20);
             this.campoRUT.TabIndex = 26;
             // 
             // campoOCO
             // 
-            this.campoOCO.Location = new System.Drawing.Point(462, 83);
-            this.campoOCO.Margin = new System.Windows.Forms.Padding(4);
+            this.campoOCO.Location = new System.Drawing.Point(346, 67);
             this.campoOCO.Name = "campoOCO";
-            this.campoOCO.Size = new System.Drawing.Size(132, 22);
+            this.campoOCO.Size = new System.Drawing.Size(100, 20);
             this.campoOCO.TabIndex = 25;
             this.campoOCO.Visible = false;
             // 
             // checkOCO
             // 
             this.checkOCO.AutoSize = true;
-            this.checkOCO.Location = new System.Drawing.Point(311, 84);
-            this.checkOCO.Margin = new System.Windows.Forms.Padding(4);
+            this.checkOCO.Location = new System.Drawing.Point(233, 68);
             this.checkOCO.Name = "checkOCO";
-            this.checkOCO.Size = new System.Drawing.Size(148, 21);
+            this.checkOCO.Size = new System.Drawing.Size(118, 17);
             this.checkOCO.TabIndex = 24;
             this.checkOCO.Text = "¿Necesita OC/NP?";
             this.checkOCO.UseVisualStyleBackColor = true;
@@ -127,10 +123,9 @@
             // 
             this.lblProy2.AutoSize = true;
             this.lblProy2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProy2.Location = new System.Drawing.Point(712, 52);
-            this.lblProy2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblProy2.Location = new System.Drawing.Point(534, 42);
             this.lblProy2.Name = "lblProy2";
-            this.lblProy2.Size = new System.Drawing.Size(40, 17);
+            this.lblProy2.Size = new System.Drawing.Size(32, 13);
             this.lblProy2.TabIndex = 22;
             this.lblProy2.Text = "CEQ";
             this.lblProy2.Visible = false;
@@ -138,10 +133,9 @@
             // lblProy1
             // 
             this.lblProy1.AutoSize = true;
-            this.lblProy1.Location = new System.Drawing.Point(712, 36);
-            this.lblProy1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblProy1.Location = new System.Drawing.Point(534, 29);
             this.lblProy1.Name = "lblProy1";
-            this.lblProy1.Size = new System.Drawing.Size(223, 17);
+            this.lblProy1.Size = new System.Drawing.Size(166, 13);
             this.lblProy1.TabIndex = 21;
             this.lblProy1.Text = "Y el nombre de proyecto debe ser";
             this.lblProy1.Visible = false;
@@ -150,10 +144,9 @@
             // 
             this.lblRuta2.AutoSize = true;
             this.lblRuta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRuta2.Location = new System.Drawing.Point(297, 52);
-            this.lblRuta2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRuta2.Location = new System.Drawing.Point(223, 42);
             this.lblRuta2.Name = "lblRuta2";
-            this.lblRuta2.Size = new System.Drawing.Size(311, 17);
+            this.lblRuta2.Size = new System.Drawing.Size(247, 13);
             this.lblRuta2.TabIndex = 20;
             this.lblRuta2.Text = "Venta/Post-Venta Servicios Móviles - PCE";
             this.lblRuta2.Visible = false;
@@ -161,10 +154,9 @@
             // lblRuta1
             // 
             this.lblRuta1.AutoSize = true;
-            this.lblRuta1.Location = new System.Drawing.Point(297, 36);
-            this.lblRuta1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblRuta1.Location = new System.Drawing.Point(223, 29);
             this.lblRuta1.Name = "lblRuta1";
-            this.lblRuta1.Size = new System.Drawing.Size(297, 17);
+            this.lblRuta1.Size = new System.Drawing.Size(221, 13);
             this.lblRuta1.TabIndex = 19;
             this.lblRuta1.Text = "Esta solicitud debe ser ingresada a través de ";
             this.lblRuta1.Visible = false;
@@ -173,10 +165,9 @@
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(48, 36);
-            this.lblTitulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblTitulo.Location = new System.Drawing.Point(36, 29);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(156, 17);
+            this.lblTitulo.Size = new System.Drawing.Size(126, 13);
             this.lblTitulo.TabIndex = 18;
             this.lblTitulo.Text = "CAMBIO DE EQUIPO";
             // 
@@ -188,8 +179,7 @@
             this.limpiarDatosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1007, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(755, 24);
             this.menuStrip1.TabIndex = 36;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -199,55 +189,52 @@
             this.acercaDeToolStripMenuItem,
             this.salirToolStripMenuItem});
             this.menúToolStripMenuItem.Name = "menúToolStripMenuItem";
-            this.menúToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+            this.menúToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.menúToolStripMenuItem.Text = "Ayuda";
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de";
             this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.acercaDeToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(150, 26);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // limpiarDatosToolStripMenuItem
             // 
             this.limpiarDatosToolStripMenuItem.Name = "limpiarDatosToolStripMenuItem";
-            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(114, 24);
+            this.limpiarDatosToolStripMenuItem.Size = new System.Drawing.Size(92, 20);
             this.limpiarDatosToolStripMenuItem.Text = "Limpiar Datos";
             this.limpiarDatosToolStripMenuItem.Click += new System.EventHandler(this.limpiarDatosToolStripMenuItem_Click);
             // 
             // lblObs
             // 
             this.lblObs.AutoSize = true;
-            this.lblObs.Location = new System.Drawing.Point(401, 543);
-            this.lblObs.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblObs.Location = new System.Drawing.Point(301, 441);
             this.lblObs.Name = "lblObs";
-            this.lblObs.Size = new System.Drawing.Size(103, 17);
+            this.lblObs.Size = new System.Drawing.Size(78, 13);
             this.lblObs.TabIndex = 51;
             this.lblObs.Text = "Observaciones";
             // 
             // campoObs
             // 
-            this.campoObs.Location = new System.Drawing.Point(401, 562);
-            this.campoObs.Margin = new System.Windows.Forms.Padding(4);
+            this.campoObs.Location = new System.Drawing.Point(301, 457);
             this.campoObs.Name = "campoObs";
-            this.campoObs.Size = new System.Drawing.Size(251, 139);
+            this.campoObs.Size = new System.Drawing.Size(189, 114);
             this.campoObs.TabIndex = 50;
             this.campoObs.Text = "";
             // 
             // btnGrabar
             // 
-            this.btnGrabar.Location = new System.Drawing.Point(783, 642);
-            this.btnGrabar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGrabar.Location = new System.Drawing.Point(587, 522);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(133, 28);
+            this.btnGrabar.Size = new System.Drawing.Size(100, 23);
             this.btnGrabar.TabIndex = 49;
             this.btnGrabar.Text = "Copiar AC";
             this.btnGrabar.UseVisualStyleBackColor = true;
@@ -255,10 +242,9 @@
             // 
             // btnCopiaProy
             // 
-            this.btnCopiaProy.Location = new System.Drawing.Point(763, 615);
-            this.btnCopiaProy.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaProy.Location = new System.Drawing.Point(572, 500);
             this.btnCopiaProy.Name = "btnCopiaProy";
-            this.btnCopiaProy.Size = new System.Drawing.Size(183, 28);
+            this.btnCopiaProy.Size = new System.Drawing.Size(137, 23);
             this.btnCopiaProy.TabIndex = 48;
             this.btnCopiaProy.Text = "Copiar Nombre Proyecto";
             this.btnCopiaProy.UseVisualStyleBackColor = true;
@@ -268,10 +254,9 @@
             // lblEjecutivo
             // 
             this.lblEjecutivo.AutoSize = true;
-            this.lblEjecutivo.Location = new System.Drawing.Point(753, 543);
-            this.lblEjecutivo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblEjecutivo.Location = new System.Drawing.Point(565, 441);
             this.lblEjecutivo.Name = "lblEjecutivo";
-            this.lblEjecutivo.Size = new System.Drawing.Size(96, 17);
+            this.lblEjecutivo.Size = new System.Drawing.Size(75, 13);
             this.lblEjecutivo.TabIndex = 47;
             this.lblEjecutivo.Text = "Ejecutivo SAC";
             // 
@@ -308,28 +293,25 @@
             "Sandra Lazcano A.",
             "Simon Segura B.",
             "Vladimir Cubillos R."});
-            this.comboEjecutivo.Location = new System.Drawing.Point(753, 562);
-            this.comboEjecutivo.Margin = new System.Windows.Forms.Padding(4);
+            this.comboEjecutivo.Location = new System.Drawing.Point(565, 457);
             this.comboEjecutivo.Name = "comboEjecutivo";
-            this.comboEjecutivo.Size = new System.Drawing.Size(193, 24);
+            this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
             this.comboEjecutivo.TabIndex = 46;
             // 
             // lblDatos
             // 
             this.lblDatos.AutoSize = true;
-            this.lblDatos.Location = new System.Drawing.Point(55, 543);
-            this.lblDatos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblDatos.Location = new System.Drawing.Point(41, 441);
             this.lblDatos.Name = "lblDatos";
-            this.lblDatos.Size = new System.Drawing.Size(123, 17);
+            this.lblDatos.Size = new System.Drawing.Size(95, 13);
             this.lblDatos.TabIndex = 45;
             this.lblDatos.Text = "Datos de contacto";
             // 
             // campoDatos
             // 
-            this.campoDatos.Location = new System.Drawing.Point(55, 562);
-            this.campoDatos.Margin = new System.Windows.Forms.Padding(4);
+            this.campoDatos.Location = new System.Drawing.Point(41, 457);
             this.campoDatos.Name = "campoDatos";
-            this.campoDatos.Size = new System.Drawing.Size(251, 139);
+            this.campoDatos.Size = new System.Drawing.Size(189, 114);
             this.campoDatos.TabIndex = 44;
             this.campoDatos.Text = "";
             // 
@@ -337,11 +319,10 @@
             // 
             this.tabControl1.Controls.Add(this.tabCEQ);
             this.tabControl1.Controls.Add(this.tabCS);
-            this.tabControl1.Location = new System.Drawing.Point(29, 139);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabControl1.Location = new System.Drawing.Point(22, 113);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(944, 375);
+            this.tabControl1.Size = new System.Drawing.Size(708, 305);
             this.tabControl1.TabIndex = 52;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.TabControl1_SelectedIndexChanged);
             // 
@@ -353,20 +334,18 @@
             this.tabCEQ.Controls.Add(this.btnCopiaValorCEQ);
             this.tabCEQ.Controls.Add(this.btnCopiaCuentasCEQ);
             this.tabCEQ.Controls.Add(this.btnCopiaEquiposCEQ);
-            this.tabCEQ.Location = new System.Drawing.Point(4, 25);
-            this.tabCEQ.Margin = new System.Windows.Forms.Padding(4);
+            this.tabCEQ.Location = new System.Drawing.Point(4, 22);
             this.tabCEQ.Name = "tabCEQ";
-            this.tabCEQ.Padding = new System.Windows.Forms.Padding(4);
-            this.tabCEQ.Size = new System.Drawing.Size(936, 346);
+            this.tabCEQ.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabCEQ.Size = new System.Drawing.Size(700, 279);
             this.tabCEQ.TabIndex = 1;
             this.tabCEQ.Text = "Cambio de Equipo";
             // 
             // btnCopiaCondicionCEQ
             // 
-            this.btnCopiaCondicionCEQ.Location = new System.Drawing.Point(759, 7);
-            this.btnCopiaCondicionCEQ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaCondicionCEQ.Location = new System.Drawing.Point(569, 6);
             this.btnCopiaCondicionCEQ.Name = "btnCopiaCondicionCEQ";
-            this.btnCopiaCondicionCEQ.Size = new System.Drawing.Size(147, 28);
+            this.btnCopiaCondicionCEQ.Size = new System.Drawing.Size(110, 23);
             this.btnCopiaCondicionCEQ.TabIndex = 57;
             this.btnCopiaCondicionCEQ.Text = "Copia Condiciones";
             this.btnCopiaCondicionCEQ.UseVisualStyleBackColor = true;
@@ -383,11 +362,10 @@
             this.ModeloCEQ,
             this.ValorCEQ,
             this.CondicionCEQ});
-            this.dataCEQ.Location = new System.Drawing.Point(0, 42);
-            this.dataCEQ.Margin = new System.Windows.Forms.Padding(4);
+            this.dataCEQ.Location = new System.Drawing.Point(0, 34);
             this.dataCEQ.Name = "dataCEQ";
             this.dataCEQ.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataCEQ.Size = new System.Drawing.Size(931, 335);
+            this.dataCEQ.Size = new System.Drawing.Size(698, 272);
             this.dataCEQ.TabIndex = 53;
             this.dataCEQ.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCEQ_CellClick);
             this.dataCEQ.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCEQ_CellClick);
@@ -396,10 +374,9 @@
             // 
             // btnCopiaValorCEQ
             // 
-            this.btnCopiaValorCEQ.Location = new System.Drawing.Point(619, 7);
-            this.btnCopiaValorCEQ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaValorCEQ.Location = new System.Drawing.Point(464, 6);
             this.btnCopiaValorCEQ.Name = "btnCopiaValorCEQ";
-            this.btnCopiaValorCEQ.Size = new System.Drawing.Size(121, 28);
+            this.btnCopiaValorCEQ.Size = new System.Drawing.Size(91, 23);
             this.btnCopiaValorCEQ.TabIndex = 56;
             this.btnCopiaValorCEQ.Text = "Copia Valor";
             this.btnCopiaValorCEQ.UseVisualStyleBackColor = true;
@@ -407,10 +384,9 @@
             // 
             // btnCopiaCuentasCEQ
             // 
-            this.btnCopiaCuentasCEQ.Location = new System.Drawing.Point(176, 7);
-            this.btnCopiaCuentasCEQ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaCuentasCEQ.Location = new System.Drawing.Point(132, 6);
             this.btnCopiaCuentasCEQ.Name = "btnCopiaCuentasCEQ";
-            this.btnCopiaCuentasCEQ.Size = new System.Drawing.Size(121, 28);
+            this.btnCopiaCuentasCEQ.Size = new System.Drawing.Size(91, 23);
             this.btnCopiaCuentasCEQ.TabIndex = 54;
             this.btnCopiaCuentasCEQ.Text = "Copia Cuenta";
             this.btnCopiaCuentasCEQ.UseVisualStyleBackColor = true;
@@ -418,10 +394,9 @@
             // 
             // btnCopiaEquiposCEQ
             // 
-            this.btnCopiaEquiposCEQ.Location = new System.Drawing.Point(408, 7);
-            this.btnCopiaEquiposCEQ.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaEquiposCEQ.Location = new System.Drawing.Point(306, 6);
             this.btnCopiaEquiposCEQ.Name = "btnCopiaEquiposCEQ";
-            this.btnCopiaEquiposCEQ.Size = new System.Drawing.Size(121, 28);
+            this.btnCopiaEquiposCEQ.Size = new System.Drawing.Size(91, 23);
             this.btnCopiaEquiposCEQ.TabIndex = 55;
             this.btnCopiaEquiposCEQ.Text = "Copia Equipo";
             this.btnCopiaEquiposCEQ.UseVisualStyleBackColor = true;
@@ -434,20 +409,18 @@
             this.tabCS.Controls.Add(this.btnCopiaValorCS);
             this.tabCS.Controls.Add(this.btnCopiaCuentasCS);
             this.tabCS.Controls.Add(this.dataCS);
-            this.tabCS.Location = new System.Drawing.Point(4, 25);
-            this.tabCS.Margin = new System.Windows.Forms.Padding(4);
+            this.tabCS.Location = new System.Drawing.Point(4, 22);
             this.tabCS.Name = "tabCS";
-            this.tabCS.Padding = new System.Windows.Forms.Padding(4);
-            this.tabCS.Size = new System.Drawing.Size(936, 346);
+            this.tabCS.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabCS.Size = new System.Drawing.Size(700, 279);
             this.tabCS.TabIndex = 2;
             this.tabCS.Text = "Cambio de Simcard";
             // 
             // btnCopiaSIMCS
             // 
-            this.btnCopiaSIMCS.Location = new System.Drawing.Point(493, 7);
-            this.btnCopiaSIMCS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaSIMCS.Location = new System.Drawing.Point(370, 6);
             this.btnCopiaSIMCS.Name = "btnCopiaSIMCS";
-            this.btnCopiaSIMCS.Size = new System.Drawing.Size(147, 28);
+            this.btnCopiaSIMCS.Size = new System.Drawing.Size(110, 23);
             this.btnCopiaSIMCS.TabIndex = 43;
             this.btnCopiaSIMCS.Text = "Copia SIM";
             this.btnCopiaSIMCS.UseVisualStyleBackColor = true;
@@ -455,10 +428,9 @@
             // 
             // btnCopiaValorCS
             // 
-            this.btnCopiaValorCS.Location = new System.Drawing.Point(701, 7);
-            this.btnCopiaValorCS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaValorCS.Location = new System.Drawing.Point(526, 6);
             this.btnCopiaValorCS.Name = "btnCopiaValorCS";
-            this.btnCopiaValorCS.Size = new System.Drawing.Size(121, 28);
+            this.btnCopiaValorCS.Size = new System.Drawing.Size(91, 23);
             this.btnCopiaValorCS.TabIndex = 42;
             this.btnCopiaValorCS.Text = "Copia Valor";
             this.btnCopiaValorCS.UseVisualStyleBackColor = true;
@@ -466,10 +438,9 @@
             // 
             // btnCopiaCuentasCS
             // 
-            this.btnCopiaCuentasCS.Location = new System.Drawing.Point(247, 7);
-            this.btnCopiaCuentasCS.Margin = new System.Windows.Forms.Padding(4);
+            this.btnCopiaCuentasCS.Location = new System.Drawing.Point(185, 6);
             this.btnCopiaCuentasCS.Name = "btnCopiaCuentasCS";
-            this.btnCopiaCuentasCS.Size = new System.Drawing.Size(121, 28);
+            this.btnCopiaCuentasCS.Size = new System.Drawing.Size(91, 23);
             this.btnCopiaCuentasCS.TabIndex = 41;
             this.btnCopiaCuentasCS.Text = "Copia Cuenta";
             this.btnCopiaCuentasCS.UseVisualStyleBackColor = true;
@@ -485,11 +456,10 @@
             this.CuentaCS,
             this.SIMCS,
             this.ValorCS});
-            this.dataCS.Location = new System.Drawing.Point(0, 42);
-            this.dataCS.Margin = new System.Windows.Forms.Padding(4);
+            this.dataCS.Location = new System.Drawing.Point(0, 34);
             this.dataCS.Name = "dataCS";
             this.dataCS.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            this.dataCS.Size = new System.Drawing.Size(829, 335);
+            this.dataCS.Size = new System.Drawing.Size(622, 272);
             this.dataCS.TabIndex = 40;
             this.dataCS.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCS_CellClick);
             this.dataCS.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataCS_CellClick);
@@ -540,20 +510,18 @@
             // 
             // campoNano
             // 
-            this.campoNano.Location = new System.Drawing.Point(871, 81);
-            this.campoNano.Margin = new System.Windows.Forms.Padding(4);
+            this.campoNano.Location = new System.Drawing.Point(653, 66);
             this.campoNano.Name = "campoNano";
-            this.campoNano.Size = new System.Drawing.Size(45, 22);
+            this.campoNano.Size = new System.Drawing.Size(35, 20);
             this.campoNano.TabIndex = 54;
             this.campoNano.Visible = false;
             // 
             // checkNano
             // 
             this.checkNano.AutoSize = true;
-            this.checkNano.Location = new System.Drawing.Point(728, 82);
-            this.checkNano.Margin = new System.Windows.Forms.Padding(4);
+            this.checkNano.Location = new System.Drawing.Point(546, 67);
             this.checkNano.Name = "checkNano";
-            this.checkNano.Size = new System.Drawing.Size(135, 21);
+            this.checkNano.Size = new System.Drawing.Size(107, 17);
             this.checkNano.TabIndex = 53;
             this.checkNano.Text = "¿SIM en blanco?";
             this.checkNano.UseVisualStyleBackColor = true;
@@ -585,350 +553,197 @@
             this.ModeloCEQ.HeaderText = "Modelo";
             this.ModeloCEQ.Items.AddRange(new object[] {
             "--",
-            "ALC PIXI 3 4,0 BLACK                                                             " +
-                "                                       126156",
-            "ALC PIXI 4 4,0 BLACK                                                             " +
-                "                                       126171",
-            "ALC PIXI 4 5,0 4G BLACK                                                          " +
-                "                                          126177",
-            "ALC U5 BLACK                                                                     " +
-                "                               126186",
-            "APL IPHONE 6 32GB SPACE GREY                                                     " +
-                "                                               136205",
-            "APL IPHONE 6S 128GB SPACE GRAY                                                   " +
-                "                                                 136133",
-            "APL IPHONE 6S 16GB GOLD                                                          " +
-                "                                          136129",
-            "APL IPHONE 6S 16GB SILVER                                                        " +
-                "                                            136128",
-            "APL IPHONE 6S 16GB SPACE GRAY                                                    " +
-                "                                                136127",
-            "APL IPHONE 6S 32GB SPACE GREY                                                    " +
-                "                                                136189",
-            "APL IPHONE 6S 64GB SILVER                                                        " +
-                "                                            136132",
-            "APL IPHONE 6S PLUS 16GB SPACE GRAY                                               " +
-                "                                                     136134",
-            "APL IPHONE 6S PLUS 64GB SPACE GRAY                                               " +
-                "                                                     136138",
-            "APL IPHONE 7 128GB BLACK                                                         " +
-                "                                           136167",
-            "APL IPHONE 7 128GB JET BLACK                                                     " +
-                "                                               136164",
-            "APL IPHONE 7 256GB BLACK                                                         " +
-                "                                           136172",
-            "APL IPHONE 7 256GB JET BLACK                                                     " +
-                "                                               136169",
-            "APL IPHONE 7 32GB BLACK                                                          " +
-                "                                          136162",
-            "APL IPHONE 7 32GB ROSE GOLD                                                      " +
-                "                                              136160",
-            "APL IPHONE 7 PLUS 128GB BLACK                                                    " +
-                "                                                136182",
-            "APL IPHONE 7 PLUS 128GB JET BLACK                                                " +
-                "                                                    136179",
-            "APL IPHONE 7 PLUS 32GB BLACK                                                     " +
-                "                                               136177",
-            "APL IPHONE SE SILVER 16GB                                                        " +
-                "                                            136145",
-            "APL IPHONE SE SILVER 64GB                                                        " +
-                "                                            136149",
-            "APL IPHONE SE SPACE GRAY 16GB                                                    " +
-                "                                                136144",
-            "APL IPHONE SE SPACE GRAY 64GB                                                    " +
-                "                                                136148",
-            "APPLE IPHONE 5S 16GB SPC GRAY                                                    " +
-                "                                                136067",
-            "APPLE IPHONE 6 16 GB SPACE GRAY                                                  " +
-                "                                                  136085",
-            "APPLE IPHONE 6 16GB SILVER                                                       " +
-                "                                             136086",
-            "APPLE IPHONE 6 64 GB SPACE GRAY                                                  " +
-                "                                                  136082",
-            "APPLE IPHONE 6 64GB SILVER                                                       " +
-                "                                             136083",
-            "APPLE IPHONE 6 PLUS 16GB SPC GRAY                                                " +
-                "                                                    136092",
-            "APPLE IPHONE 6S 64GB SPACE GRAY                                                  " +
-                "                                                  136131",
-            "APPLE IPHONE 6S PLUS 16GB SILVER                                                 " +
-                "                                                   136135",
-            "APPLE IPHONE 8 256GB SILVER                                                      " +
-                "                                              136236",
-            "APPLE IPHONE 8 256GB SPACE GRAY                                                  " +
-                "                                                  136235",
-            "APPLE IPHONE 8 64GB SILVER                                                       " +
-                "                                             136233",
-            "APPLE IPHONE 8 64GB SPACE GRAY                                                   " +
-                "                                                 136232",
-            "APPLE IPHONE 8 PLUS 256GB SPACE GRAY                                             " +
-                "                                                       136241",
-            "APPLE IPHONE 8 PLUS 64GB SILVER                                                  " +
-                "                                                  136239",
-            "APPLE IPHONE 8 PLUS 64GB SPACE GRAY                                              " +
-                "                                                      136238",
-            "APPLE IPHONE X 256GB SPACE GRAY                                                  " +
-                "                                                  136246",
-            "APPLE IPHONE X 64GB SILVER                                                       " +
-                "                                             136245",
-            "APPLE IPHONE X 64GB SPACE GRAY                                                   " +
-                "                                                 136244",
-            "CALAMP LMU 3030 GPS                                                              " +
-                "                                      165002",
-            "ENFORA MT-Gu GSM2358                                                             " +
-                "                                       122009",
-            "HUA P10 BLACK                                                                    " +
-                "                                133171",
-            "HUA P9 LITE 2017 BLACK                                                           " +
-                "                                         133173",
-            "HUA VALLEY Y635 BLACK                                                            " +
-                "                                        133126",
-            "HUAWEI B68L HSPA+                                                                " +
-                "                                    133120",
-            "HUAWEI E3131 HSPA+ WHT                                                           " +
-                "                                         133112",
-            "HUAWEI E3276s BLANCO LTE                                                         " +
-                "                                           133098",
-            "HUAWEI E3372 LTE                                                                 " +
-                "                                   133132",
-            "HUAWEI E5573 MIFI                                                                " +
-                "                                    133133",
-            "HUAWEI E5776s NEGRO LTE                                                          " +
-                "                                          133099",
-            "HUAWEI E8231 HSPA+WIFI                                                           " +
-                "                                         133131",
-            "HUAWEI E8372H LTE                                                                " +
-                "                                    133167",
-            "HUAWEI F317 FIJO BLANCO                                                          " +
-                "                                          133123",
-            "HUAWEI GR5 BLACK                                                                 " +
-                "                                   133143",
-            "HUAWEI MATE 10 LITE BLACK                                                        " +
-                "                                            133185",
-            "HUAWEI MATE 10 PRO GREY                                                          " +
-                "                                          133188",
-            "HUAWEI MATE 9 BLACK                                                              " +
-                "                                      133165",
-            "HUAWEI P SMART                                                                   " +
-                "                                 133197",
-            "HUAWEI P20                                                                       " +
-                "                             133201",
-            "HUAWEI P20 BLACK + SEGURO                                                        " +
-                "                                            133201",
-            "HUAWEI P8 LITE (ALICE) BLACK                                                     " +
-                "                                               133134",
-            "HUAWEI P9 BLACK                                                                  " +
-                "                                  133150",
-            "HUAWEI P9 GOLD                                                                   " +
-                "                                 133151",
-            "HUAWEI P9 LITE BLACK                                                             " +
-                "                                       133152",
-            "HUAWEI P9 LITE SMART GRAY                                                        " +
-                "                                            133177",
-            "HUAWEI P9 LITE WHITE                                                             " +
-                "                                       133153",
-            "HUAWEI ROUTER B310LTE EMPRE WHT                                                  " +
-                "                                                  133161",
-            "HUAWEI ROUTER B612 BAFI BLANCO                                                   " +
-                "                                                 133176",
-            "HUAWEI ROUTER LTE B310                                                           " +
-                "                                         133130",
-            "HUAWEI ROUTER LTE B310 BAFI V2 WHITE                                             " +
-                "                                                       133168",
-            "HUAWEI Y5 2018 BLACK                                                             " +
-                "                                       133193",
-            "HUAWEI Y6 2018 BLACK                                                             " +
-                "                                       133192",
-            "HUAWEI Y6 II BLACK                                                               " +
-                "                                     133163",
-            "HUAWEI Y7 2018 BLACK                                                             " +
-                "                                       133194",
-            "HUAWEI Y7 BLACK                                                                  " +
-                "                                  133180",
-            "HUAWEI Y7 2018 BLACK                                                             " +
-                "                                       133194",
-            "LG G4 STYLUS BLACK                                                               " +
-                "                                     124203",
-            "LG G4 STYLUS WHITE                                                               " +
-                "                                     124204",
-            "LG K10 2017 BLACK                                                                " +
-                "                                    124233",
-            "LG K10 LTE BLACK                                                                 " +
-                "                                   124205",
-            "LG K4 BROWN                                                                      " +
-                "                              124229",
-            "LG MAGNA LTE BLACK                                                               " +
-                "                                     124195",
-            "LG PROMO G5 + BATTERY BLACK                                                      " +
-                "                                              124213",
-            "LG X CAM BLACK                                                                   " +
-                "                                 124211",
-            "LG X STYLE BLACK                                                                 " +
-                "                                   124225",
-            "MOT MOTO Z PLAY LUNAR GREY                                                       " +
-                "                                             104137",
-            "MOTOROLA MOTO E4 PLUS GRAY                                                       " +
-                "                                             104142",
-            "MOTOROLA MOTO E4 PLUS GRAY                                                       " +
-                "                                             104142",
-            "MOTOROLA MOTO E5 FLASH GREY                                                      " +
-                "                                              104153",
-            "MOTOROLA MOTO G 3RA GEN BLACK                                                    " +
-                "                                                104123",
-            "MOTOROLA MOTO G6 PLAY DEEP INDIGO                                                " +
-                "                                                    104155",
-            "MOTOROLA MOTO G 4TA GEN BLACK                                                    " +
-                "                                                104128",
-            "MOTOROLA MOTO G 5S LUNAR GRAY                                                    " +
-                "                                                104145",
-            "MOTOROLA MOTO X PLAY BLACK                                                       " +
-                "                                             104125",
-            "NOKIA 6 BLACK                                                                    " +
-                "                                105353",
-            "NOKIA 6 BLUE                                                                     " +
-                "                               105355",
-            "NOKIA 220 BLK                                                                    " +
-                "                                105337",
-            "NOKIA LUMIA 520 BLK                                                              " +
-                "                                      105317",
-            "NOKIA LUMIA 520 WHT                                                              " +
-                "                                      105316",
-            "NOKIA LUMIA 630 WHT                                                              " +
-                "                                      105343",
-            "NOKIA LUMIA 635 BLK                                                              " +
-                "                                      105348",
-            "OWN F1035 3G BLACK                                                               " +
-                "                                     162050",
-            "OWN F1035 3G WHITE                                                               " +
-                "                                     162051",
-            "OWN FUN 6 BLACK                                                                  " +
-                "                                  162109",
-            "OWN FUN BLACK                                                                    " +
-                "                                162038",
-            "OWN ONE BLACK                                                                    " +
-                "                                162056",
-            "OWN S4035 4G BLACK                                                               " +
-                "                                     162048",
-            "QUECLINK GV300 GPS                                                               " +
-                "                                     166001",
-            "SAM ACE 4 NEO BLACK                                                              " +
-                "                                      106504",
-            "SAM CORE PRIME (G360G) BLACK                                                     " +
-                "                                               106495",
-            "SAM GALAXY J1 ACE LTE BLACK                                                      " +
-                "                                              106538",
-            "SAM GALAXY J1 ACE LTE VE BLACK                                                   " +
-                "                                                 106551",
-            "SAM GALAXY J1 ACE LTE VE WHITE                                                   " +
-                "                                                 106552",
-            "SAM GALAXY J2 BLACK                                                              " +
-                "                                      106561",
-            "SAM GALAXY J2 PRIME BLACK                                                        " +
-                "                                            106597",
-            "SAM GALAXY J5 2016 BLACK                                                         " +
-                "                                           106583",
-            "SAM GALAXY J5 BLACK                                                              " +
-                "                                      106526",
-            "SAM GALAXY J5 WHITE                                                              " +
-                "                                      106527",
-            "SAM GALAXY J7 2016 BLACK                                                         " +
-                "                                           106586",
-            "SAM GALAXY J7 2016 GOLD                                                          " +
-                "                                          106587",
-            "SAM GALAXY J7 BLACK                                                              " +
-                "                                      106540",
-            "SAM GALAXY S6 BLACK                                                              " +
-                "                                      106518",
-            "SAM GALAXY S6 EDGE BLACK                                                         " +
-                "                                           106520",
-            "SAM GALAXY S6 EDGE GOLD                                                          " +
-                "                                          106525",
-            "SAM GALAXY S6 EDGE PLUS BLACK                                                    " +
-                "                                                106543",
-            "SAM GALAXY S6 EDGE PLUS GOLD                                                     " +
-                "                                               106544",
-            "SAM GALAXY S7 + VR BLACK                                                         " +
-                "                                           106563",
-            "SAM GALAXY S7 BLACK                                                              " +
-                "                                      106553",
-            "SAM GALAXY S7 EDGE + VR BLACK                                                    " +
-                "                                                106566",
-            "SAM GALAXY S7 EDGE + VR SILVER                                                   " +
-                "                                                 106567",
-            "SAM GALAXY S7 EDGE BLACK                                                         " +
-                "                                           106556",
-            "SAM GALAXY S7 EDGE GOLD                                                          " +
-                "                                          106558",
-            "SAM GALAXY S7 EDGE SILVER                                                        " +
-                "                                            106557",
-            "SAM GALAXY S7 SILVER                                                             " +
-                "                                       106554",
-            "SAM GALAXY S8 BLACK                                                              " +
-                "                                      106616",
-            "SAM GALAXY S8 GOLD                                                               " +
-                "                                     106617",
-            "SAM GALAXY S8 ORCHID GREY                                                        " +
-                "                                            106618",
-            "SAM GALAXY S8 PLUS BLACK                                                         " +
-                "                                           106620",
-            "SAM GALAXY S8 PLUS GOLD                                                          " +
-                "                                          106621",
-            "SAM GLXY A5 (A500) BLACK                                                         " +
-                "                                           106497",
-            "SAM GRAND PRIME LTE (D530)U BLACK                                                " +
-                "                                                    106522",
-            "SAM SAM GALAXY J7 GOLD                                                           " +
-                "                                         106541",
-            "SAMSUNG GALAXY J4 BLACK                                                          " +
-                "                                          106664",
-            "SAMSUNG GALAXY J6 BLACK                                                          " +
-                "                                          106666",
-            "SAMSUNG GALAXY J7 NEO BLACK                                                      " +
-                "                                              106643",
-            "SAMSUNG GALAXY J7 NEO GOLD                                                       " +
-                "                                             106644",
-            "SAMSUNG GALAXY J7 NEO SILVER                                                     " +
-                "                                               106645",
-            "SAMSUNG GALAXY J7 PRO BLACK                                                      " +
-                "                                              106633",
-            "SAMSUNG GALAXY J7 PRO GOLD                                                       " +
-                "                                             106632",
-            "SAMSUNG GALAXY NOTE 8 + DEX BLACK                                                " +
-                "                                                    106642",
-            "SAMSUNG GALAXY NOTE 8 BLACK                                                      " +
-                "                                              106636",
-            "SAMSUNG GALAXY NOTE 8 BLACK                                                      " +
-                "                                              106636",
-            "SAMSUNG GALAXY S9 BLACK                                                          " +
-                "                                          106646",
-            "SAMSUNG GALAXY S9 LILA PURPLE                                                    " +
-                "                                                106648",
-            "SAMSUNG GALAXY S9+ BLACK                                                         " +
-                "                                           106649",
-            "SAMSUNG GALAXY S9+ LILA PURPLE                                                   " +
-                "                                                 106651",
-            "SAMSUNG GEAR VR ACC                                                              " +
-                "                                      106572",
-            "SAMSUNG GLX NT 3 NEO N7505 BLK                                                   " +
-                "                                                 106441",
-            "SAMSUNG J5 BLACK + CARCASA                                                       " +
-                "                                             106592",
-            "SAMSUNG J5 WHITE + CARCASA                                                       " +
-                "                                             106593",
-            "SAMSUNG J7 GOLD + CARCASA                                                        " +
-                "                                            106596",
-            "SONY XPERIA E4G BLCK                                                             " +
-                "                                       102319",
-            "SONY XPERIA M4 AQUA BLACK                                                        " +
-                "                                            102317",
-            "SONY XPERIA M4 AQUA WHITE                                                        " +
-                "                                            102318",
-            "SONY XPERIA M5 BLACK                                                             " +
-                "                                       102325",
-            "SONY XPERIA X BLACK                                                              " +
-                "                                      102334",
-            "SONY XPERIA XA ULTRA BLACK                                                       " +
-                "                                             102336"});
+            "ALC PIXI 3 4,0 BLACK 126156",
+            "ALC PIXI 4 4,0 BLACK 126171",
+            "ALC PIXI 4 5,0 4G BLACK 126177",
+            "ALC U5 BLACK 126186",
+            "APL IPHONE 6 32GB SPACE GREY 136205",
+            "APL IPHONE 6S 128GB SPACE GRAY 136133",
+            "APL IPHONE 6S 16GB GOLD 136129",
+            "APL IPHONE 6S 16GB SILVER 136128",
+            "APL IPHONE 6S 16GB SPACE GRAY 136127",
+            "APL IPHONE 6S 32GB SPACE GREY 136189",
+            "APL IPHONE 6S 64GB SILVER 136132",
+            "APL IPHONE 6S PLUS 16GB SPACE GRAY 136134",
+            "APL IPHONE 6S PLUS 32GB SPACE GREY 136193",
+            "APL IPHONE 6S PLUS 64GB SPACE GRAY 136138",
+            "APL IPHONE 7 128GB BLACK 136167",
+            "APL IPHONE 7 128GB JET BLACK 136164",
+            "APL IPHONE 7 256GB BLACK 136172",
+            "APL IPHONE 7 256GB JET BLACK 136169",
+            "APL IPHONE 7 32GB BLACK 136162",
+            "APL IPHONE 7 32GB ROSE GOLD 136160",
+            "APL IPHONE 7 PLUS 128GB BLACK 136182",
+            "APL IPHONE 7 PLUS 128GB JET BLACK 136179",
+            "APL IPHONE 7 PLUS 32GB BLACK 136177",
+            "APL IPHONE SE SILVER 16GB 136145",
+            "APL IPHONE SE SILVER 64GB 136149",
+            "APL IPHONE SE SPACE GRAY 16GB 136144",
+            "APL IPHONE SE SPACE GRAY 64GB 136148",
+            "APPLE IPHONE 5S 16GB SPC GRAY 136067",
+            "APPLE IPHONE 6 16 GB SPACE GRAY 136085",
+            "APPLE IPHONE 6 16GB SILVER 136086",
+            "APPLE IPHONE 6 64 GB SPACE GRAY 136082",
+            "APPLE IPHONE 6 64GB SILVER 136083",
+            "APPLE IPHONE 6 PLUS 16GB SPC GRAY 136092",
+            "APPLE IPHONE 6S 64GB SPACE GRAY 136131",
+            "APPLE IPHONE 6S PLUS 16GB SILVER 136135",
+            "APPLE IPHONE 8 256GB SILVER 136236",
+            "APPLE IPHONE 8 256GB SPACE GRAY 136235",
+            "APPLE IPHONE 8 64GB GOLD 136234",
+            "APPLE IPHONE 8 64GB SILVER 136233",
+            "APPLE IPHONE 8 64GB SPACE GRAY 136232",
+            "APPLE IPHONE 8 PLUS 256GB SPACE GRAY 136241",
+            "APPLE IPHONE 8 PLUS 64GB SILVER 136239",
+            "APPLE IPHONE 8 PLUS 64GB SPACE GRAY 136238",
+            "APPLE IPHONE SE 32 GB SILVER 136317",
+            "APPLE IPHONE SE 32GB SPACE GRAY 136260",
+            "APPLE IPHONE X 256GB SPACE GRAY 136246",
+            "APPLE IPHONE X 64GB SILVER 136245",
+            "APPLE IPHONE X 64GB SPACE GRAY 136244",
+            "APPLE IPHONE XR 128GB BLACK 136275",
+            "APPLE IPHONE XR 64GB BLACK 136269",
+            "APPLE IPHONE XS 256GB SPACE GRAY 136292",
+            "APPLE IPHONE XS 512GB SPACE GRAY 136295",
+            "APPLE IPHONE XS 64GB SILVER 136288",
+            "APPLE IPHONE XS 64GB SPACE GRAY 136289",
+            "APPLE IPHONE XS MAX 256GB SILVER 136300",
+            "APPLE IPHONE XS MAX 256GB SPACE GRAY 136301",
+            "APPLE IPHONE XS MAX 512GB SPACE GRAY 136304",
+            "APPLE IPHONE XS MAX 64GB SILVER 136297",
+            "APPLE IPHONE XS MAX 64GB SPACE GRAY 136298",
+            "CALAMP LMU 3030 GPS 165002",
+            "ENFORA MT-Gu GSM2358 122009",
+            "HUA P10 BLACK 133171",
+            "HUA P9 LITE 2017 BLACK 133173",
+            "HUA ROUTER B612 BAFI ARRIENDO WHITE 133204",
+            "HUA VALLEY Y635 BLACK 133126",
+            "HUAWEI B68L HSPA+ 133120",
+            "HUAWEI E3131 HSPA+ WHT 133112",
+            "HUAWEI E3276s BLANCO LTE 133098",
+            "HUAWEI E3372 LTE 133132",
+            "HUAWEI E5573 MIFI 133133",
+            "HUAWEI E5776s NEGRO LTE 133099",
+            "HUAWEI E8231 HSPA+WIFI 133131",
+            "HUAWEI E8372H LTE 133167",
+            "HUAWEI F317 FIJO BLANCO 133123",
+            "HUAWEI GR5 BLACK 133143",
+            "HUAWEI MATE 10 LITE BLACK 133185",
+            "HUAWEI MATE 10 LITE GOLD 133186",
+            "HUAWEI MATE 10 PRO GREY 133188",
+            "HUAWEI MATE 9 BLACK 133165",
+            "HUAWEI P SMART 133197",
+            "HUAWEI P20 133201",
+            "HUAWEI P20 BLACK 133215",
+            "HUAWEI P8 LITE (ALICE) BLACK 133134",
+            "HUAWEI P9 BLACK 133150",
+            "HUAWEI P9 GOLD 133151",
+            "HUAWEI P9 LITE BLACK 133152",
+            "HUAWEI P9 LITE SMART GRAY 133177",
+            "HUAWEI P9 LITE WHITE 133153",
+            "HUAWEI ROUTER B310LTE EMPRE WHT 133161",
+            "HUAWEI ROUTER B612 BAFI BLANCO 133176",
+            "HUAWEI ROUTER LTE B310 133130",
+            "HUAWEI ROUTER LTE B310 BAFI V2 WHITE 133168",
+            "HUAWEI Y5 2018 BLACK 133193",
+            "HUAWEI Y6 2018 BLACK 133192",
+            "HUAWEI Y6 II BLACK 133163",
+            "HUAWEI Y7 2018 BLACK 133194",
+            "HUAWEI Y7 BLACK 133180",
+            "LG G4 STYLUS BLACK 124203",
+            "LG G4 STYLUS WHITE 124204",
+            "LG K10 2017 BLACK 124233",
+            "LG K10 LTE BLACK 124205",
+            "LG K4 BROWN 124229",
+            "LG MAGNA LTE BLACK 124195",
+            "LG PROMO G5 + BATTERY BLACK 124213",
+            "LG Q STYLUS PLUS BLACK 124252",
+            "LG X CAM BLACK 124211",
+            "LG X STYLE BLACK 124225",
+            "MOT MOTO Z PLAY LUNAR GREY 104137",
+            "MOTOROLA MOTO E4 PLUS GOLD 104143",
+            "MOTOROLA MOTO E4 PLUS GRAY 104142",
+            "MOTOROLA MOTO E5 FLASH GREY 104153",
+            "MOTOROLA MOTO G 3RA GEN BLACK 104123",
+            "MOTOROLA MOTO G 4TA GEN BLACK 104128",
+            "MOTOROLA MOTO G 5S LUNAR GRAY 104145",
+            "MOTOROLA MOTO G6 PLAY DEEP INDIGO 104155",
+            "MOTOROLA MOTO X PLAY BLACK 104125",
+            "NOKIA 220 BLK 105337",
+            "NOKIA 6 BLACK 105353",
+            "NOKIA 6 BLUE 105355",
+            "NOKIA LUMIA 520 BLK 105317",
+            "NOKIA LUMIA 520 WHT 105316",
+            "NOKIA LUMIA 630 WHT 105343",
+            "NOKIA LUMIA 635 BLK 105348",
+            "OWN F1035 3G BLACK 162050",
+            "OWN F1035 3G WHITE 162051",
+            "OWN FUN 6 BLACK 162109",
+            "OWN FUN BLACK 162038",
+            "OWN ONE BLACK 162056",
+            "OWN S4035 4G BLACK 162048",
+            "OWN SMART 9 BLACK 162115",
+            "QUECLINK GV300 GPS 166001",
+            "SAM ACE 4 NEO BLACK 106504",
+            "SAM CORE PRIME (G360G) BLACK 106495",
+            "SAM GALAXY J1 ACE LTE BLACK 106538",
+            "SAM GALAXY J1 ACE LTE VE BLACK 106551",
+            "SAM GALAXY J1 ACE LTE VE WHITE 106552",
+            "SAM GALAXY J2 BLACK 106561",
+            "SAM GALAXY J2 PRIME BLACK 106597",
+            "SAM GALAXY J5 2016 BLACK 106583",
+            "SAM GALAXY J5 BLACK 106526",
+            "SAM GALAXY J5 WHITE 106527",
+            "SAM GALAXY J7 2016 BLACK 106586",
+            "SAM GALAXY J7 2016 GOLD 106587",
+            "SAM GALAXY J7 BLACK 106540",
+            "SAM GALAXY S6 BLACK 106518",
+            "SAM GALAXY S6 EDGE BLACK 106520",
+            "SAM GALAXY S6 EDGE GOLD 106525",
+            "SAM GALAXY S6 EDGE PLUS BLACK 106543",
+            "SAM GALAXY S6 EDGE PLUS GOLD 106544",
+            "SAM GALAXY S7 + VR BLACK 106563",
+            "SAM GALAXY S7 BLACK 106553",
+            "SAM GALAXY S7 EDGE + VR BLACK 106566",
+            "SAM GALAXY S7 EDGE + VR SILVER 106567",
+            "SAM GALAXY S7 EDGE BLACK 106556",
+            "SAM GALAXY S7 EDGE GOLD 106558",
+            "SAM GALAXY S7 EDGE SILVER 106557",
+            "SAM GALAXY S7 SILVER 106554",
+            "SAM GALAXY S8 BLACK 106616",
+            "SAM GALAXY S8 GOLD 106617",
+            "SAM GALAXY S8 ORCHID GREY 106618",
+            "SAM GALAXY S8 PLUS BLACK 106620",
+            "SAM GALAXY S8 PLUS GOLD 106621",
+            "SAM GLXY A5 (A500) BLACK 106497",
+            "SAM GRAND PRIME LTE (D530)U BLACK 106522",
+            "SAM SAM GALAXY J7 GOLD 106541",
+            "SAMSUNG GALAXY J4 BLACK 106664",
+            "SAMSUNG GALAXY J6 BLACK 106666",
+            "SAMSUNG GALAXY J7 NEO BLACK 106643",
+            "SAMSUNG GALAXY J7 NEO GOLD 106644",
+            "SAMSUNG GALAXY J7 NEO SILVER 106645",
+            "SAMSUNG GALAXY J7 PRO BLACK 106633",
+            "SAMSUNG GALAXY J7 PRO GOLD 106632",
+            "SAMSUNG GALAXY J8 BLACK 106667",
+            "SAMSUNG GALAXY NOTE 8 + DEX BLACK 106642",
+            "SAMSUNG GALAXY NOTE 8 BLACK 106636",
+            "SAMSUNG GALAXY S9 BLACK 106646",
+            "SAMSUNG GALAXY S9 LILA PURPLE 106648",
+            "SAMSUNG GALAXY S9+ BLACK 106649",
+            "SAMSUNG GALAXY S9+ LILA PURPLE 106651",
+            "SAMSUNG GEAR VR ACC 106572",
+            "SAMSUNG GLX NT 3 NEO N7505 BLK 106441",
+            "SAMSUNG J5 BLACK + CARCASA 106592",
+            "SAMSUNG J5 WHITE + CARCASA 106593",
+            "SAMSUNG J7 GOLD + CARCASA 106596",
+            "SAMSUNG NOTE 9 106681",
+            "SONY XPERIA E4G BLCK 102319",
+            "SONY XPERIA M4 AQUA BLACK 102317",
+            "SONY XPERIA M4 AQUA WHITE 102318",
+            "SONY XPERIA M5 BLACK 102325",
+            "SONY XPERIA X BLACK 102334",
+            "SONY XPERIA XA ULTRA BLACK 102336"});
             this.ModeloCEQ.Name = "ModeloCEQ";
             this.ModeloCEQ.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.ModeloCEQ.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
@@ -953,10 +768,10 @@
             // 
             // VentCEQ
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1007, 729);
+            this.ClientSize = new System.Drawing.Size(755, 592);
             this.Controls.Add(this.campoNano);
             this.Controls.Add(this.checkNano);
             this.Controls.Add(this.tabControl1);
@@ -979,7 +794,6 @@
             this.Controls.Add(this.lblRuta1);
             this.Controls.Add(this.lblTitulo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "VentCEQ";
             this.Text = "CAMBIO DE EQUIPO";
