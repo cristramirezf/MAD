@@ -323,7 +323,8 @@
 "Sandra Lazcano A.",
 "Simon Segura B.",
 "Vladimir Cubillos R.",
-"Ximena Valdes V."});
+"Ximena Valdes V.",
+"Yerko Campos R."});
             this.comboEjecutivo.Location = new System.Drawing.Point(531, 419);
             this.comboEjecutivo.Name = "comboEjecutivo";
             this.comboEjecutivo.Size = new System.Drawing.Size(146, 21);
